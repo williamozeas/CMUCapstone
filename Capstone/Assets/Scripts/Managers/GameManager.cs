@@ -10,12 +10,22 @@ public enum GameState
     Staff
 }
 
+[System.Serializable]
+public struct GameParams
+{
+    public int staffLines;
+}
+
 public class GameManager : Singleton<GameManager>
 {
-    private Player _player;
-    public Player Player => _player;
+    public GameParams gameParams;
+    
+    private Cube _cube;
+    public Cube Cube => _cube;
     private Staff _staff;
     public Staff Staff => _staff;
+    private Cursor _cursor;
+    public Cursor Cursor => _cursor;
     
     private GameState _gameState;
     public GameState GameState
@@ -58,13 +68,18 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
-    public void SetPlayer(Player player)
+    public void SetCube(Cube cube)
     {
-        _player = player;
+        _cube = cube;
     }
 
     public void SetStaff(Staff staff)
     {
         _staff = staff;
+    }
+    
+    public void SetCursor(Cursor cursor)
+    {
+        _cursor = cursor;
     }
 }

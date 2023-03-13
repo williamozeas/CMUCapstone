@@ -1,50 +1,43 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class Staff : MonoBehaviour
 {
+    [SerializeField] private GameObject linePrefab;
+    [SerializeField] private List<Material> bgMaterials;
     
-    [HideInInspector] public List<StaffLine> lines = new List<StaffLine>();
-    
-    private void Awake()
+    private List<Line> lines;
+
+    void Awake()
     {
         GameManager.Instance.SetStaff(this);
-        lines = GetComponentsInChildren<StaffLine>().ToList();
         
-        //TODO: use integer compare fn
-        // lines.Sort((a, b) => Compare);
-    }
-    
-    
-
-    private void OnEnable()
-    {
-        Player.MoveUp += OnMoveUp;
-        Player.MoveDown += OnMoveDown;
-    }
-    
-    private void OnDisable()
-    {
-        Player.MoveUp -= OnMoveUp;
-        Player.MoveDown -= OnMoveDown;
+        float screenHeight = Camera.main.orthographicSize * 2f;
+        float bottom = -Camera.main.orthographicSize;
+        int numLines = GameManager.Instance.gameParams.staffLines;
+        float lineHeight = screenHeight / numLines;
+        
+        lines = new List<Line>();
+        for (int i = 0; i < numLines; i++)
+        {
+            float y = bottom + (i + 0.5f) * lineHeight;
+            GameObject newLineObject = Instantiate(linePrefab, new Vector3(0, y, 0), Quaternion.identity, transform);
+            Line newLine = newLineObject.GetComponent<Line>();
+            newLine.Init(i, lineHeight);
+            lines.Add(newLine);
+        }
     }
 
-    private void OnMoveDown(int newIndex)
+    // Start is called before the first frame update
+    void Start()
     {
-        //disable collision w/player
-        int prevIndex = newIndex + 1;
-        Debug.Log( "Ignoring " + prevIndex);
-        StaffLine prevLine = lines[prevIndex];
-        Physics.IgnoreCollision(prevLine.Coll, GameManager.Instance.Player.Coll, true);
+        
     }
 
-    private void OnMoveUp(int newIndex)
+    // Update is called once per frame
+    void Update()
     {
-        int prevIndex = newIndex - 1;
-        StaffLine newLine = lines[newIndex];
-        // Physics.IgnoreCollision(newLine.Coll, GameManager.Instance.Player.Coll, true);
+        
     }
 }

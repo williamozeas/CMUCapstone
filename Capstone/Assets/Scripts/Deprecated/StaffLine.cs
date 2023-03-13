@@ -27,7 +27,8 @@ public class StaffLine : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Rigidbody playerRb = GameManager.Instance.Player.Rb;
+            // Rigidbody playerRb = GameManager.Instance.Cube.Rb;
+            Rigidbody playerRb = null;
             if (playerRb.velocity.y > 0)
             {
                 //moving up

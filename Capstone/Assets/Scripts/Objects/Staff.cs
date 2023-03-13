@@ -5,7 +5,8 @@ using UnityEngine;
 public class Staff : MonoBehaviour
 {
     [SerializeField] private GameObject linePrefab;
-    [SerializeField] private List<Material> bgMaterials;
+    
+    [SerializeField] [ColorUsage(true, true)] private List<Color> bgColors;
     
     private List<Line> lines;
 
@@ -24,7 +25,8 @@ public class Staff : MonoBehaviour
             float y = bottom + (i + 0.5f) * lineHeight;
             GameObject newLineObject = Instantiate(linePrefab, new Vector3(0, y, 0), Quaternion.identity, transform);
             Line newLine = newLineObject.GetComponent<Line>();
-            newLine.Init(i, lineHeight);
+            newLine.Init(i, lineHeight, bgColors[i % bgColors.Count]);
+            Debug.Log(i + " " + bgColors[i % bgColors.Count]);
             lines.Add(newLine);
         }
     }

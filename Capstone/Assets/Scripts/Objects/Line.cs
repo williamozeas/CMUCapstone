@@ -20,11 +20,13 @@ public class Line : MonoBehaviour
     private static readonly int PropColor = Shader.PropertyToID("_BaseColor");
     private static readonly int PropEmissive = Shader.PropertyToID("_EmissionColor");
 
-    public void Init(int index, float height)
+    public void Init(int index, float height, Color emissiveColor)
     {
         _index = index;
         SetHeight(height);
         _propertyBlock = new MaterialPropertyBlock();
+        SetOpacity(0);
+        SetEmissiveColor(emissiveColor);
     }
 
     public void SetHeight(float height)
@@ -76,7 +78,7 @@ public class Line : MonoBehaviour
     private void SetEmissiveColor(Color newColor)
     {
         bgRenderer.GetPropertyBlock(_propertyBlock);
-        _propertyBlock.SetColor(PropColor, newColor);
+        _propertyBlock.SetColor(PropEmissive, newColor);
         bgRenderer.SetPropertyBlock(_propertyBlock);
     }
 }

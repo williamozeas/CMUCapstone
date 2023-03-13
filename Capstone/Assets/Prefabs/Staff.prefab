@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linePrefab: {fileID: 5117217348941726831, guid: 7e62262f4b74d482cbc28be397642724,
     type: 3}
+  bgMaterials: []
 --- !u!1001 &360365755318088771
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class Cursor : MonoBehaviour
 {
-    Camera cam;
+    private Camera cam;
+    private float zDepth;
     void Awake()
     {
         GameManager.Instance.SetCursor(this);
         cam = Camera.main;
         UnityEngine.Cursor.lockState = CursorLockMode.Confined;
         UnityEngine.Cursor.visible = false;
+        zDepth = transform.position.z;
     }
 
     // Update is called once per frame
     void Update()
     {
         Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = new Vector3(mousePos.x, mousePos.y, -2);
+        transform.position = new Vector3(mousePos.x, mousePos.y, zDepth);
     }
 }

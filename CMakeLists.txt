@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 
 # On M1 Macs, uncomment to enable universal binaries
-# set(CMAKE_OSX_ARCHITECTURES "x86_64;arm64" CACHE STRING "")
+set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64" CACHE STRING "arm64;x86_64")
 
 project(RNBO_JUCE_EXAMPLE VERSION 1.2.0)
 

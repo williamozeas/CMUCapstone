@@ -1,17 +1,59 @@
 [
   {
-    "name": "untitled",
+    "name": "Synth",
     "preset": {
-      "freq": {
-        "value": 220
-      }
-    }
-  },
-  {
-    "name": "untitled",
-    "preset": {
-      "freq": {
-        "value": 220
+      "__sps": {
+        "patcher_obj-15": {
+          "__sps": {
+            "Blur~": {},
+            "CombL~": {},
+            "CombR~": {},
+            "Damp~": {},
+            "Mix~": {},
+            "RoomA~": {},
+            "RoomB~": {},
+            "Shuffle~": {}
+          },
+          "damp": {
+            "value": 2
+          },
+          "decay": {
+            "value": 50
+          },
+          "diff": {
+            "value": 50
+          },
+          "jitter": {
+            "value": 50
+          },
+          "mix": {
+            "value": 50
+          },
+          "size": {
+            "value": 50
+          }
+        }
+      },
+      "filter_freq": {
+        "value": 0
+      },
+      "filter_mix": {
+        "value": 1
+      },
+      "note": {
+        "value": 59
+      },
+      "noteon": {
+        "value": 0
+      },
+      "reverb_mix": {
+        "value": 0.5
+      },
+      "slide": {
+        "value": 1
+      },
+      "waveform": {
+        "value": 3
       }
     }
   }

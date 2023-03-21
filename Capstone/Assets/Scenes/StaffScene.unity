@@ -5966,7 +5966,7 @@ PrefabInstance:
     - target: {fileID: 2713440427029423938, guid: 67e635f137bf74160b0d094b2252dd9a,
         type: 3}
       propertyPath: gameParams.staffLines
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2713440427029423939, guid: 67e635f137bf74160b0d094b2252dd9a,
         type: 3}
@@ -6110,6 +6110,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400473959253871660, guid: 5fedc3a8d73db4bbdadeb31c6a16d3f4,
+        type: 3}
+      propertyPath: _scale
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6400473959253871660, guid: 5fedc3a8d73db4bbdadeb31c6a16d3f4,
         type: 3}

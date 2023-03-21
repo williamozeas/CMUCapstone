@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Staff : MonoBehaviour
@@ -8,7 +9,15 @@ public class Staff : MonoBehaviour
     
     [SerializeField] [ColorUsage(true, true)] private List<Color> bgColors;
     
+    [SerializeField] private Scale _scale;
+    public Scale Scale => _scale;
+    
+    public int octave = 4;
+    public int keyOffset = 0;
+    
     private List<Line> lines;
+    private int _note;
+
 
     void Awake()
     {
@@ -31,15 +40,32 @@ public class Staff : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        
+        Line maxLine = lines.Aggregate((a, b) => a.CubeOverlapPercent > b.CubeOverlapPercent ? a : b);
+        if (maxLine.CubeOverlapPercent > 0)
+        {
+            int note = Scales.GetNote(Scale, octave, maxLine.Index, keyOffset);
+            if (note != _note)
+            {
+                AudioManager.Instance.Mixer.SetFloat("Synth_noteon", 0.1f);
+                AudioManager.Instance.Mixer.SetFloat("Synth_note", (float)note / 127f);
+                _note = note;
+            }
+        }
+        else
+        {
+            if (_note != -1)
+            {
+                _note = -1;
+                AudioManager.Instance.Mixer.SetFloat("Synth_noteon", 0.0f);
+            }
+        }
+    }
+
+    public void SetScale(Scale scale)
+    {
+        _scale = scale;
     }
 }

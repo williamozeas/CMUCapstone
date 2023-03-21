@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1731.0, -76.0, 963.0, 649.0 ],
+		"rect" : [ 189.0, 187.0, 963.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -170,56 +170,8 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 259.0, 285.0, 74.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"patcher_obj-15/diff" : 						{
-							"label" : "diff",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/jitter" : 						{
-							"label" : "jitter",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"waveform" : 						{
-							"label" : "waveform",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/damp" : 						{
-							"label" : "damp",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"noteon" : 						{
 							"label" : "noteon",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/size" : 						{
-							"label" : "size",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/mix" : 						{
-							"label" : "mix",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"note" : 						{
-							"label" : "note",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/decay" : 						{
-							"label" : "decay",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -230,20 +182,68 @@
 							"parsestring" : ""
 						}
 ,
-						"filter_mix" : 						{
-							"label" : "filter_mix",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"filter_freq" : 						{
 							"label" : "filter_freq",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
+						"waveform" : 						{
+							"label" : "waveform",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/decay" : 						{
+							"label" : "decay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/size" : 						{
+							"label" : "size",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"reverb_mix" : 						{
 							"label" : "reverb_mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/diff" : 						{
+							"label" : "diff",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/damp" : 						{
+							"label" : "damp",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"filter_mix" : 						{
+							"label" : "filter_mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/jitter" : 						{
+							"label" : "jitter",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"note" : 						{
+							"label" : "note",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/mix" : 						{
+							"label" : "mix",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}

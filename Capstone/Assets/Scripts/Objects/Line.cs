@@ -39,8 +39,8 @@ public class Line : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            float overlap = CalculateOverlap(other);
-            SetOpacity(overlap);
+            _cubeOverlapPercent = CalculateOverlap(other);
+            SetOpacity(Mathf.Pow(_cubeOverlapPercent, 2));
         }
     }
 
@@ -54,6 +54,7 @@ public class Line : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             SetOpacity(0);
+            _cubeOverlapPercent = 0;
         }
     }
 

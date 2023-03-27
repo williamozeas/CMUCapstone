@@ -117,6 +117,8 @@ AudioMixerController:
     name: Synth_note
   - guid: 23e36aba89dfe4f8e9ebb724ccd099b0
     name: Synth_noteon
+  - guid: 6e23504e2b77f4495982a482b47a027f
+    name: Synth_filter
   m_AudioMixerGroupViews:
   - guids:
     - 59c368ed0be654676964201f119326c8
@@ -174,7 +176,7 @@ AudioMixerSnapshotController:
     a811df45039004df3b969e3f4c3268b7: 0
     54e40376f24be4410bff70da5aaa9efe: -15.7
     6ef3e0d6dd3f0429385228eadbba0732: 0.492
-    50da0a3720bb34728a7ff98890ec3e8e: 0.839
+    50da0a3720bb34728a7ff98890ec3e8e: 0.633
     f4a4e678c1cee4c21b446b71ab43256e: 0.633
     fd6fed6ac6a534022b016dbe8891a77d: 1
     23e36aba89dfe4f8e9ebb724ccd099b0: 0.101

@@ -49,8 +49,8 @@ public class Staff : MonoBehaviour
             int note = Scales.GetNote(Scale, octave, maxLine.Index, keyOffset);
             if (note != _note)
             {
-                AudioManager.Instance.Mixer.SetFloat("Synth_noteon", 0.1f);
-                AudioManager.Instance.Mixer.SetFloat("Synth_note", (float)note / 127f);
+                AudioManager.Instance.SetSynthVolume(1f);
+                AudioManager.Instance.SetSynthNote(note);
                 _note = note;
             }
         }
@@ -59,7 +59,7 @@ public class Staff : MonoBehaviour
             if (_note != -1)
             {
                 _note = -1;
-                AudioManager.Instance.Mixer.SetFloat("Synth_noteon", 0.0f);
+                AudioManager.Instance.SetSynthVolume(0f);
             }
         }
     }

@@ -20,5 +20,8 @@ public class Cursor : MonoBehaviour
     {
         Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         transform.position = new Vector3(mousePos.x, mousePos.y, zDepth);
+
+        float xPercent = Mathf.Clamp(Input.mousePosition.x / Screen.width, 0, 1);
+        AudioManager.Instance.SetSynthFilterFreq(xPercent); 
     }
 }

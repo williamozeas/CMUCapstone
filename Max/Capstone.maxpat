@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 189.0, 187.0, 963.0, 649.0 ],
+		"rect" : [ -1816.0, 91.0, 963.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -112,7 +112,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "waveform",
+					"attr" : "attack",
 					"id" : "obj-3",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -170,24 +170,6 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 259.0, 285.0, 74.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"noteon" : 						{
-							"label" : "noteon",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"slide" : 						{
-							"label" : "slide",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"filter_freq" : 						{
-							"label" : "filter_freq",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"waveform" : 						{
 							"label" : "waveform",
 							"isEnum" : 0,
@@ -200,14 +182,8 @@
 							"parsestring" : ""
 						}
 ,
-						"patcher_obj-15/size" : 						{
-							"label" : "size",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"reverb_mix" : 						{
-							"label" : "reverb_mix",
+						"filter_mix" : 						{
+							"label" : "filter_mix",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -218,20 +194,8 @@
 							"parsestring" : ""
 						}
 ,
-						"patcher_obj-15/damp" : 						{
-							"label" : "damp",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"filter_mix" : 						{
-							"label" : "filter_mix",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/jitter" : 						{
-							"label" : "jitter",
+						"slide" : 						{
+							"label" : "slide",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -242,8 +206,74 @@
 							"parsestring" : ""
 						}
 ,
+						"noteon" : 						{
+							"label" : "noteon",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/size" : 						{
+							"label" : "size",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/jitter" : 						{
+							"label" : "jitter",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"filter_freq" : 						{
+							"label" : "filter_freq",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/damp" : 						{
+							"label" : "damp",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"reverb_mix" : 						{
+							"label" : "reverb_mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"patcher_obj-15/mix" : 						{
 							"label" : "mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"attack" : 						{
+							"label" : "attack",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"decay" : 						{
+							"label" : "decay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sustain" : 						{
+							"label" : "sustain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"release" : 						{
+							"label" : "release",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"slide_time" : 						{
+							"label" : "slide_time",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -277,26 +307,6 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"noteon" : 							{
-								"value" : 0.0
-							}
-,
-							"slide" : 							{
-								"value" : 1.0
-							}
-,
-							"filter_freq" : 							{
-								"value" : 0.0
-							}
-,
-							"reverb_mix" : 							{
-								"value" : 0.5
-							}
-,
-							"waveform" : 							{
-								"value" : 3.0
-							}
-,
 							"__sps" : 							{
 								"patcher_obj-15" : 								{
 									"__sps" : 									{
@@ -362,15 +372,55 @@
 
 							}
 ,
+							"filter_freq" : 							{
+								"value" : 9.0
+							}
+,
+							"sustain" : 							{
+								"value" : 1.0
+							}
+,
+							"decay" : 							{
+								"value" : 1.0
+							}
+,
+							"noteon" : 							{
+								"value" : 0.0
+							}
+,
 							"note" : 							{
-								"value" : 59.0
+								"value" : 48.0
+							}
+,
+							"slide_time" : 							{
+								"value" : 12.0
+							}
+,
+							"slide" : 							{
+								"value" : 1.0
+							}
+,
+							"reverb_mix" : 							{
+								"value" : 0.5
+							}
+,
+							"__presetid" : "Synth",
+							"waveform" : 							{
+								"value" : 2.0
+							}
+,
+							"release" : 							{
+								"value" : 100.0
 							}
 ,
 							"filter_mix" : 							{
 								"value" : 1.0
 							}
 ,
-							"__presetid" : "Synth"
+							"attack" : 							{
+								"value" : 50.0
+							}
+
 						}
 ,
 						"snapshotlist" : 						{
@@ -385,26 +435,6 @@
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
-										"noteon" : 										{
-											"value" : 0.0
-										}
-,
-										"slide" : 										{
-											"value" : 1.0
-										}
-,
-										"filter_freq" : 										{
-											"value" : 0.0
-										}
-,
-										"reverb_mix" : 										{
-											"value" : 0.5
-										}
-,
-										"waveform" : 										{
-											"value" : 3.0
-										}
-,
 										"__sps" : 										{
 											"patcher_obj-15" : 											{
 												"__sps" : 												{
@@ -470,15 +500,55 @@
 
 										}
 ,
+										"filter_freq" : 										{
+											"value" : 9.0
+										}
+,
+										"sustain" : 										{
+											"value" : 1.0
+										}
+,
+										"decay" : 										{
+											"value" : 1.0
+										}
+,
+										"noteon" : 										{
+											"value" : 0.0
+										}
+,
 										"note" : 										{
-											"value" : 59.0
+											"value" : 48.0
+										}
+,
+										"slide_time" : 										{
+											"value" : 12.0
+										}
+,
+										"slide" : 										{
+											"value" : 1.0
+										}
+,
+										"reverb_mix" : 										{
+											"value" : 0.5
+										}
+,
+										"__presetid" : "Synth",
+										"waveform" : 										{
+											"value" : 2.0
+										}
+,
+										"release" : 										{
+											"value" : 100.0
 										}
 ,
 										"filter_mix" : 										{
 											"value" : 1.0
 										}
 ,
-										"__presetid" : "Synth"
+										"attack" : 										{
+											"value" : 50.0
+										}
+
 									}
 ,
 									"fileref" : 									{

@@ -34,17 +34,26 @@
           }
         }
       },
+      "attack": {
+        "value": 700
+      },
+      "decay": {
+        "value": 1
+      },
       "filter_freq": {
-        "value": 0
+        "value": 9
       },
       "filter_mix": {
         "value": 1
       },
       "note": {
-        "value": 59
+        "value": 53
       },
       "noteon": {
         "value": 0
+      },
+      "release": {
+        "value": 1
       },
       "reverb_mix": {
         "value": 0.5
@@ -52,8 +61,11 @@
       "slide": {
         "value": 1
       },
+      "sustain": {
+        "value": 1
+      },
       "waveform": {
-        "value": 3
+        "value": 2
       }
     }
   }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,8 +9,14 @@ public class AudioManager : Singleton<AudioManager>
     [SerializeField] private AudioMixer _mixer;
     public AudioMixer Mixer => _mixer;
 
-    [Range(0, 1)] public float synthMaxVolume = 0.1f;
-    [Range(0, 1)] public float synthMaxFilter = 0.1f;
+    [Range(0, 1)] public float synthMaxVolume = 1f;
+    [Range(0, 1)] public float synthMaxFilter = 1f;
+    public float synthAttack = 0.25f;
+    public float synthRelease = 0.4f;
+
+    private float currentSynthTotalVolume;
+    private float noteOn = 0;
+    private Coroutine lerpVolumeCoroutine;
     
     // Start is called before the first frame update
     void Start()
@@ -17,14 +24,30 @@ public class AudioManager : Singleton<AudioManager>
         
     }
 
+    void Update()
+    {
+        if (GameManager.Instance.GameState == GameState.Staff)
+        {
+            Mixer.SetFloat("Synth_noteon", currentSynthTotalVolume * noteOn);
+        }
+    }
+
+    public void SetSynthCursor(bool clicked)
+    {
+        noteOn = Convert.ToInt32(clicked);
+    }
+
     public void SetSynthVolume(float volume)
     {
-        Mixer.SetFloat("Synth_noteon", volume * synthMaxVolume);
+        currentSynthTotalVolume = volume * synthMaxVolume;
     }
 
     public void SetSynthNote(float note)
     {
-        Mixer.SetFloat("Synth_note", note / 127f);
+        if (noteOn != 0)
+        {
+            Mixer.SetFloat("Synth_note", note / 127f);
+        }
     }
 
     public void SetSynthFilterFreq(float filterPercent)

@@ -7,6 +7,8 @@ public class Staff : MonoBehaviour
 {
     [SerializeField] private GameObject linePrefab;
     
+    [SerializeField] private GameObject obstacles;
+    
     [SerializeField] [ColorUsage(true, true)] private List<Color> bgColors;
     
     [SerializeField] private Scale _scale;

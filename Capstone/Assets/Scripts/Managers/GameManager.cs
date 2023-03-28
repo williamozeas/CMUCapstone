@@ -37,12 +37,18 @@ public class GameManager : Singleton<GameManager>
     //events
     public static event Action Menu;
     public static event Action StartStaff;
-    
-    
+
+    public override void Awake()
+    {
+        base.Awake();
+        // QualitySettings.vSyncCount = 0;  // VSync must be disabled
+        // Application.targetFrameRate = 120;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameState = GameState.Staff;
     }
 
     // Update is called once per frame
@@ -66,6 +72,8 @@ public class GameManager : Singleton<GameManager>
                 break;
             }
         }
+
+        _gameState = newGameState;
     }
 
     public void SetCube(Cube cube)

@@ -42,8 +42,37 @@ public class Cube : MonoBehaviour
         //     // transform.position = newPos;
         //     // rb.MovePosition(newPos);
         // }
+        
+        //use raycasts to check for collision myself
         rb.velocity = Vector3.zero;
-        rb.AddForce(goalDeltaY * moveSpeed * Vector3.up, ForceMode.VelocityChange);
+        Vector3 newVel = goalDeltaY * moveSpeed * Vector3.up;
+        float rayLength = transform.lossyScale.x/2;
+        RaycastHit upRightRay = new RaycastHit();
+        RaycastHit downRightRay = new RaycastHit();
+        Physics.Raycast(transform.position, new Vector3(1, 1, 0), out upRightRay, rayLength,
+            LayerMask.GetMask("Obstacle"));
+        Physics.Raycast(transform.position, new Vector3(1, -1, 0), out downRightRay, rayLength,
+            LayerMask.GetMask("Obstacle"));
+        
+        RaycastHit upRay = new RaycastHit();
+        RaycastHit downRay = new RaycastHit();
+
+        if (goalDeltaY > 0 && )
+        {
+            rb.AddForce(ObstacleManager.Instance.Speed * new Vector3(-1, -1, 0) , ForceMode.VelocityChange);
+        }
+
+        else if (goalDeltaY < 0 && )
+        {
+            rb.AddForce(ObstacleManager.Instance.Speed * new Vector3(-1, 1, 0) , ForceMode.VelocityChange);
+        }
+        else
+        {
+            rb.AddForce(newVel, ForceMode.VelocityChange);
+        }
+        
+        RaycastHit upRay = new RaycastHit();
+        
 
         // rb.velocity = goalDeltaY * moveSpeed * Vector3.up;
     }

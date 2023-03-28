@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class ObstacleManager : MonoBehaviour
+public class ObstacleManager : Singleton<ObstacleManager>
 {
-    private float speed = 3f;
+    private float _speed = 3f;
+    public float Speed => _speed;
 
     private List<Obstacle> obstacles;
     
@@ -18,6 +19,6 @@ public class ObstacleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(speed * Time.deltaTime * Vector3.left);
+        transform.Translate(_speed * Time.deltaTime * Vector3.left);
     }
 }

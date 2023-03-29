@@ -24,6 +24,7 @@ public class Cursor : MonoBehaviour
         //filter control with x position
         float xPercent = Mathf.Clamp(Input.mousePosition.x / Screen.width, 0, 1);
         AudioManager.Instance.SetSynthFilterFreq(xPercent);
+        AudioManager.Instance.SetSynthAttack(xPercent);
 
         if (Input.GetMouseButtonDown(0))
         {

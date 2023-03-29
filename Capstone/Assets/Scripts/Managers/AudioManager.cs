@@ -54,4 +54,9 @@ public class AudioManager : Singleton<AudioManager>
     {
         Mixer.SetFloat("Synth_filter", filterPercent * synthMaxFilter);
     }
+
+    public void SetSynthAttack(float attack)
+    {
+        Mixer.SetFloat("Synth_attack", attack);
+    }
 }

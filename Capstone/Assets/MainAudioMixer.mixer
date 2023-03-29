@@ -93,6 +93,8 @@ AudioMixerEffectController:
     m_GUID: 87ddbd4bc658c4ae78c9f90bc075249a
   - m_ParameterName: patcher_obj-15/
     m_GUID: efc421a7bed5b49feaae4693223e30b0
+  - m_ParameterName: attack
+    m_GUID: f794dc2ced75446c38a8d04cf91eeade
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
@@ -122,6 +124,8 @@ AudioMixerController:
     name: Synth_noteon
   - guid: 6e23504e2b77f4495982a482b47a027f
     name: Synth_filter
+  - guid: f794dc2ced75446c38a8d04cf91eeade
+    name: Synth_attack
   m_AudioMixerGroupViews:
   - guids:
     - 59c368ed0be654676964201f119326c8
@@ -185,6 +189,7 @@ AudioMixerSnapshotController:
     b78a2779bebc44a84b0eefba02d93e8e: -13.3
     fd6fed6ac6a534022b016dbe8891a77d: 1
     23e36aba89dfe4f8e9ebb724ccd099b0: 1
+    f794dc2ced75446c38a8d04cf91eeade: 1
     6e23504e2b77f4495982a482b47a027f: 0.069
   m_TransitionOverrides: {}
 --- !u!243 &2381306644940550920

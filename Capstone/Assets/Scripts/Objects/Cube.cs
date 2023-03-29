@@ -7,9 +7,12 @@ public class Cube : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float minMovement = 0.001f;
+    [SerializeField] private float bounceVelocity = 2f;
     private Rigidbody rb;
 
     private Vector3 startPos;
+
+    private Vector3 currentBounceVelocity;
     
     // Start is called before the first frame update
     void Awake()
@@ -46,27 +49,27 @@ public class Cube : MonoBehaviour
         //use raycasts to check for collision myself
         rb.velocity = Vector3.zero;
         Vector3 newVel = goalDeltaY * moveSpeed * Vector3.up;
-        float rayLength = transform.lossyScale.x/2;
-        RaycastHit upRightRay = new RaycastHit();
-        RaycastHit downRightRay = new RaycastHit();
-        Physics.Raycast(transform.position, new Vector3(1, 1, 0), out upRightRay, rayLength,
-            LayerMask.GetMask("Obstacle"));
-        Physics.Raycast(transform.position, new Vector3(1, -1, 0), out downRightRay, rayLength,
-            LayerMask.GetMask("Obstacle"));
-        
-        RaycastHit upRay = new RaycastHit();
-        RaycastHit downRay = new RaycastHit();
-
-        if (goalDeltaY > 0 && )
-        {
-            rb.AddForce(ObstacleManager.Instance.Speed * new Vector3(-1, -1, 0) , ForceMode.VelocityChange);
-        }
-
-        else if (goalDeltaY < 0 && )
-        {
-            rb.AddForce(ObstacleManager.Instance.Speed * new Vector3(-1, 1, 0) , ForceMode.VelocityChange);
-        }
-        else
+        // float rayLength = transform.lossyScale.x/2;
+        // RaycastHit upRightRay = new RaycastHit();
+        // RaycastHit downRightRay = new RaycastHit();
+        // Physics.Raycast(transform.position, new Vector3(1, 1, 0), out upRightRay, rayLength,
+        //     LayerMask.GetMask("Obstacle"));
+        // Physics.Raycast(transform.position, new Vector3(1, -1, 0), out downRightRay, rayLength,
+        //     LayerMask.GetMask("Obstacle"));
+        //
+        // RaycastHit upRay = new RaycastHit();
+        // RaycastHit downRay = new RaycastHit();
+        //
+        // if (goalDeltaY > 0 && )
+        // {
+        //     rb.AddForce(ObstacleManager.Instance.Speed * new Vector3(-1, -1, 0) , ForceMode.VelocityChange);
+        // }
+        //
+        // else if (goalDeltaY < 0 && )
+        // {
+        //     rb.AddForce(ObstacleManager.Instance.Speed * new Vector3(-1, 1, 0) , ForceMode.VelocityChange);
+        // }
+        // else
         {
             rb.AddForce(newVel, ForceMode.VelocityChange);
         }
@@ -75,5 +78,13 @@ public class Cube : MonoBehaviour
         
 
         // rb.velocity = goalDeltaY * moveSpeed * Vector3.up;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            currentBounceVelocity = bounceVelocity * Vector3.up; //change based on relative posiiton
+        }
     }
 }

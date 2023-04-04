@@ -5872,6 +5872,11 @@ PrefabInstance:
       propertyPath: minMovement
       value: 0.005
       objectReference: {fileID: 0}
+    - target: {fileID: 4112279599539373430, guid: d6079a8fbda7d4739b13857eb865fdf3,
+        type: 3}
+      propertyPath: bounceVelocity
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6079a8fbda7d4739b13857eb865fdf3, type: 3}
 --- !u!1001 &2713440427126135593

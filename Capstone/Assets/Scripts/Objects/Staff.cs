@@ -37,7 +37,6 @@ public class Staff : MonoBehaviour
             GameObject newLineObject = Instantiate(linePrefab, new Vector3(0, y, 0), Quaternion.identity, transform);
             Line newLine = newLineObject.GetComponent<Line>();
             newLine.Init(i, lineHeight, bgColors[i % bgColors.Count]);
-            Debug.Log(i + " " + bgColors[i % bgColors.Count]);
             lines.Add(newLine);
         }
     }

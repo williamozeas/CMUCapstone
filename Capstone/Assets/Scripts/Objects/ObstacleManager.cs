@@ -19,6 +19,6 @@ public class ObstacleManager : Singleton<ObstacleManager>
     // Update is called once per frame
     void Update()
     {
-        // transform.Translate(_speed * Time.deltaTime * Vector3.left);
+        transform.Translate(_speed * Time.deltaTime * Vector3.left);
     }
 }

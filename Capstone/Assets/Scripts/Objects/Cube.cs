@@ -7,12 +7,15 @@ public class Cube : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float minMovement = 0.001f;
-    [SerializeField] private float bounceVelocity = 2f;
+    [SerializeField] private float bounceVelocity = 100f;
     private Rigidbody rb;
 
     private Vector3 startPos;
 
-    private Vector3 currentBounceVelocity;
+    private float bounceDir;
+    private float currentBounceVelocity;
+    private float timeSinceBounce = 0;
+    private float totalBounceTime = 2f;
     
     // Start is called before the first frame update
     void Awake()
@@ -49,6 +52,15 @@ public class Cube : MonoBehaviour
         //use raycasts to check for collision myself
         rb.velocity = Vector3.zero;
         Vector3 newVel = goalDeltaY * moveSpeed * Vector3.up;
+
+        if (currentBounceVelocity > 0)
+        {
+            timeSinceBounce += Time.deltaTime;
+            float bounceVel = Mathf.Clamp(EasingFunction.EaseInCubic(currentBounceVelocity, 0, timeSinceBounce / totalBounceTime), 0, bounceVelocity);
+            newVel += new Vector3(0, bounceVel * bounceDir, 0);
+            Debug.Log(bounceVel * bounceDir);
+        }
+        
         // float rayLength = transform.lossyScale.x/2;
         // RaycastHit upRightRay = new RaycastHit();
         // RaycastHit downRightRay = new RaycastHit();
@@ -84,7 +96,17 @@ public class Cube : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            currentBounceVelocity = bounceVelocity * Vector3.up; //change based on relative posiiton
+            if (collision.transform.position.y < transform.position.y)
+            {
+                bounceDir = 1;
+            }
+            else
+            {
+                bounceDir = -1;
+            }
+
+            currentBounceVelocity = bounceVelocity; //change based on relative posiiton
+            timeSinceBounce = 0;
         }
     }
 }

@@ -7,6 +7,7 @@ using UnityEngine;
 public enum GameState
 {
     Menu,
+    Choices,
     Staff
 }
 
@@ -26,7 +27,9 @@ public class GameManager : Singleton<GameManager>
     public Staff Staff => _staff;
     private Cursor _cursor;
     public Cursor Cursor => _cursor;
-    
+
+    [ColorUsage(true, true)] public List<Color> colorList;
+
     private GameState _gameState;
     public GameState GameState
     {

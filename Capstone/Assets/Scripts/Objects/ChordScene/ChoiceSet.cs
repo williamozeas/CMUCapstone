@@ -28,7 +28,7 @@ public class ChoiceSet : MonoBehaviour
         
     }
 
-    public void OnSelect(int index)
+    public void OnSelect(int chordChoice)
     {
         _vCam.enabled = false;
         foreach (var choice in _choicesList)
@@ -36,5 +36,6 @@ public class ChoiceSet : MonoBehaviour
             choice.gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
         }
         //TODO: set choice
+        AudioManager.Instance.SetAccChord(chordChoice, index);
     }
 }

@@ -59,4 +59,9 @@ public class AudioManager : Singleton<AudioManager>
     {
         Mixer.SetFloat("Synth_attack", attack);
     }
+
+    public void SetAccChord(int chordNum, int index)
+    {
+        Mixer.SetFloat("Acc_chord_" + index, chordNum);
+    }
 }

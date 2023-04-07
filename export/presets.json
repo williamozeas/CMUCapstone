@@ -1,8 +1,39 @@
 [
   {
-    "name": "Synth",
+    "name": "Chords.rnbopat",
     "preset": {
       "__sps": {
+        "p_obj-10": {},
+        "p_obj-38": [
+          {},
+          {},
+          {},
+          {}
+        ],
+        "p_obj-45": {
+          "__sps": {
+            "compressor": {},
+            "compressor[1]": {}
+          },
+          "attack": {
+            "value": 5
+          },
+          "input_gain": {
+            "value": 0
+          },
+          "parallel_mix": {
+            "value": 1
+          },
+          "ratio": {
+            "value": 3
+          },
+          "release": {
+            "value": 50
+          },
+          "threshold": {
+            "value": -30
+          }
+        },
         "patcher_obj-15": {
           "__sps": {
             "Blur~": {},
@@ -15,7 +46,7 @@
             "Shuffle~": {}
           },
           "damp": {
-            "value": 2
+            "value": 50
           },
           "decay": {
             "value": 50
@@ -34,41 +65,29 @@
           }
         }
       },
-      "attack": {
-        "value": 50
-      },
-      "decay": {
+      "chord_1": {
         "value": 1
       },
-      "filter_freq": {
-        "value": 9
-      },
-      "filter_mix": {
-        "value": 1
-      },
-      "note": {
-        "value": 48
-      },
-      "noteon": {
+      "chord_2": {
         "value": 0
       },
-      "release": {
-        "value": 100
+      "chord_3": {
+        "value": 0
       },
-      "reverb_mix": {
-        "value": 0.5
+      "chord_4": {
+        "value": 0
       },
-      "slide": {
-        "value": 1
+      "key_offset": {
+        "value": 0
       },
-      "slide_time": {
-        "value": 12
+      "octave": {
+        "value": 4
       },
-      "sustain": {
-        "value": 1
+      "playing": {
+        "value": 0
       },
-      "waveform": {
-        "value": 2
+      "tempo": {
+        "value": 110
       }
     }
   }

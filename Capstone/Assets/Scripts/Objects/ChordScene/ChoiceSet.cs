@@ -11,6 +11,8 @@ public class ChoiceSet : MonoBehaviour
     private List<Choice> _choicesList;
     public List<Choice> Choices => _choicesList;
 
+    private int _choice = -1;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -28,14 +30,39 @@ public class ChoiceSet : MonoBehaviour
         
     }
 
+    public void OnHover(int chordChoice)
+    {
+        AudioManager.Instance.SetAccChord(chordChoice, index);
+    }
+
+    public void OnStopHover()
+    {
+        if (_choice == -1)
+        {
+            AudioManager.Instance.SetAccChord(-1, index);
+        }
+    }
+
     public void OnSelect(int chordChoice)
     {
+        _choice = chordChoice;
         _vCam.enabled = false;
         foreach (var choice in _choicesList)
         {
             choice.gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
         }
-        //TODO: set choice
+        
         AudioManager.Instance.SetAccChord(chordChoice, index);
+
+        if (index == 3)
+        {
+            StartCoroutine(StartPlaying());
+        }
+    }
+
+    private IEnumerator StartPlaying()
+    {
+        yield return new WaitForSeconds(1f);
+        AudioManager.Instance.SetAccPlaying(1);
     }
 }

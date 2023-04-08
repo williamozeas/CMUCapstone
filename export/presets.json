@@ -4,12 +4,14 @@
     "preset": {
       "__sps": {
         "p_obj-10": {},
+        "p_obj-37": {},
         "p_obj-38": [
           {},
           {},
           {},
           {}
         ],
+        "p_obj-43": {},
         "p_obj-45": {
           "__sps": {
             "compressor": {},
@@ -34,6 +36,7 @@
             "value": -30
           }
         },
+        "p_obj-50": {},
         "patcher_obj-15": {
           "__sps": {
             "Blur~": {},
@@ -58,24 +61,27 @@
             "value": 50
           },
           "mix": {
-            "value": 50
+            "value": 60
           },
           "size": {
             "value": 50
           }
         }
       },
+      "bitcrushing": {
+        "value": 0.02
+      },
       "chord_1": {
-        "value": 1
+        "value": 4
       },
       "chord_2": {
-        "value": 0
+        "value": 1
       },
       "chord_3": {
-        "value": 0
+        "value": 2
       },
       "chord_4": {
-        "value": 0
+        "value": 3
       },
       "key_offset": {
         "value": 0
@@ -86,8 +92,11 @@
       "playing": {
         "value": 0
       },
+      "reverb_mix": {
+        "value": 60
+      },
       "tempo": {
-        "value": 110
+        "value": 130
       }
     }
   }

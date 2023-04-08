@@ -21,7 +21,7 @@ public class AudioManager : Singleton<AudioManager>
     // Start is called before the first frame update
     void Start()
     {
-        
+        // StartCoroutine(ActivateAccompaniment());
     }
 
     void Update()
@@ -62,6 +62,28 @@ public class AudioManager : Singleton<AudioManager>
 
     public void SetAccChord(int chordNum, int index)
     {
-        Mixer.SetFloat("Acc_chord_" + index, chordNum);
+        Mixer.SetFloat("Acc_chord_" + (index + 1), (float)(chordNum + 1) / 4);
+    }
+    
+    public void SetAccPlaying(int playing)
+    {
+        Mixer.SetFloat("Acc_playing", playing);
+    }
+
+    private IEnumerator ActivateAccompaniment()
+    {
+        float vol;
+        Mixer.GetFloat("Acc_volume", out vol);
+        Mixer.SetFloat("Acc_volume", -100000f);
+        for (int i = 0; i <= 1; i++)
+        {
+            SetAccChord(1, i);
+        }
+        yield return new WaitForSeconds(3f);
+        Mixer.SetFloat("Acc_volume", vol);
+        for (int i = 0; i <= 1; i++)
+        {
+            SetAccChord(-1, i);
+        }
     }
 }

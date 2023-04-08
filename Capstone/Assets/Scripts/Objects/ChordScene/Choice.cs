@@ -56,6 +56,8 @@ public class Choice : MonoBehaviour
             StopCoroutine(changeColorCoroutine);
         changeColorCoroutine =
             StartCoroutine(MaterialMod.LerpColor(_selectedColor, moveUpTime, _renderer, _propertyBlock, MaterialMod.PropEmissive));
+        
+        set.OnHover(index);
     }
 
     private void OnMouseExit()
@@ -68,6 +70,8 @@ public class Choice : MonoBehaviour
             StopCoroutine(changeColorCoroutine);
         changeColorCoroutine =
             StartCoroutine(MaterialMod.LerpColor(_startColor, moveUpTime, _renderer, _propertyBlock, MaterialMod.PropEmissive));
+        
+        set.OnStopHover();
     }
 
     private void OnMouseDown()

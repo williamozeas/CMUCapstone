@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 37.0, 87.0, 963.0, 649.0 ],
+		"rect" : [ -1886.0, -356.0, 867.0, 608.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,97 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "reverb_mix",
+					"id" : "obj-20",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 460.5, 259.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "bitcrushing",
+					"id" : "obj-19",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 460.5, 160.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "chord_4",
+					"id" : "obj-18",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 624.5, 252.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "chord_3",
+					"id" : "obj-17",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 624.5, 228.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "chord_2",
+					"id" : "obj-16",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 624.5, 204.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "tempo",
+					"id" : "obj-15",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 460.5, 184.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "playing",
+					"id" : "obj-5",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 460.5, 208.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "octave",
 					"id" : "obj-1",
@@ -87,8 +178,32 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 210.0, 323.0, 203.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"patcher_obj-15/jitter" : 						{
-							"label" : "jitter",
+						"patcher_obj-15/size" : 						{
+							"label" : "size",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"waveform" : 						{
+							"label" : "waveform",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/mix" : 						{
+							"label" : "mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sustain" : 						{
+							"label" : "sustain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"release" : 						{
+							"label" : "release",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -99,14 +214,62 @@
 							"parsestring" : ""
 						}
 ,
-						"filter_mix" : 						{
-							"label" : "filter_mix",
+						"slide_time" : 						{
+							"label" : "slide_time",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"patcher_obj-15/damp" : 						{
 							"label" : "damp",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"attack" : 						{
+							"label" : "attack",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"filter_mix" : 						{
+							"label" : "filter_mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"filter_freq" : 						{
+							"label" : "filter_freq",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"slide" : 						{
+							"label" : "slide",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"decay" : 						{
+							"label" : "decay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/jitter" : 						{
+							"label" : "jitter",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"note" : 						{
+							"label" : "note",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/diff" : 						{
+							"label" : "diff",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -119,78 +282,6 @@
 ,
 						"noteon" : 						{
 							"label" : "noteon",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"note" : 						{
-							"label" : "note",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/mix" : 						{
-							"label" : "mix",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"slide" : 						{
-							"label" : "slide",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"attack" : 						{
-							"label" : "attack",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/diff" : 						{
-							"label" : "diff",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"waveform" : 						{
-							"label" : "waveform",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/size" : 						{
-							"label" : "size",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"filter_freq" : 						{
-							"label" : "filter_freq",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"release" : 						{
-							"label" : "release",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sustain" : 						{
-							"label" : "sustain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"slide_time" : 						{
-							"label" : "slide_time",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"decay" : 						{
-							"label" : "decay",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -523,98 +614,8 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 460.5, 325.0, 211.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"patcher_obj-15/jitter" : 						{
-							"label" : "jitter",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-45/ratio" : 						{
-							"label" : "ratio",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/decay" : 						{
-							"label" : "decay",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-45/threshold" : 						{
-							"label" : "threshold",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-45/input_gain" : 						{
-							"label" : "input_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"octave" : 						{
-							"label" : "octave",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/damp" : 						{
-							"label" : "damp",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-45/parallel_mix" : 						{
-							"label" : "parallel_mix",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"chord_2" : 						{
-							"label" : "chord_2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"key_offset" : 						{
-							"label" : "key_offset",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/mix" : 						{
-							"label" : "mix",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"chord_4" : 						{
-							"label" : "chord_4",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"patcher_obj-15/diff" : 						{
-							"label" : "diff",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"tempo" : 						{
-							"label" : "tempo",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"playing" : 						{
-							"label" : "playing",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"chord_3" : 						{
-							"label" : "chord_3",
+						"p_obj-45/attack" : 						{
+							"label" : "attack",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -631,14 +632,116 @@
 							"parsestring" : ""
 						}
 ,
+						"patcher_obj-15/mix" : 						{
+							"label" : "mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"octave" : 						{
+							"label" : "octave",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"bitcrushing" : 						{
+							"label" : "bitcrushing",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"playing" : 						{
+							"label" : "playing",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/decay" : 						{
+							"label" : "decay",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"key_offset" : 						{
+							"label" : "key_offset",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/damp" : 						{
+							"label" : "damp",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"p_obj-45/threshold" : 						{
+							"label" : "threshold",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"p_obj-45/ratio" : 						{
+							"label" : "ratio",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"chord_2" : 						{
+							"label" : "chord_2",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"tempo" : 						{
+							"label" : "tempo",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"p_obj-45/input_gain" : 						{
+							"label" : "input_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"p_obj-45/parallel_mix" : 						{
+							"label" : "parallel_mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"p_obj-45/release" : 						{
 							"label" : "release",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"p_obj-45/attack" : 						{
-							"label" : "attack",
+						"patcher_obj-15/jitter" : 						{
+							"label" : "jitter",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"chord_3" : 						{
+							"label" : "chord_3",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"patcher_obj-15/diff" : 						{
+							"label" : "diff",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"reverb_mix" : 						{
+							"label" : "reverb_mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"chord_4" : 						{
+							"label" : "chord_4",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -648,188 +751,7 @@
 					"rnboversion" : "1.0.1",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "rnbo~[2]",
-							"parameter_shortname" : "rnbo~[2]",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"optimization" : "O1",
-						"parameter_enable" : 1,
-						"uuid" : "113eb5af-d3ed-11ed-b5af-9ae0409a180e"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "rnbo~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"__sps" : 							{
-								"p_obj-38" : [ 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
-, 									{
-
-									}
- ],
-								"p_obj-10" : 								{
-
-								}
-,
-								"p_obj-45" : 								{
-									"__sps" : 									{
-										"compressor" : 										{
-
-										}
-,
-										"compressor[1]" : 										{
-
-										}
-
-									}
-,
-									"threshold" : 									{
-										"value" : -30.0
-									}
-,
-									"ratio" : 									{
-										"value" : 3.0
-									}
-,
-									"release" : 									{
-										"value" : 50.0
-									}
-,
-									"attack" : 									{
-										"value" : 5.0
-									}
-,
-									"parallel_mix" : 									{
-										"value" : 1.0
-									}
-,
-									"input_gain" : 									{
-										"value" : 0.0
-									}
-
-								}
-,
-								"patcher_obj-15" : 								{
-									"__sps" : 									{
-										"CombR~" : 										{
-
-										}
-,
-										"RoomB~" : 										{
-
-										}
-,
-										"Mix~" : 										{
-
-										}
-,
-										"Blur~" : 										{
-
-										}
-,
-										"Shuffle~" : 										{
-
-										}
-,
-										"CombL~" : 										{
-
-										}
-,
-										"Damp~" : 										{
-
-										}
-,
-										"RoomA~" : 										{
-
-										}
-
-									}
-,
-									"diff" : 									{
-										"value" : 50.0
-									}
-,
-									"damp" : 									{
-										"value" : 50.0
-									}
-,
-									"jitter" : 									{
-										"value" : 50.0
-									}
-,
-									"mix" : 									{
-										"value" : 50.0
-									}
-,
-									"size" : 									{
-										"value" : 50.0
-									}
-,
-									"decay" : 									{
-										"value" : 50.0
-									}
-
-								}
-
-							}
-,
-							"chord_3" : 							{
-								"value" : 0.0
-							}
-,
-							"chord_2" : 							{
-								"value" : 0.0
-							}
-,
-							"chord_1" : 							{
-								"value" : 1.0
-							}
-,
-							"octave" : 							{
-								"value" : 4.0
-							}
-,
-							"tempo" : 							{
-								"value" : 110.0
-							}
-,
-							"chord_4" : 							{
-								"value" : 0.0
-							}
-,
-							"__presetid" : "Chords.rnbopat",
-							"key_offset" : 							{
-								"value" : 0.0
-							}
-,
-							"playing" : 							{
-								"value" : 0.0
-							}
-
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
+							"parameter_initial" : [ 								{
 									"filetype" : "C74Snapshot",
 									"version" : 2,
 									"minorversion" : 0,
@@ -837,9 +759,17 @@
 									"origin" : "Chords.rnbopat",
 									"type" : "rnbo",
 									"subtype" : "",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"__sps" : 										{
+											"p_obj-50" : 											{
+
+											}
+,
+											"p_obj-43" : 											{
+
+											}
+,
 											"p_obj-38" : [ 												{
 
 												}
@@ -853,6 +783,10 @@
 
 												}
  ],
+											"p_obj-37" : 											{
+
+											}
+,
 											"p_obj-10" : 											{
 
 											}
@@ -944,7 +878,7 @@
 												}
 ,
 												"mix" : 												{
-													"value" : 50.0
+													"value" : 60.0
 												}
 ,
 												"size" : 												{
@@ -960,14 +894,14 @@
 										}
 ,
 										"chord_3" : 										{
+											"value" : 2.0
+										}
+,
+										"key_offset" : 										{
 											"value" : 0.0
 										}
 ,
 										"chord_2" : 										{
-											"value" : 0.0
-										}
-,
-										"chord_1" : 										{
 											"value" : 1.0
 										}
 ,
@@ -976,20 +910,417 @@
 										}
 ,
 										"tempo" : 										{
-											"value" : 110.0
+											"value" : 130.0
 										}
 ,
 										"chord_4" : 										{
-											"value" : 0.0
+											"value" : 3.0
 										}
 ,
 										"__presetid" : "Chords.rnbopat",
+										"playing" : 										{
+											"value" : 0.0
+										}
+,
+										"chord_1" : 										{
+											"value" : 2.0
+										}
+,
+										"reverb_mix" : 										{
+											"value" : 60.0
+										}
+,
+										"bitcrushing" : 										{
+											"value" : 0.02
+										}
+
+									}
+
+								}
+ ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
+							"parameter_longname" : "rnbo~[2]",
+							"parameter_shortname" : "rnbo~[2]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"optimization" : "O1",
+						"parameter_enable" : 1,
+						"uuid" : "113eb5af-d3ed-11ed-b5af-9ae0409a180e"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "rnbo~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"__sps" : 							{
+								"p_obj-52" : 								{
+
+								}
+,
+								"p_obj-38" : [ 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+, 									{
+
+									}
+ ],
+								"p_obj-19" : 								{
+
+								}
+,
+								"p_obj-44" : 								{
+
+								}
+,
+								"p_obj-10" : 								{
+
+								}
+,
+								"p_obj-45" : 								{
+									"__sps" : 									{
+										"compressor" : 										{
+
+										}
+,
+										"compressor[1]" : 										{
+
+										}
+
+									}
+,
+									"threshold" : 									{
+										"value" : -30.0
+									}
+,
+									"ratio" : 									{
+										"value" : 3.0
+									}
+,
+									"release" : 									{
+										"value" : 50.0
+									}
+,
+									"attack" : 									{
+										"value" : 5.0
+									}
+,
+									"parallel_mix" : 									{
+										"value" : 1.0
+									}
+,
+									"input_gain" : 									{
+										"value" : 0.0
+									}
+
+								}
+,
+								"patcher_obj-15" : 								{
+									"__sps" : 									{
+										"CombR~" : 										{
+
+										}
+,
+										"RoomB~" : 										{
+
+										}
+,
+										"Mix~" : 										{
+
+										}
+,
+										"Blur~" : 										{
+
+										}
+,
+										"Shuffle~" : 										{
+
+										}
+,
+										"CombL~" : 										{
+
+										}
+,
+										"Damp~" : 										{
+
+										}
+,
+										"RoomA~" : 										{
+
+										}
+
+									}
+,
+									"diff" : 									{
+										"value" : 50.0
+									}
+,
+									"damp" : 									{
+										"value" : 50.0
+									}
+,
+									"jitter" : 									{
+										"value" : 50.0
+									}
+,
+									"mix" : 									{
+										"value" : 60.0
+									}
+,
+									"size" : 									{
+										"value" : 50.0
+									}
+,
+									"decay" : 									{
+										"value" : 50.0
+									}
+
+								}
+
+							}
+,
+							"chord_3" : 							{
+								"value" : 1.0
+							}
+,
+							"key_offset" : 							{
+								"value" : 0.0
+							}
+,
+							"chord_2" : 							{
+								"value" : 1.0
+							}
+,
+							"octave" : 							{
+								"value" : 4.0
+							}
+,
+							"tempo" : 							{
+								"value" : 130.0
+							}
+,
+							"chord_4" : 							{
+								"value" : 1.0
+							}
+,
+							"__presetid" : "Chords.rnbopat",
+							"playing" : 							{
+								"value" : 1.0
+							}
+,
+							"chord_1" : 							{
+								"value" : 1.0
+							}
+,
+							"reverb_mix" : 							{
+								"value" : 60.0
+							}
+,
+							"bitcrushing" : 							{
+								"value" : 0.02
+							}
+
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Chords.rnbopat",
+									"origin" : "Chords.rnbopat",
+									"type" : "rnbo",
+									"subtype" : "",
+									"embed" : 0,
+									"snapshot" : 									{
+										"__sps" : 										{
+											"p_obj-52" : 											{
+
+											}
+,
+											"p_obj-38" : [ 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+, 												{
+
+												}
+ ],
+											"p_obj-19" : 											{
+
+											}
+,
+											"p_obj-44" : 											{
+
+											}
+,
+											"p_obj-10" : 											{
+
+											}
+,
+											"p_obj-45" : 											{
+												"__sps" : 												{
+													"compressor" : 													{
+
+													}
+,
+													"compressor[1]" : 													{
+
+													}
+
+												}
+,
+												"threshold" : 												{
+													"value" : -30.0
+												}
+,
+												"ratio" : 												{
+													"value" : 3.0
+												}
+,
+												"release" : 												{
+													"value" : 50.0
+												}
+,
+												"attack" : 												{
+													"value" : 5.0
+												}
+,
+												"parallel_mix" : 												{
+													"value" : 1.0
+												}
+,
+												"input_gain" : 												{
+													"value" : 0.0
+												}
+
+											}
+,
+											"patcher_obj-15" : 											{
+												"__sps" : 												{
+													"CombR~" : 													{
+
+													}
+,
+													"RoomB~" : 													{
+
+													}
+,
+													"Mix~" : 													{
+
+													}
+,
+													"Blur~" : 													{
+
+													}
+,
+													"Shuffle~" : 													{
+
+													}
+,
+													"CombL~" : 													{
+
+													}
+,
+													"Damp~" : 													{
+
+													}
+,
+													"RoomA~" : 													{
+
+													}
+
+												}
+,
+												"diff" : 												{
+													"value" : 50.0
+												}
+,
+												"damp" : 												{
+													"value" : 50.0
+												}
+,
+												"jitter" : 												{
+													"value" : 50.0
+												}
+,
+												"mix" : 												{
+													"value" : 60.0
+												}
+,
+												"size" : 												{
+													"value" : 50.0
+												}
+,
+												"decay" : 												{
+													"value" : 50.0
+												}
+
+											}
+
+										}
+,
+										"chord_3" : 										{
+											"value" : 1.0
+										}
+,
 										"key_offset" : 										{
 											"value" : 0.0
 										}
 ,
+										"chord_2" : 										{
+											"value" : 1.0
+										}
+,
+										"octave" : 										{
+											"value" : 4.0
+										}
+,
+										"tempo" : 										{
+											"value" : 130.0
+										}
+,
+										"chord_4" : 										{
+											"value" : 1.0
+										}
+,
+										"__presetid" : "Chords.rnbopat",
 										"playing" : 										{
-											"value" : 0.0
+											"value" : 1.0
+										}
+,
+										"chord_1" : 										{
+											"value" : 1.0
+										}
+,
+										"reverb_mix" : 										{
+											"value" : 60.0
+										}
+,
+										"bitcrushing" : 										{
+											"value" : 0.02
 										}
 
 									}
@@ -1033,7 +1364,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 536.0, 280.0, 150.0, 22.0 ]
+					"patching_rect" : [ 624.5, 180.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1137,6 +1468,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 470.0, 255.0, 447.0, 255.0, 447.0, 312.0, 470.0, 312.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1193,6 +1525,51 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 634.0, 231.0, 612.0, 231.0, 612.0, 314.0, 470.0, 314.0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 634.0, 255.0, 609.0, 255.0, 609.0, 312.0, 470.0, 312.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 634.0, 312.0, 470.0, 312.0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"midpoints" : [ 103.0, 174.0, 219.5, 174.0 ],
 					"source" : [ "obj-3", 0 ]
@@ -1203,6 +1580,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 470.0, 231.0, 447.0, 231.0, 447.0, 312.0, 470.0, 312.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1225,6 +1610,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 634.0, 207.0, 612.0, 207.0, 612.0, 313.0, 470.0, 313.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1233,10 +1619,10 @@
 		"parameters" : 		{
 			"obj-11" : [ "rnbo~[2]", "rnbo~[2]", 0 ],
 			"obj-12" : [ "rnbo~[1]", "rnbo~[1]", 0 ],
-			"obj-17" : [ "flonum[7]", "flonum[1]", 0 ],
+			"obj-17" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-59" : [ "flonum[8]", "flonum[2]", 0 ],
 			"obj-61" : [ "flonum[9]", "flonum[3]", 0 ],
-			"obj-63" : [ "[3]", "[2]", 0 ],
+			"obj-63" : [ "[1]", "[2]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

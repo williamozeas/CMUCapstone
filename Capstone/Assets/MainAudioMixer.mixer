@@ -199,6 +199,8 @@ AudioMixerController:
     name: Acc_chord_3
   - guid: 98c056038813643b9baa2501ae0768ae
     name: Acc_chord_4
+  - guid: c1b4b55ff31f54c98ab1ddca37bebda0
+    name: Acc_bitcrush
   - guid: b78a2779bebc44a84b0eefba02d93e8e
     name: Synth_volume
   - guid: 50da0a3720bb34728a7ff98890ec3e8e

@@ -17,12 +17,24 @@ public class Cube : MonoBehaviour
     private float timeSinceBounce = 0;
     private float totalBounceTime = 1f;
     
+    [SerializeField] private float bitcrushDecay = 1.3f;
+    private float bitcrushAmt = 0f;
+    
     // Start is called before the first frame update
     void Awake()
     {
         GameManager.Instance.SetCube(this);
         rb = GetComponent<Rigidbody>();
         startPos = transform.position;
+    }
+
+    private void Update()
+    {
+        if (bitcrushAmt > 0.01f)
+        {
+            bitcrushAmt -= Time.deltaTime * bitcrushDecay;
+            AudioManager.Instance.SetAccBitcrush(bitcrushAmt);
+        }
     }
 
     private void FixedUpdate()
@@ -35,19 +47,6 @@ public class Cube : MonoBehaviour
         Vector3 cursorPos = GameManager.Instance.Cursor.transform.position;
         Vector3 currentPos = transform.position;
         float goalDeltaY = cursorPos.y - currentPos.y;
-        // float deltaY = goalDeltaY * moveSpeed * Time.deltaTime;
-        // if (Mathf.Abs(goalDeltaY) < Mathf.Abs(deltaY))
-        // {
-        //     Vector3 newPos = new Vector3(startPos.x, currentPos.y + goalDeltaY, startPos.z);
-        //     // transform.position = newPos;
-        //     // rb.MovePosition(newPos);
-        // }
-        // else if (Mathf.Abs(goalDeltaY) > minMovement)
-        // {
-        //     Vector3 newPos = new Vector3(startPos.x, currentPos.y + deltaY, startPos.z);
-        //     // transform.position = newPos;
-        //     // rb.MovePosition(newPos);
-        // }
         
         //use raycasts to check for collision myself
         rb.velocity = Vector3.zero;
@@ -60,28 +59,6 @@ public class Cube : MonoBehaviour
             newVel += new Vector3(0, bounceVel * bounceDir, 0);
             Debug.Log(bounceVel * bounceDir);
         }
-        
-        // float rayLength = transform.lossyScale.x/2;
-        // RaycastHit upRightRay = new RaycastHit();
-        // RaycastHit downRightRay = new RaycastHit();
-        // Physics.Raycast(transform.position, new Vector3(1, 1, 0), out upRightRay, rayLength,
-        //     LayerMask.GetMask("Obstacle"));
-        // Physics.Raycast(transform.position, new Vector3(1, -1, 0), out downRightRay, rayLength,
-        //     LayerMask.GetMask("Obstacle"));
-        //
-        // RaycastHit upRay = new RaycastHit();
-        // RaycastHit downRay = new RaycastHit();
-        //
-        // if (goalDeltaY > 0 && )
-        // {
-        //     rb.AddForce(ObstacleManager.Instance.Speed * new Vector3(-1, -1, 0) , ForceMode.VelocityChange);
-        // }
-        //
-        // else if (goalDeltaY < 0 && )
-        // {
-        //     rb.AddForce(ObstacleManager.Instance.Speed * new Vector3(-1, 1, 0) , ForceMode.VelocityChange);
-        // }
-        // else
         {
             rb.AddForce(newVel, ForceMode.VelocityChange);
         }
@@ -107,6 +84,9 @@ public class Cube : MonoBehaviour
 
             currentBounceVelocity = bounceVelocity; //change based on relative posiiton
             timeSinceBounce = 0;
+            
+            //start bitcrush
+            bitcrushAmt = 1.3f;
         }
     }
 }

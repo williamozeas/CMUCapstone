@@ -13,6 +13,8 @@ public class AudioManager : Singleton<AudioManager>
     [Range(0, 1)] public float synthMaxFilter = 1f;
     public float synthAttack = 0.25f;
     public float synthRelease = 0.4f;
+    
+    [Range(0, 1)] public float accMaxBitcrush = 0.4f;
 
     private float currentSynthTotalVolume;
     private float noteOn = 0;
@@ -68,6 +70,11 @@ public class AudioManager : Singleton<AudioManager>
     public void SetAccPlaying(int playing)
     {
         Mixer.SetFloat("Acc_playing", playing);
+    }
+
+    public void SetAccBitcrush(float bitcrushAmt)
+    {
+        Mixer.SetFloat("Acc_bitcrush", Mathf.Clamp(bitcrushAmt * accMaxBitcrush, 0.01f, 1f));
     }
 
     private IEnumerator ActivateAccompaniment()

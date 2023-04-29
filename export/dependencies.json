@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "perc",
+    "file": "../Samples/SD_SEISMIC_perc_hiya.wav"
+  },
+  {
+    "id": "snare",
+    "file": "../Samples/SD_SEISMIC_snare_clucky.wav"
+  },
+  {
+    "id": "kick",
+    "file": "../Samples/SD_SEISMIC_kick_cleaner.wav"
+  },
+  {
+    "id": "hat",
+    "file": "../Samples/SD_SEISMIC_hat_perfect.wav"
+  }
+]

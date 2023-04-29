@@ -4,14 +4,83 @@
     "preset": {
       "__sps": {
         "p_obj-10": {},
-        "p_obj-37": {},
+        "p_obj-19": {},
+        "p_obj-193": {
+          "__sps": {
+            "p_obj-101": {},
+            "p_obj-25": {},
+            "p_obj-30": {},
+            "p_obj-35": {},
+            "p_obj-40": {},
+            "p_obj-45": {},
+            "p_obj-50": {},
+            "p_obj-55": {},
+            "p_obj-60": {},
+            "p_obj-65": {},
+            "p_obj-70": {},
+            "p_obj-74": {},
+            "p_obj-76": {},
+            "p_obj-86": {},
+            "p_obj-91": {},
+            "p_obj-96": {}
+          },
+          "drums_1": {
+            "value": 1
+          },
+          "drums_10": {
+            "value": 0
+          },
+          "drums_11": {
+            "value": 0
+          },
+          "drums_12": {
+            "value": 0
+          },
+          "drums_13": {
+            "value": 0
+          },
+          "drums_14": {
+            "value": 0
+          },
+          "drums_15": {
+            "value": 0
+          },
+          "drums_16": {
+            "value": 0
+          },
+          "drums_2": {
+            "value": 0
+          },
+          "drums_3": {
+            "value": 0
+          },
+          "drums_4": {
+            "value": 0
+          },
+          "drums_5": {
+            "value": 0
+          },
+          "drums_6": {
+            "value": 0
+          },
+          "drums_7": {
+            "value": 0
+          },
+          "drums_8": {
+            "value": 0
+          },
+          "drums_9": {
+            "value": 0
+          }
+        },
+        "p_obj-200": {},
         "p_obj-38": [
           {},
           {},
           {},
           {}
         ],
-        "p_obj-43": {},
+        "p_obj-44": {},
         "p_obj-45": {
           "__sps": {
             "compressor": {},
@@ -36,7 +105,7 @@
             "value": -30
           }
         },
-        "p_obj-50": {},
+        "p_obj-52": {},
         "patcher_obj-15": {
           "__sps": {
             "Blur~": {},
@@ -72,7 +141,7 @@
         "value": 0.02
       },
       "chord_1": {
-        "value": 4
+        "value": 2
       },
       "chord_2": {
         "value": 1
@@ -83,6 +152,9 @@
       "chord_4": {
         "value": 3
       },
+      "current_beat": {
+        "value": 3
+      },
       "key_offset": {
         "value": 0
       },
@@ -90,7 +162,7 @@
         "value": 4
       },
       "playing": {
-        "value": 0
+        "value": 1
       },
       "reverb_mix": {
         "value": 60

@@ -42,29 +42,29 @@ namespace RNBO {
 class rnbomatic : public PatcherInterfaceImpl {
 public:
 
-class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_1051 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    class RNBOSubpatcher_535 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1025 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_561;
+            friend class RNBOSubpatcher_1051;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_535()
+            RNBOSubpatcher_1025()
             {
             }
             
-            ~RNBOSubpatcher_535()
+            ~RNBOSubpatcher_1025()
             {
             }
             
-            virtual RNBOSubpatcher_561* getPatcher() const {
-                return static_cast<RNBOSubpatcher_561 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1051* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1051 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -559,23 +559,23 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_536 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1026 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_561;
+            friend class RNBOSubpatcher_1051;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_536()
+            RNBOSubpatcher_1026()
             {
             }
             
-            ~RNBOSubpatcher_536()
+            ~RNBOSubpatcher_1026()
             {
             }
             
-            virtual RNBOSubpatcher_561* getPatcher() const {
-                return static_cast<RNBOSubpatcher_561 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1051* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1051 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -4468,23 +4468,23 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_537 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1027 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_561;
+            friend class RNBOSubpatcher_1051;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_537()
+            RNBOSubpatcher_1027()
             {
             }
             
-            ~RNBOSubpatcher_537()
+            ~RNBOSubpatcher_1027()
             {
             }
             
-            virtual RNBOSubpatcher_561* getPatcher() const {
-                return static_cast<RNBOSubpatcher_561 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1051* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1051 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -4960,23 +4960,23 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_538 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1028 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_561;
+            friend class RNBOSubpatcher_1051;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_538()
+            RNBOSubpatcher_1028()
             {
             }
             
-            ~RNBOSubpatcher_538()
+            ~RNBOSubpatcher_1028()
             {
             }
             
-            virtual RNBOSubpatcher_561* getPatcher() const {
-                return static_cast<RNBOSubpatcher_561 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1051* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1051 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -8961,23 +8961,23 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_539 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1029 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_561;
+            friend class RNBOSubpatcher_1051;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_539()
+            RNBOSubpatcher_1029()
             {
             }
             
-            ~RNBOSubpatcher_539()
+            ~RNBOSubpatcher_1029()
             {
             }
             
-            virtual RNBOSubpatcher_561* getPatcher() const {
-                return static_cast<RNBOSubpatcher_561 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1051* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1051 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -11382,23 +11382,23 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_540 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1030 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_561;
+            friend class RNBOSubpatcher_1051;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_540()
+            RNBOSubpatcher_1030()
             {
             }
             
-            ~RNBOSubpatcher_540()
+            ~RNBOSubpatcher_1030()
             {
             }
             
-            virtual RNBOSubpatcher_561* getPatcher() const {
-                return static_cast<RNBOSubpatcher_561 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1051* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1051 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -11880,23 +11880,23 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_541 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1031 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_561;
+            friend class RNBOSubpatcher_1051;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_541()
+            RNBOSubpatcher_1031()
             {
             }
             
-            ~RNBOSubpatcher_541()
+            ~RNBOSubpatcher_1031()
             {
             }
             
-            virtual RNBOSubpatcher_561* getPatcher() const {
-                return static_cast<RNBOSubpatcher_561 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1051* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1051 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -14301,23 +14301,23 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_542 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1032 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_561;
+            friend class RNBOSubpatcher_1051;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_542()
+            RNBOSubpatcher_1032()
             {
             }
             
-            ~RNBOSubpatcher_542()
+            ~RNBOSubpatcher_1032()
             {
             }
             
-            virtual RNBOSubpatcher_561* getPatcher() const {
-                return static_cast<RNBOSubpatcher_561 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1051* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1051 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -18210,11 +18210,11 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
             
     };
     
-    RNBOSubpatcher_561()
+    RNBOSubpatcher_1051()
     {
     }
     
-    ~RNBOSubpatcher_561()
+    ~RNBOSubpatcher_1051()
     {
         delete this->p_01;
         delete this->p_02;
@@ -18587,35 +18587,35 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
     void getState(PatcherStateInterface& ) {}
     
     void setState() {
-        this->p_01 = new RNBOSubpatcher_535();
+        this->p_01 = new RNBOSubpatcher_1025();
         this->p_01->setEngineAndPatcher(this->getEngine(), this);
         this->p_01->initialize();
         this->p_01->setParameterOffset(this->getParameterOffset(this->p_01));
-        this->p_02 = new RNBOSubpatcher_536();
+        this->p_02 = new RNBOSubpatcher_1026();
         this->p_02->setEngineAndPatcher(this->getEngine(), this);
         this->p_02->initialize();
         this->p_02->setParameterOffset(this->getParameterOffset(this->p_02));
-        this->p_03 = new RNBOSubpatcher_537();
+        this->p_03 = new RNBOSubpatcher_1027();
         this->p_03->setEngineAndPatcher(this->getEngine(), this);
         this->p_03->initialize();
         this->p_03->setParameterOffset(this->getParameterOffset(this->p_03));
-        this->p_04 = new RNBOSubpatcher_538();
+        this->p_04 = new RNBOSubpatcher_1028();
         this->p_04->setEngineAndPatcher(this->getEngine(), this);
         this->p_04->initialize();
         this->p_04->setParameterOffset(this->getParameterOffset(this->p_04));
-        this->p_05 = new RNBOSubpatcher_539();
+        this->p_05 = new RNBOSubpatcher_1029();
         this->p_05->setEngineAndPatcher(this->getEngine(), this);
         this->p_05->initialize();
         this->p_05->setParameterOffset(this->getParameterOffset(this->p_05));
-        this->p_06 = new RNBOSubpatcher_540();
+        this->p_06 = new RNBOSubpatcher_1030();
         this->p_06->setEngineAndPatcher(this->getEngine(), this);
         this->p_06->initialize();
         this->p_06->setParameterOffset(this->getParameterOffset(this->p_06));
-        this->p_07 = new RNBOSubpatcher_541();
+        this->p_07 = new RNBOSubpatcher_1031();
         this->p_07->setEngineAndPatcher(this->getEngine(), this);
         this->p_07->initialize();
         this->p_07->setParameterOffset(this->getParameterOffset(this->p_07));
-        this->p_08 = new RNBOSubpatcher_542();
+        this->p_08 = new RNBOSubpatcher_1032();
         this->p_08->setEngineAndPatcher(this->getEngine(), this);
         this->p_08->initialize();
         this->p_08->setParameterOffset(this->getParameterOffset(this->p_08));
@@ -22572,28 +22572,28 @@ class RNBOSubpatcher_561 : public PatcherInterfaceImpl {
         Int _noteNumber;
         Index isMuted;
         ParameterIndex parameterOffset;
-        RNBOSubpatcher_535* p_01;
-        RNBOSubpatcher_536* p_02;
-        RNBOSubpatcher_537* p_03;
-        RNBOSubpatcher_538* p_04;
-        RNBOSubpatcher_539* p_05;
-        RNBOSubpatcher_540* p_06;
-        RNBOSubpatcher_541* p_07;
-        RNBOSubpatcher_542* p_08;
+        RNBOSubpatcher_1025* p_01;
+        RNBOSubpatcher_1026* p_02;
+        RNBOSubpatcher_1027* p_03;
+        RNBOSubpatcher_1028* p_04;
+        RNBOSubpatcher_1029* p_05;
+        RNBOSubpatcher_1030* p_06;
+        RNBOSubpatcher_1031* p_07;
+        RNBOSubpatcher_1032* p_08;
     
 };
 
-class RNBOSubpatcher_562 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_1052 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    RNBOSubpatcher_562()
+    RNBOSubpatcher_1052()
     {
     }
     
-    ~RNBOSubpatcher_562()
+    ~RNBOSubpatcher_1052()
     {
     }
     
@@ -24055,17 +24055,17 @@ class RNBOSubpatcher_562 : public PatcherInterfaceImpl {
     
 };
 
-class RNBOSubpatcher_563 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_1053 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    RNBOSubpatcher_563()
+    RNBOSubpatcher_1053()
     {
     }
     
-    ~RNBOSubpatcher_563()
+    ~RNBOSubpatcher_1053()
     {
     }
     
@@ -25506,29 +25506,29 @@ class RNBOSubpatcher_563 : public PatcherInterfaceImpl {
     
 };
 
-class RNBOSubpatcher_564 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_1054 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    class RNBOSubpatcher_543 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1033 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_564;
+            friend class RNBOSubpatcher_1054;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_543()
+            RNBOSubpatcher_1033()
             {
             }
             
-            ~RNBOSubpatcher_543()
+            ~RNBOSubpatcher_1033()
             {
             }
             
-            virtual RNBOSubpatcher_564* getPatcher() const {
-                return static_cast<RNBOSubpatcher_564 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1054* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1054 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -27081,23 +27081,23 @@ class RNBOSubpatcher_564 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_544 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1034 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_564;
+            friend class RNBOSubpatcher_1054;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_544()
+            RNBOSubpatcher_1034()
             {
             }
             
-            ~RNBOSubpatcher_544()
+            ~RNBOSubpatcher_1034()
             {
             }
             
-            virtual RNBOSubpatcher_564* getPatcher() const {
-                return static_cast<RNBOSubpatcher_564 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1054* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1054 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -28627,11 +28627,11 @@ class RNBOSubpatcher_564 : public PatcherInterfaceImpl {
             
     };
     
-    RNBOSubpatcher_564()
+    RNBOSubpatcher_1054()
     {
     }
     
-    ~RNBOSubpatcher_564()
+    ~RNBOSubpatcher_1054()
     {
         delete this->p_09;
         delete this->p_10;
@@ -28772,11 +28772,11 @@ class RNBOSubpatcher_564 : public PatcherInterfaceImpl {
     void getState(PatcherStateInterface& ) {}
     
     void setState() {
-        this->p_09 = new RNBOSubpatcher_543();
+        this->p_09 = new RNBOSubpatcher_1033();
         this->p_09->setEngineAndPatcher(this->getEngine(), this);
         this->p_09->initialize();
         this->p_09->setParameterOffset(this->getParameterOffset(this->p_09));
-        this->p_10 = new RNBOSubpatcher_544();
+        this->p_10 = new RNBOSubpatcher_1034();
         this->p_10->setEngineAndPatcher(this->getEngine(), this);
         this->p_10->initialize();
         this->p_10->setParameterOffset(this->getParameterOffset(this->p_10));
@@ -29848,22 +29848,22 @@ class RNBOSubpatcher_564 : public PatcherInterfaceImpl {
         Int _noteNumber;
         Index isMuted;
         ParameterIndex parameterOffset;
-        RNBOSubpatcher_543* p_09;
-        RNBOSubpatcher_544* p_10;
+        RNBOSubpatcher_1033* p_09;
+        RNBOSubpatcher_1034* p_10;
     
 };
 
-class RNBOSubpatcher_565 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_1055 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    RNBOSubpatcher_565()
+    RNBOSubpatcher_1055()
     {
     }
     
-    ~RNBOSubpatcher_565()
+    ~RNBOSubpatcher_1055()
     {
     }
     
@@ -31404,17 +31404,17 @@ class RNBOSubpatcher_565 : public PatcherInterfaceImpl {
     
 };
 
-class RNBOSubpatcher_566 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_1056 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    RNBOSubpatcher_566()
+    RNBOSubpatcher_1056()
     {
     }
     
-    ~RNBOSubpatcher_566()
+    ~RNBOSubpatcher_1056()
     {
     }
     
@@ -32855,17 +32855,17 @@ class RNBOSubpatcher_566 : public PatcherInterfaceImpl {
     
 };
 
-class RNBOSubpatcher_567 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_1057 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    RNBOSubpatcher_567()
+    RNBOSubpatcher_1057()
     {
     }
     
-    ~RNBOSubpatcher_567()
+    ~RNBOSubpatcher_1057()
     {
     }
     
@@ -34306,29 +34306,29 @@ class RNBOSubpatcher_567 : public PatcherInterfaceImpl {
     
 };
 
-class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_1058 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    class RNBOSubpatcher_545 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1035 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_545()
+            RNBOSubpatcher_1035()
             {
             }
             
-            ~RNBOSubpatcher_545()
+            ~RNBOSubpatcher_1035()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -35263,23 +35263,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_546 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1036 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_546()
+            RNBOSubpatcher_1036()
             {
             }
             
-            ~RNBOSubpatcher_546()
+            ~RNBOSubpatcher_1036()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -36214,23 +36214,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_547 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1037 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_547()
+            RNBOSubpatcher_1037()
             {
             }
             
-            ~RNBOSubpatcher_547()
+            ~RNBOSubpatcher_1037()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -37165,23 +37165,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_548 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1038 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_548()
+            RNBOSubpatcher_1038()
             {
             }
             
-            ~RNBOSubpatcher_548()
+            ~RNBOSubpatcher_1038()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -38116,23 +38116,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_549 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1039 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_549()
+            RNBOSubpatcher_1039()
             {
             }
             
-            ~RNBOSubpatcher_549()
+            ~RNBOSubpatcher_1039()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -39067,23 +39067,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_550 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1040 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_550()
+            RNBOSubpatcher_1040()
             {
             }
             
-            ~RNBOSubpatcher_550()
+            ~RNBOSubpatcher_1040()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -40018,23 +40018,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_551 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1041 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_551()
+            RNBOSubpatcher_1041()
             {
             }
             
-            ~RNBOSubpatcher_551()
+            ~RNBOSubpatcher_1041()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -40969,23 +40969,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_552 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1042 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_552()
+            RNBOSubpatcher_1042()
             {
             }
             
-            ~RNBOSubpatcher_552()
+            ~RNBOSubpatcher_1042()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -41920,23 +41920,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_553 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1043 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_553()
+            RNBOSubpatcher_1043()
             {
             }
             
-            ~RNBOSubpatcher_553()
+            ~RNBOSubpatcher_1043()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -42871,23 +42871,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_554 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1044 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_554()
+            RNBOSubpatcher_1044()
             {
             }
             
-            ~RNBOSubpatcher_554()
+            ~RNBOSubpatcher_1044()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -43822,23 +43822,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_555 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1045 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_555()
+            RNBOSubpatcher_1045()
             {
             }
             
-            ~RNBOSubpatcher_555()
+            ~RNBOSubpatcher_1045()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -44773,23 +44773,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_556 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1046 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_556()
+            RNBOSubpatcher_1046()
             {
             }
             
-            ~RNBOSubpatcher_556()
+            ~RNBOSubpatcher_1046()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -45724,23 +45724,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_557 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1047 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_557()
+            RNBOSubpatcher_1047()
             {
             }
             
-            ~RNBOSubpatcher_557()
+            ~RNBOSubpatcher_1047()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -46675,23 +46675,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_558 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1048 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_558()
+            RNBOSubpatcher_1048()
             {
             }
             
-            ~RNBOSubpatcher_558()
+            ~RNBOSubpatcher_1048()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -47626,23 +47626,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_559 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1049 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_559()
+            RNBOSubpatcher_1049()
             {
             }
             
-            ~RNBOSubpatcher_559()
+            ~RNBOSubpatcher_1049()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -48577,23 +48577,23 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_560 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_1050 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_568;
+            friend class RNBOSubpatcher_1058;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_560()
+            RNBOSubpatcher_1050()
             {
             }
             
-            ~RNBOSubpatcher_560()
+            ~RNBOSubpatcher_1050()
             {
             }
             
-            virtual RNBOSubpatcher_568* getPatcher() const {
-                return static_cast<RNBOSubpatcher_568 *>(_parentPatcher);
+            virtual RNBOSubpatcher_1058* getPatcher() const {
+                return static_cast<RNBOSubpatcher_1058 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -49528,11 +49528,11 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
             
     };
     
-    RNBOSubpatcher_568()
+    RNBOSubpatcher_1058()
     {
     }
     
-    ~RNBOSubpatcher_568()
+    ~RNBOSubpatcher_1058()
     {
         delete this->p_11;
         delete this->p_12;
@@ -49564,157 +49564,281 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     {
     }
     
-    ParameterValue fromnormalized(ParameterIndex index, ParameterValue normalizedValue) {
-        return this->convertFromNormalizedParameterValue(index, normalizedValue);
-    }
-    
     ParameterIndex getParameterIndexForID(ConstCharPointer paramid) const {
-        if (!stringCompare(paramid, "drums_1")) {
+        if (!stringCompare(paramid, "message_obj-133/bangval")) {
             return 0;
         }
     
-        if (!stringCompare(paramid, "drums_2")) {
+        if (!stringCompare(paramid, "number_obj-12/value")) {
             return 1;
         }
     
-        if (!stringCompare(paramid, "drums_3")) {
+        if (!stringCompare(paramid, "button_obj-123/bangval")) {
             return 2;
         }
     
-        if (!stringCompare(paramid, "drums_4")) {
+        if (!stringCompare(paramid, "message_obj-147/bangval")) {
             return 3;
         }
     
-        if (!stringCompare(paramid, "drums_5")) {
+        if (!stringCompare(paramid, "message_obj-145/bangval")) {
             return 4;
         }
     
-        if (!stringCompare(paramid, "drums_6")) {
+        if (!stringCompare(paramid, "number_obj-16/value")) {
             return 5;
         }
     
-        if (!stringCompare(paramid, "drums_7")) {
+        if (!stringCompare(paramid, "button_obj-122/bangval")) {
             return 6;
         }
     
-        if (!stringCompare(paramid, "drums_8")) {
+        if (!stringCompare(paramid, "message_obj-181/bangval")) {
             return 7;
         }
     
-        if (!stringCompare(paramid, "drums_9")) {
+        if (!stringCompare(paramid, "button_obj-212/bangval")) {
             return 8;
         }
     
-        if (!stringCompare(paramid, "drums_10")) {
+        if (!stringCompare(paramid, "message_obj-182/bangval")) {
             return 9;
         }
     
-        if (!stringCompare(paramid, "drums_11")) {
+        if (!stringCompare(paramid, "button_obj-214/bangval")) {
             return 10;
         }
     
-        if (!stringCompare(paramid, "drums_12")) {
+        if (!stringCompare(paramid, "button_obj-121/bangval")) {
             return 11;
         }
     
-        if (!stringCompare(paramid, "drums_13")) {
+        if (!stringCompare(paramid, "message_obj-184/bangval")) {
             return 12;
         }
     
-        if (!stringCompare(paramid, "drums_14")) {
+        if (!stringCompare(paramid, "number_obj-18/value")) {
             return 13;
         }
     
-        if (!stringCompare(paramid, "drums_15")) {
+        if (!stringCompare(paramid, "message_obj-185/bangval")) {
             return 14;
         }
     
-        if (!stringCompare(paramid, "drums_16")) {
+        if (!stringCompare(paramid, "button_obj-216/bangval")) {
             return 15;
         }
     
-        if (!stringCompare(paramid, "message_obj-133/bangval")) {
+        if (!stringCompare(paramid, "button_obj-120/bangval")) {
             return 16;
         }
     
-        if (!stringCompare(paramid, "button_obj-123/bangval")) {
+        if (!stringCompare(paramid, "message_obj-187/bangval")) {
             return 17;
         }
     
-        if (!stringCompare(paramid, "button_obj-122/bangval")) {
+        if (!stringCompare(paramid, "number_obj-79/value")) {
             return 18;
         }
     
-        if (!stringCompare(paramid, "button_obj-212/bangval")) {
+        if (!stringCompare(paramid, "message_obj-188/bangval")) {
             return 19;
         }
     
-        if (!stringCompare(paramid, "button_obj-214/bangval")) {
+        if (!stringCompare(paramid, "button_obj-218/bangval")) {
             return 20;
         }
     
-        if (!stringCompare(paramid, "button_obj-121/bangval")) {
+        if (!stringCompare(paramid, "button_obj-118/bangval")) {
             return 21;
         }
     
-        if (!stringCompare(paramid, "button_obj-216/bangval")) {
+        if (!stringCompare(paramid, "message_obj-190/bangval")) {
             return 22;
         }
     
-        if (!stringCompare(paramid, "button_obj-120/bangval")) {
+        if (!stringCompare(paramid, "number_obj-103/value")) {
             return 23;
         }
     
-        if (!stringCompare(paramid, "button_obj-218/bangval")) {
+        if (!stringCompare(paramid, "message_obj-191/bangval")) {
             return 24;
         }
     
-        if (!stringCompare(paramid, "button_obj-118/bangval")) {
+        if (!stringCompare(paramid, "button_obj-117/bangval")) {
             return 25;
         }
     
-        if (!stringCompare(paramid, "button_obj-117/bangval")) {
+        if (!stringCompare(paramid, "message_obj-193/bangval")) {
             return 26;
         }
     
-        if (!stringCompare(paramid, "button_obj-116/bangval")) {
+        if (!stringCompare(paramid, "number_obj-107/value")) {
             return 27;
         }
     
-        if (!stringCompare(paramid, "button_obj-115/bangval")) {
+        if (!stringCompare(paramid, "message_obj-194/bangval")) {
             return 28;
         }
     
-        if (!stringCompare(paramid, "button_obj-114/bangval")) {
+        if (!stringCompare(paramid, "number_obj-119/value")) {
             return 29;
         }
     
-        if (!stringCompare(paramid, "button_obj-112/bangval")) {
+        if (!stringCompare(paramid, "button_obj-116/bangval")) {
             return 30;
         }
     
-        if (!stringCompare(paramid, "button_obj-111/bangval")) {
+        if (!stringCompare(paramid, "message_obj-196/bangval")) {
             return 31;
         }
     
-        if (!stringCompare(paramid, "button_obj-110/bangval")) {
+        if (!stringCompare(paramid, "message_obj-197/bangval")) {
             return 32;
         }
     
-        if (!stringCompare(paramid, "button_obj-109/bangval")) {
+        if (!stringCompare(paramid, "button_obj-115/bangval")) {
             return 33;
         }
     
-        if (!stringCompare(paramid, "button_obj-108/bangval")) {
+        if (!stringCompare(paramid, "message_obj-199/bangval")) {
             return 34;
         }
     
-        if (!stringCompare(paramid, "button_obj-106/bangval")) {
+        if (!stringCompare(paramid, "number_obj-125/value")) {
             return 35;
         }
     
-        if (!stringCompare(paramid, "button_obj-105/bangval")) {
+        if (!stringCompare(paramid, "message_obj-200/bangval")) {
             return 36;
+        }
+    
+        if (!stringCompare(paramid, "button_obj-114/bangval")) {
+            return 37;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-202/bangval")) {
+            return 38;
+        }
+    
+        if (!stringCompare(paramid, "number_obj-127/value")) {
+            return 39;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-203/bangval")) {
+            return 40;
+        }
+    
+        if (!stringCompare(paramid, "button_obj-112/bangval")) {
+            return 41;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-205/bangval")) {
+            return 42;
+        }
+    
+        if (!stringCompare(paramid, "number_obj-129/value")) {
+            return 43;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-206/bangval")) {
+            return 44;
+        }
+    
+        if (!stringCompare(paramid, "button_obj-111/bangval")) {
+            return 45;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-208/bangval")) {
+            return 46;
+        }
+    
+        if (!stringCompare(paramid, "number_obj-131/value")) {
+            return 47;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-209/bangval")) {
+            return 48;
+        }
+    
+        if (!stringCompare(paramid, "button_obj-110/bangval")) {
+            return 49;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-211/bangval")) {
+            return 50;
+        }
+    
+        if (!stringCompare(paramid, "number_obj-134/value")) {
+            return 51;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-213/bangval")) {
+            return 52;
+        }
+    
+        if (!stringCompare(paramid, "button_obj-109/bangval")) {
+            return 53;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-217/bangval")) {
+            return 54;
+        }
+    
+        if (!stringCompare(paramid, "number_obj-136/value")) {
+            return 55;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-219/bangval")) {
+            return 56;
+        }
+    
+        if (!stringCompare(paramid, "number_obj-138/value")) {
+            return 57;
+        }
+    
+        if (!stringCompare(paramid, "button_obj-108/bangval")) {
+            return 58;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-221/bangval")) {
+            return 59;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-222/bangval")) {
+            return 60;
+        }
+    
+        if (!stringCompare(paramid, "button_obj-106/bangval")) {
+            return 61;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-224/bangval")) {
+            return 62;
+        }
+    
+        if (!stringCompare(paramid, "number_obj-140/value")) {
+            return 63;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-225/bangval")) {
+            return 64;
+        }
+    
+        if (!stringCompare(paramid, "button_obj-105/bangval")) {
+            return 65;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-227/bangval")) {
+            return 66;
+        }
+    
+        if (!stringCompare(paramid, "number_obj-142/value")) {
+            return 67;
+        }
+    
+        if (!stringCompare(paramid, "message_obj-228/bangval")) {
+            return 68;
         }
     
         return INVALID_INDEX;
@@ -49833,89 +49957,73 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     void getState(PatcherStateInterface& ) {}
     
     void setState() {
-        this->p_11 = new RNBOSubpatcher_545();
+        this->p_11 = new RNBOSubpatcher_1035();
         this->p_11->setEngineAndPatcher(this->getEngine(), this);
         this->p_11->initialize();
         this->p_11->setParameterOffset(this->getParameterOffset(this->p_11));
-        this->p_12 = new RNBOSubpatcher_546();
+        this->p_12 = new RNBOSubpatcher_1036();
         this->p_12->setEngineAndPatcher(this->getEngine(), this);
         this->p_12->initialize();
         this->p_12->setParameterOffset(this->getParameterOffset(this->p_12));
-        this->p_13 = new RNBOSubpatcher_547();
+        this->p_13 = new RNBOSubpatcher_1037();
         this->p_13->setEngineAndPatcher(this->getEngine(), this);
         this->p_13->initialize();
         this->p_13->setParameterOffset(this->getParameterOffset(this->p_13));
-        this->p_14 = new RNBOSubpatcher_548();
+        this->p_14 = new RNBOSubpatcher_1038();
         this->p_14->setEngineAndPatcher(this->getEngine(), this);
         this->p_14->initialize();
         this->p_14->setParameterOffset(this->getParameterOffset(this->p_14));
-        this->p_15 = new RNBOSubpatcher_549();
+        this->p_15 = new RNBOSubpatcher_1039();
         this->p_15->setEngineAndPatcher(this->getEngine(), this);
         this->p_15->initialize();
         this->p_15->setParameterOffset(this->getParameterOffset(this->p_15));
-        this->p_16 = new RNBOSubpatcher_550();
+        this->p_16 = new RNBOSubpatcher_1040();
         this->p_16->setEngineAndPatcher(this->getEngine(), this);
         this->p_16->initialize();
         this->p_16->setParameterOffset(this->getParameterOffset(this->p_16));
-        this->p_17 = new RNBOSubpatcher_551();
+        this->p_17 = new RNBOSubpatcher_1041();
         this->p_17->setEngineAndPatcher(this->getEngine(), this);
         this->p_17->initialize();
         this->p_17->setParameterOffset(this->getParameterOffset(this->p_17));
-        this->p_18 = new RNBOSubpatcher_552();
+        this->p_18 = new RNBOSubpatcher_1042();
         this->p_18->setEngineAndPatcher(this->getEngine(), this);
         this->p_18->initialize();
         this->p_18->setParameterOffset(this->getParameterOffset(this->p_18));
-        this->p_19 = new RNBOSubpatcher_553();
+        this->p_19 = new RNBOSubpatcher_1043();
         this->p_19->setEngineAndPatcher(this->getEngine(), this);
         this->p_19->initialize();
         this->p_19->setParameterOffset(this->getParameterOffset(this->p_19));
-        this->p_20 = new RNBOSubpatcher_554();
+        this->p_20 = new RNBOSubpatcher_1044();
         this->p_20->setEngineAndPatcher(this->getEngine(), this);
         this->p_20->initialize();
         this->p_20->setParameterOffset(this->getParameterOffset(this->p_20));
-        this->p_21 = new RNBOSubpatcher_555();
+        this->p_21 = new RNBOSubpatcher_1045();
         this->p_21->setEngineAndPatcher(this->getEngine(), this);
         this->p_21->initialize();
         this->p_21->setParameterOffset(this->getParameterOffset(this->p_21));
-        this->p_22 = new RNBOSubpatcher_556();
+        this->p_22 = new RNBOSubpatcher_1046();
         this->p_22->setEngineAndPatcher(this->getEngine(), this);
         this->p_22->initialize();
         this->p_22->setParameterOffset(this->getParameterOffset(this->p_22));
-        this->p_23 = new RNBOSubpatcher_557();
+        this->p_23 = new RNBOSubpatcher_1047();
         this->p_23->setEngineAndPatcher(this->getEngine(), this);
         this->p_23->initialize();
         this->p_23->setParameterOffset(this->getParameterOffset(this->p_23));
-        this->p_24 = new RNBOSubpatcher_558();
+        this->p_24 = new RNBOSubpatcher_1048();
         this->p_24->setEngineAndPatcher(this->getEngine(), this);
         this->p_24->initialize();
         this->p_24->setParameterOffset(this->getParameterOffset(this->p_24));
-        this->p_25 = new RNBOSubpatcher_559();
+        this->p_25 = new RNBOSubpatcher_1049();
         this->p_25->setEngineAndPatcher(this->getEngine(), this);
         this->p_25->initialize();
         this->p_25->setParameterOffset(this->getParameterOffset(this->p_25));
-        this->p_26 = new RNBOSubpatcher_560();
+        this->p_26 = new RNBOSubpatcher_1050();
         this->p_26->setEngineAndPatcher(this->getEngine(), this);
         this->p_26->initialize();
         this->p_26->setParameterOffset(this->getParameterOffset(this->p_26));
     }
     
     void getPreset(PatcherStateInterface& preset) {
-        this->param_13_getPresetValue(getSubState(preset, "drums_1"));
-        this->param_14_getPresetValue(getSubState(preset, "drums_2"));
-        this->param_15_getPresetValue(getSubState(preset, "drums_3"));
-        this->param_16_getPresetValue(getSubState(preset, "drums_4"));
-        this->param_17_getPresetValue(getSubState(preset, "drums_5"));
-        this->param_18_getPresetValue(getSubState(preset, "drums_6"));
-        this->param_19_getPresetValue(getSubState(preset, "drums_7"));
-        this->param_20_getPresetValue(getSubState(preset, "drums_8"));
-        this->param_21_getPresetValue(getSubState(preset, "drums_9"));
-        this->param_22_getPresetValue(getSubState(preset, "drums_10"));
-        this->param_23_getPresetValue(getSubState(preset, "drums_11"));
-        this->param_24_getPresetValue(getSubState(preset, "drums_12"));
-        this->param_25_getPresetValue(getSubState(preset, "drums_13"));
-        this->param_26_getPresetValue(getSubState(preset, "drums_14"));
-        this->param_27_getPresetValue(getSubState(preset, "drums_15"));
-        this->param_28_getPresetValue(getSubState(preset, "drums_16"));
         this->p_11->getPreset(getSubState(getSubState(preset, "__sps"), "p_obj-74"));
         this->p_12->getPreset(getSubState(getSubState(preset, "__sps"), "p_obj-25"));
         this->p_13->getPreset(getSubState(getSubState(preset, "__sps"), "p_obj-30"));
@@ -50021,118 +50129,214 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
         switch (index) {
         case 0:
-            this->param_13_value_set(v);
-            break;
-        case 1:
-            this->param_14_value_set(v);
-            break;
-        case 2:
-            this->param_15_value_set(v);
-            break;
-        case 3:
-            this->param_16_value_set(v);
-            break;
-        case 4:
-            this->param_17_value_set(v);
-            break;
-        case 5:
-            this->param_18_value_set(v);
-            break;
-        case 6:
-            this->param_19_value_set(v);
-            break;
-        case 7:
-            this->param_20_value_set(v);
-            break;
-        case 8:
-            this->param_21_value_set(v);
-            break;
-        case 9:
-            this->param_22_value_set(v);
-            break;
-        case 10:
-            this->param_23_value_set(v);
-            break;
-        case 11:
-            this->param_24_value_set(v);
-            break;
-        case 12:
-            this->param_25_value_set(v);
-            break;
-        case 13:
-            this->param_26_value_set(v);
-            break;
-        case 14:
-            this->param_27_value_set(v);
-            break;
-        case 15:
-            this->param_28_value_set(v);
-            break;
-        case 16:
             this->message_17_bangval_bang();
             break;
-        case 17:
+        case 1:
+            this->numberobj_31_value_set(v);
+            break;
+        case 2:
             this->button_02_bangval_bang();
             break;
-        case 18:
+        case 3:
+            this->message_18_bangval_bang();
+            break;
+        case 4:
+            this->message_19_bangval_bang();
+            break;
+        case 5:
+            this->numberobj_32_value_set(v);
+            break;
+        case 6:
             this->button_03_bangval_bang();
             break;
-        case 19:
+        case 7:
+            this->message_20_bangval_bang();
+            break;
+        case 8:
             this->button_04_bangval_bang();
             break;
-        case 20:
+        case 9:
+            this->message_21_bangval_bang();
+            break;
+        case 10:
             this->button_05_bangval_bang();
             break;
-        case 21:
+        case 11:
             this->button_06_bangval_bang();
             break;
-        case 22:
+        case 12:
+            this->message_22_bangval_bang();
+            break;
+        case 13:
+            this->numberobj_33_value_set(v);
+            break;
+        case 14:
+            this->message_23_bangval_bang();
+            break;
+        case 15:
             this->button_07_bangval_bang();
             break;
-        case 23:
+        case 16:
             this->button_08_bangval_bang();
             break;
-        case 24:
+        case 17:
+            this->message_24_bangval_bang();
+            break;
+        case 18:
+            this->numberobj_34_value_set(v);
+            break;
+        case 19:
+            this->message_25_bangval_bang();
+            break;
+        case 20:
             this->button_09_bangval_bang();
             break;
-        case 25:
+        case 21:
             this->button_10_bangval_bang();
             break;
-        case 26:
+        case 22:
+            this->message_26_bangval_bang();
+            break;
+        case 23:
+            this->numberobj_35_value_set(v);
+            break;
+        case 24:
+            this->message_27_bangval_bang();
+            break;
+        case 25:
             this->button_11_bangval_bang();
             break;
+        case 26:
+            this->message_28_bangval_bang();
+            break;
         case 27:
-            this->button_12_bangval_bang();
+            this->numberobj_36_value_set(v);
             break;
         case 28:
-            this->button_13_bangval_bang();
+            this->message_29_bangval_bang();
             break;
         case 29:
-            this->button_14_bangval_bang();
+            this->numberobj_37_value_set(v);
             break;
         case 30:
-            this->button_15_bangval_bang();
+            this->button_12_bangval_bang();
             break;
         case 31:
-            this->button_16_bangval_bang();
+            this->message_30_bangval_bang();
             break;
         case 32:
-            this->button_17_bangval_bang();
+            this->message_31_bangval_bang();
             break;
         case 33:
-            this->button_18_bangval_bang();
+            this->button_13_bangval_bang();
             break;
         case 34:
-            this->button_19_bangval_bang();
+            this->message_32_bangval_bang();
             break;
         case 35:
-            this->button_20_bangval_bang();
+            this->numberobj_38_value_set(v);
             break;
         case 36:
+            this->message_33_bangval_bang();
+            break;
+        case 37:
+            this->button_14_bangval_bang();
+            break;
+        case 38:
+            this->message_34_bangval_bang();
+            break;
+        case 39:
+            this->numberobj_39_value_set(v);
+            break;
+        case 40:
+            this->message_35_bangval_bang();
+            break;
+        case 41:
+            this->button_15_bangval_bang();
+            break;
+        case 42:
+            this->message_36_bangval_bang();
+            break;
+        case 43:
+            this->numberobj_40_value_set(v);
+            break;
+        case 44:
+            this->message_37_bangval_bang();
+            break;
+        case 45:
+            this->button_16_bangval_bang();
+            break;
+        case 46:
+            this->message_38_bangval_bang();
+            break;
+        case 47:
+            this->numberobj_41_value_set(v);
+            break;
+        case 48:
+            this->message_39_bangval_bang();
+            break;
+        case 49:
+            this->button_17_bangval_bang();
+            break;
+        case 50:
+            this->message_40_bangval_bang();
+            break;
+        case 51:
+            this->numberobj_42_value_set(v);
+            break;
+        case 52:
+            this->message_41_bangval_bang();
+            break;
+        case 53:
+            this->button_18_bangval_bang();
+            break;
+        case 54:
+            this->message_42_bangval_bang();
+            break;
+        case 55:
+            this->numberobj_43_value_set(v);
+            break;
+        case 56:
+            this->message_43_bangval_bang();
+            break;
+        case 57:
+            this->numberobj_44_value_set(v);
+            break;
+        case 58:
+            this->button_19_bangval_bang();
+            break;
+        case 59:
+            this->message_44_bangval_bang();
+            break;
+        case 60:
+            this->message_45_bangval_bang();
+            break;
+        case 61:
+            this->button_20_bangval_bang();
+            break;
+        case 62:
+            this->message_46_bangval_bang();
+            break;
+        case 63:
+            this->numberobj_45_value_set(v);
+            break;
+        case 64:
+            this->message_47_bangval_bang();
+            break;
+        case 65:
             this->button_21_bangval_bang();
             break;
+        case 66:
+            this->message_48_bangval_bang();
+            break;
+        case 67:
+            this->numberobj_46_value_set(v);
+            break;
+        case 68:
+            this->message_49_bangval_bang();
+            break;
         default:
-            index -= 37;
+            index -= 69;
     
             if (index < this->p_11->getNumParameters())
                 this->p_11->setParameterValue(index, v, time);
@@ -50226,40 +50430,40 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     ParameterValue getParameterValue(ParameterIndex index)  {
         switch (index) {
-        case 0:
-            return this->param_13_value;
         case 1:
-            return this->param_14_value;
-        case 2:
-            return this->param_15_value;
-        case 3:
-            return this->param_16_value;
-        case 4:
-            return this->param_17_value;
+            return this->numberobj_31_value;
         case 5:
-            return this->param_18_value;
-        case 6:
-            return this->param_19_value;
-        case 7:
-            return this->param_20_value;
-        case 8:
-            return this->param_21_value;
-        case 9:
-            return this->param_22_value;
-        case 10:
-            return this->param_23_value;
-        case 11:
-            return this->param_24_value;
-        case 12:
-            return this->param_25_value;
+            return this->numberobj_32_value;
         case 13:
-            return this->param_26_value;
-        case 14:
-            return this->param_27_value;
-        case 15:
-            return this->param_28_value;
+            return this->numberobj_33_value;
+        case 18:
+            return this->numberobj_34_value;
+        case 23:
+            return this->numberobj_35_value;
+        case 27:
+            return this->numberobj_36_value;
+        case 29:
+            return this->numberobj_37_value;
+        case 35:
+            return this->numberobj_38_value;
+        case 39:
+            return this->numberobj_39_value;
+        case 43:
+            return this->numberobj_40_value;
+        case 47:
+            return this->numberobj_41_value;
+        case 51:
+            return this->numberobj_42_value;
+        case 55:
+            return this->numberobj_43_value;
+        case 57:
+            return this->numberobj_44_value;
+        case 63:
+            return this->numberobj_45_value;
+        case 67:
+            return this->numberobj_46_value;
         default:
-            index -= 37;
+            index -= 69;
     
             if (index < this->p_11->getNumParameters())
                 return this->p_11->getParameterValue(index);
@@ -50352,87 +50556,151 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     ParameterIndex getNumParameters() const {
-        return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters() + this->p_23->getNumParameters() + this->p_24->getNumParameters() + this->p_25->getNumParameters() + this->p_26->getNumParameters();
+        return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters() + this->p_23->getNumParameters() + this->p_24->getNumParameters() + this->p_25->getNumParameters() + this->p_26->getNumParameters();
     }
     
     ConstCharPointer getParameterName(ParameterIndex index) const {
         switch (index) {
         case 0:
-            return "drums_1";
-        case 1:
-            return "drums_2";
-        case 2:
-            return "drums_3";
-        case 3:
-            return "drums_4";
-        case 4:
-            return "drums_5";
-        case 5:
-            return "drums_6";
-        case 6:
-            return "drums_7";
-        case 7:
-            return "drums_8";
-        case 8:
-            return "drums_9";
-        case 9:
-            return "drums_10";
-        case 10:
-            return "drums_11";
-        case 11:
-            return "drums_12";
-        case 12:
-            return "drums_13";
-        case 13:
-            return "drums_14";
-        case 14:
-            return "drums_15";
-        case 15:
-            return "drums_16";
-        case 16:
             return "message_17_bangval";
-        case 17:
+        case 1:
+            return "numberobj_31_value";
+        case 2:
             return "button_02_bangval";
-        case 18:
+        case 3:
+            return "message_18_bangval";
+        case 4:
+            return "message_19_bangval";
+        case 5:
+            return "numberobj_32_value";
+        case 6:
             return "button_03_bangval";
-        case 19:
+        case 7:
+            return "message_20_bangval";
+        case 8:
             return "button_04_bangval";
-        case 20:
+        case 9:
+            return "message_21_bangval";
+        case 10:
             return "button_05_bangval";
-        case 21:
+        case 11:
             return "button_06_bangval";
-        case 22:
+        case 12:
+            return "message_22_bangval";
+        case 13:
+            return "numberobj_33_value";
+        case 14:
+            return "message_23_bangval";
+        case 15:
             return "button_07_bangval";
-        case 23:
+        case 16:
             return "button_08_bangval";
-        case 24:
+        case 17:
+            return "message_24_bangval";
+        case 18:
+            return "numberobj_34_value";
+        case 19:
+            return "message_25_bangval";
+        case 20:
             return "button_09_bangval";
-        case 25:
+        case 21:
             return "button_10_bangval";
-        case 26:
+        case 22:
+            return "message_26_bangval";
+        case 23:
+            return "numberobj_35_value";
+        case 24:
+            return "message_27_bangval";
+        case 25:
             return "button_11_bangval";
+        case 26:
+            return "message_28_bangval";
         case 27:
-            return "button_12_bangval";
+            return "numberobj_36_value";
         case 28:
-            return "button_13_bangval";
+            return "message_29_bangval";
         case 29:
-            return "button_14_bangval";
+            return "numberobj_37_value";
         case 30:
-            return "button_15_bangval";
+            return "button_12_bangval";
         case 31:
-            return "button_16_bangval";
+            return "message_30_bangval";
         case 32:
-            return "button_17_bangval";
+            return "message_31_bangval";
         case 33:
-            return "button_18_bangval";
+            return "button_13_bangval";
         case 34:
-            return "button_19_bangval";
+            return "message_32_bangval";
         case 35:
-            return "button_20_bangval";
+            return "numberobj_38_value";
         case 36:
+            return "message_33_bangval";
+        case 37:
+            return "button_14_bangval";
+        case 38:
+            return "message_34_bangval";
+        case 39:
+            return "numberobj_39_value";
+        case 40:
+            return "message_35_bangval";
+        case 41:
+            return "button_15_bangval";
+        case 42:
+            return "message_36_bangval";
+        case 43:
+            return "numberobj_40_value";
+        case 44:
+            return "message_37_bangval";
+        case 45:
+            return "button_16_bangval";
+        case 46:
+            return "message_38_bangval";
+        case 47:
+            return "numberobj_41_value";
+        case 48:
+            return "message_39_bangval";
+        case 49:
+            return "button_17_bangval";
+        case 50:
+            return "message_40_bangval";
+        case 51:
+            return "numberobj_42_value";
+        case 52:
+            return "message_41_bangval";
+        case 53:
+            return "button_18_bangval";
+        case 54:
+            return "message_42_bangval";
+        case 55:
+            return "numberobj_43_value";
+        case 56:
+            return "message_43_bangval";
+        case 57:
+            return "numberobj_44_value";
+        case 58:
+            return "button_19_bangval";
+        case 59:
+            return "message_44_bangval";
+        case 60:
+            return "message_45_bangval";
+        case 61:
+            return "button_20_bangval";
+        case 62:
+            return "message_46_bangval";
+        case 63:
+            return "numberobj_45_value";
+        case 64:
+            return "message_47_bangval";
+        case 65:
             return "button_21_bangval";
+        case 66:
+            return "message_48_bangval";
+        case 67:
+            return "numberobj_46_value";
+        case 68:
+            return "message_49_bangval";
         default:
-            index -= 37;
+            index -= 69;
     
             if (index < this->p_11->getNumParameters())
                 return this->p_11->getParameterName(index);
@@ -50519,81 +50787,145 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     ConstCharPointer getParameterId(ParameterIndex index) const {
         switch (index) {
         case 0:
-            return "p_obj-193/drums_1";
-        case 1:
-            return "p_obj-193/drums_2";
-        case 2:
-            return "p_obj-193/drums_3";
-        case 3:
-            return "p_obj-193/drums_4";
-        case 4:
-            return "p_obj-193/drums_5";
-        case 5:
-            return "p_obj-193/drums_6";
-        case 6:
-            return "p_obj-193/drums_7";
-        case 7:
-            return "p_obj-193/drums_8";
-        case 8:
-            return "p_obj-193/drums_9";
-        case 9:
-            return "p_obj-193/drums_10";
-        case 10:
-            return "p_obj-193/drums_11";
-        case 11:
-            return "p_obj-193/drums_12";
-        case 12:
-            return "p_obj-193/drums_13";
-        case 13:
-            return "p_obj-193/drums_14";
-        case 14:
-            return "p_obj-193/drums_15";
-        case 15:
-            return "p_obj-193/drums_16";
-        case 16:
             return "p_obj-193/message_obj-133/bangval";
-        case 17:
+        case 1:
+            return "p_obj-193/number_obj-12/value";
+        case 2:
             return "p_obj-193/button_obj-123/bangval";
-        case 18:
+        case 3:
+            return "p_obj-193/message_obj-147/bangval";
+        case 4:
+            return "p_obj-193/message_obj-145/bangval";
+        case 5:
+            return "p_obj-193/number_obj-16/value";
+        case 6:
             return "p_obj-193/button_obj-122/bangval";
-        case 19:
+        case 7:
+            return "p_obj-193/message_obj-181/bangval";
+        case 8:
             return "p_obj-193/button_obj-212/bangval";
-        case 20:
+        case 9:
+            return "p_obj-193/message_obj-182/bangval";
+        case 10:
             return "p_obj-193/button_obj-214/bangval";
-        case 21:
+        case 11:
             return "p_obj-193/button_obj-121/bangval";
-        case 22:
+        case 12:
+            return "p_obj-193/message_obj-184/bangval";
+        case 13:
+            return "p_obj-193/number_obj-18/value";
+        case 14:
+            return "p_obj-193/message_obj-185/bangval";
+        case 15:
             return "p_obj-193/button_obj-216/bangval";
-        case 23:
+        case 16:
             return "p_obj-193/button_obj-120/bangval";
-        case 24:
+        case 17:
+            return "p_obj-193/message_obj-187/bangval";
+        case 18:
+            return "p_obj-193/number_obj-79/value";
+        case 19:
+            return "p_obj-193/message_obj-188/bangval";
+        case 20:
             return "p_obj-193/button_obj-218/bangval";
-        case 25:
+        case 21:
             return "p_obj-193/button_obj-118/bangval";
-        case 26:
+        case 22:
+            return "p_obj-193/message_obj-190/bangval";
+        case 23:
+            return "p_obj-193/number_obj-103/value";
+        case 24:
+            return "p_obj-193/message_obj-191/bangval";
+        case 25:
             return "p_obj-193/button_obj-117/bangval";
+        case 26:
+            return "p_obj-193/message_obj-193/bangval";
         case 27:
-            return "p_obj-193/button_obj-116/bangval";
+            return "p_obj-193/number_obj-107/value";
         case 28:
-            return "p_obj-193/button_obj-115/bangval";
+            return "p_obj-193/message_obj-194/bangval";
         case 29:
-            return "p_obj-193/button_obj-114/bangval";
+            return "p_obj-193/number_obj-119/value";
         case 30:
-            return "p_obj-193/button_obj-112/bangval";
+            return "p_obj-193/button_obj-116/bangval";
         case 31:
-            return "p_obj-193/button_obj-111/bangval";
+            return "p_obj-193/message_obj-196/bangval";
         case 32:
-            return "p_obj-193/button_obj-110/bangval";
+            return "p_obj-193/message_obj-197/bangval";
         case 33:
-            return "p_obj-193/button_obj-109/bangval";
+            return "p_obj-193/button_obj-115/bangval";
         case 34:
-            return "p_obj-193/button_obj-108/bangval";
+            return "p_obj-193/message_obj-199/bangval";
         case 35:
-            return "p_obj-193/button_obj-106/bangval";
+            return "p_obj-193/number_obj-125/value";
         case 36:
+            return "p_obj-193/message_obj-200/bangval";
+        case 37:
+            return "p_obj-193/button_obj-114/bangval";
+        case 38:
+            return "p_obj-193/message_obj-202/bangval";
+        case 39:
+            return "p_obj-193/number_obj-127/value";
+        case 40:
+            return "p_obj-193/message_obj-203/bangval";
+        case 41:
+            return "p_obj-193/button_obj-112/bangval";
+        case 42:
+            return "p_obj-193/message_obj-205/bangval";
+        case 43:
+            return "p_obj-193/number_obj-129/value";
+        case 44:
+            return "p_obj-193/message_obj-206/bangval";
+        case 45:
+            return "p_obj-193/button_obj-111/bangval";
+        case 46:
+            return "p_obj-193/message_obj-208/bangval";
+        case 47:
+            return "p_obj-193/number_obj-131/value";
+        case 48:
+            return "p_obj-193/message_obj-209/bangval";
+        case 49:
+            return "p_obj-193/button_obj-110/bangval";
+        case 50:
+            return "p_obj-193/message_obj-211/bangval";
+        case 51:
+            return "p_obj-193/number_obj-134/value";
+        case 52:
+            return "p_obj-193/message_obj-213/bangval";
+        case 53:
+            return "p_obj-193/button_obj-109/bangval";
+        case 54:
+            return "p_obj-193/message_obj-217/bangval";
+        case 55:
+            return "p_obj-193/number_obj-136/value";
+        case 56:
+            return "p_obj-193/message_obj-219/bangval";
+        case 57:
+            return "p_obj-193/number_obj-138/value";
+        case 58:
+            return "p_obj-193/button_obj-108/bangval";
+        case 59:
+            return "p_obj-193/message_obj-221/bangval";
+        case 60:
+            return "p_obj-193/message_obj-222/bangval";
+        case 61:
+            return "p_obj-193/button_obj-106/bangval";
+        case 62:
+            return "p_obj-193/message_obj-224/bangval";
+        case 63:
+            return "p_obj-193/number_obj-140/value";
+        case 64:
+            return "p_obj-193/message_obj-225/bangval";
+        case 65:
             return "p_obj-193/button_obj-105/bangval";
+        case 66:
+            return "p_obj-193/message_obj-227/bangval";
+        case 67:
+            return "p_obj-193/number_obj-142/value";
+        case 68:
+            return "p_obj-193/message_obj-228/bangval";
         default:
-            index -= 37;
+            index -= 69;
     
             if (index < this->p_11->getNumParameters())
                 return this->p_11->getParameterId(index);
@@ -50681,17 +51013,17 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         {
             switch (index) {
             case 0:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
@@ -50701,65 +51033,65 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->type = ParameterTypeNumber;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
                 info->initialized = true;
-                info->visible = true;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 2:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 3:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 4:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
@@ -50769,133 +51101,133 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->type = ParameterTypeNumber;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
                 info->initialized = true;
-                info->visible = true;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 6:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 7:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 8:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 9:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 10:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 11:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 12:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
@@ -50905,48 +51237,48 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->type = ParameterTypeNumber;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
                 info->initialized = true;
-                info->visible = true;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 14:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 15:
-                info->type = ParameterTypeNumber;
+                info->type = ParameterTypeBang;
                 info->initialValue = 0;
                 info->min = 0;
-                info->max = 15;
+                info->max = 1;
                 info->exponent = 1;
                 info->steps = 0;
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = true;
-                info->visible = true;
+                info->initialized = false;
+                info->visible = false;
                 info->displayName = "";
                 info->unit = "";
                 info->ioType = IOTypeUndefined;
@@ -50987,7 +51319,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 18:
-                info->type = ParameterTypeBang;
+                info->type = ParameterTypeNumber;
                 info->initialValue = 0;
                 info->min = 0;
                 info->max = 1;
@@ -50996,7 +51328,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = false;
+                info->initialized = true;
                 info->visible = false;
                 info->displayName = "";
                 info->unit = "";
@@ -51072,7 +51404,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 23:
-                info->type = ParameterTypeBang;
+                info->type = ParameterTypeNumber;
                 info->initialValue = 0;
                 info->min = 0;
                 info->max = 1;
@@ -51081,7 +51413,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = false;
+                info->initialized = true;
                 info->visible = false;
                 info->displayName = "";
                 info->unit = "";
@@ -51140,7 +51472,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 27:
-                info->type = ParameterTypeBang;
+                info->type = ParameterTypeNumber;
                 info->initialValue = 0;
                 info->min = 0;
                 info->max = 1;
@@ -51149,7 +51481,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = false;
+                info->initialized = true;
                 info->visible = false;
                 info->displayName = "";
                 info->unit = "";
@@ -51174,7 +51506,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 29:
-                info->type = ParameterTypeBang;
+                info->type = ParameterTypeNumber;
                 info->initialValue = 0;
                 info->min = 0;
                 info->max = 1;
@@ -51183,7 +51515,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = false;
+                info->initialized = true;
                 info->visible = false;
                 info->displayName = "";
                 info->unit = "";
@@ -51276,7 +51608,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->signalIndex = INVALID_INDEX;
                 break;
             case 35:
-                info->type = ParameterTypeBang;
+                info->type = ParameterTypeNumber;
                 info->initialValue = 0;
                 info->min = 0;
                 info->max = 1;
@@ -51285,7 +51617,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->debug = false;
                 info->saveable = true;
                 info->transmittable = true;
-                info->initialized = false;
+                info->initialized = true;
                 info->visible = false;
                 info->displayName = "";
                 info->unit = "";
@@ -51309,8 +51641,552 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
                 info->ioType = IOTypeUndefined;
                 info->signalIndex = INVALID_INDEX;
                 break;
+            case 37:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 38:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 39:
+                info->type = ParameterTypeNumber;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = true;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 40:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 41:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 42:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 43:
+                info->type = ParameterTypeNumber;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = true;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 44:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 45:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 46:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 47:
+                info->type = ParameterTypeNumber;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = true;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 48:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 49:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 50:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 51:
+                info->type = ParameterTypeNumber;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = true;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 52:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 53:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 54:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 55:
+                info->type = ParameterTypeNumber;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = true;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 56:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 57:
+                info->type = ParameterTypeNumber;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = true;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 58:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 59:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 60:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 61:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 62:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 63:
+                info->type = ParameterTypeNumber;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = true;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 64:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 65:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 66:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 67:
+                info->type = ParameterTypeNumber;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = true;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
+            case 68:
+                info->type = ParameterTypeBang;
+                info->initialValue = 0;
+                info->min = 0;
+                info->max = 1;
+                info->exponent = 1;
+                info->steps = 0;
+                info->debug = false;
+                info->saveable = true;
+                info->transmittable = true;
+                info->initialized = false;
+                info->visible = false;
+                info->displayName = "";
+                info->unit = "";
+                info->ioType = IOTypeUndefined;
+                info->signalIndex = INVALID_INDEX;
+                break;
             default:
-                index -= 37;
+                index -= 69;
     
                 if (index < this->p_11->getNumParameters())
                     this->p_11->getParameterInfo(index, info);
@@ -51401,52 +52277,52 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     ParameterIndex getParameterOffset(BaseInterface* subpatcher) const {
         if (subpatcher == this->p_11)
-            return 37;
+            return 69;
     
         if (subpatcher == this->p_12)
-            return 37 + this->p_11->getNumParameters();
+            return 69 + this->p_11->getNumParameters();
     
         if (subpatcher == this->p_13)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters();
     
         if (subpatcher == this->p_14)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters();
     
         if (subpatcher == this->p_15)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters();
     
         if (subpatcher == this->p_16)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters();
     
         if (subpatcher == this->p_17)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters();
     
         if (subpatcher == this->p_18)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters();
     
         if (subpatcher == this->p_19)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters();
     
         if (subpatcher == this->p_20)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters();
     
         if (subpatcher == this->p_21)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters();
     
         if (subpatcher == this->p_22)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters();
     
         if (subpatcher == this->p_23)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters();
     
         if (subpatcher == this->p_24)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters() + this->p_23->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters() + this->p_23->getNumParameters();
     
         if (subpatcher == this->p_25)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters() + this->p_23->getNumParameters() + this->p_24->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters() + this->p_23->getNumParameters() + this->p_24->getNumParameters();
     
         if (subpatcher == this->p_26)
-            return 37 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters() + this->p_23->getNumParameters() + this->p_24->getNumParameters() + this->p_25->getNumParameters();
+            return 69 + this->p_11->getNumParameters() + this->p_12->getNumParameters() + this->p_13->getNumParameters() + this->p_14->getNumParameters() + this->p_15->getNumParameters() + this->p_16->getNumParameters() + this->p_17->getNumParameters() + this->p_18->getNumParameters() + this->p_19->getNumParameters() + this->p_20->getNumParameters() + this->p_21->getNumParameters() + this->p_22->getNumParameters() + this->p_23->getNumParameters() + this->p_24->getNumParameters() + this->p_25->getNumParameters();
     
         return 0;
     }
@@ -51471,29 +52347,29 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     ParameterValue convertToNormalizedParameterValue(ParameterIndex index, ParameterValue value) const {
         switch (index) {
-        case 0:
         case 1:
-        case 2:
-        case 3:
-        case 4:
         case 5:
-        case 6:
-        case 7:
-        case 8:
-        case 9:
-        case 10:
-        case 11:
-        case 12:
         case 13:
-        case 14:
-        case 15:
+        case 18:
+        case 23:
+        case 27:
+        case 29:
+        case 35:
+        case 39:
+        case 43:
+        case 47:
+        case 51:
+        case 55:
+        case 57:
+        case 63:
+        case 67:
             {
-                value = (value < 0 ? 0 : (value > 15 ? 15 : value));
-                ParameterValue normalizedValue = (value - 0) / (15 - 0);
+                value = (value < 0 ? 0 : (value > 1 ? 1 : value));
+                ParameterValue normalizedValue = (value - 0) / (1 - 0);
                 return normalizedValue;
             }
         default:
-            index -= 37;
+            index -= 69;
     
             if (index < this->p_11->getNumParameters())
                 return this->p_11->convertToNormalizedParameterValue(index, value);
@@ -51581,31 +52457,31 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         value = (value < 0 ? 0 : (value > 1 ? 1 : value));
     
         switch (index) {
-        case 0:
         case 1:
-        case 2:
-        case 3:
-        case 4:
         case 5:
-        case 6:
-        case 7:
-        case 8:
-        case 9:
-        case 10:
-        case 11:
-        case 12:
         case 13:
-        case 14:
-        case 15:
+        case 18:
+        case 23:
+        case 27:
+        case 29:
+        case 35:
+        case 39:
+        case 43:
+        case 47:
+        case 51:
+        case 55:
+        case 57:
+        case 63:
+        case 67:
             {
                 value = (value < 0 ? 0 : (value > 1 ? 1 : value));
     
                 {
-                    return 0 + value * (15 - 0);
+                    return 0 + value * (1 - 0);
                 }
             }
         default:
-            index -= 37;
+            index -= 69;
     
             if (index < this->p_11->getNumParameters())
                 return this->p_11->convertFromNormalizedParameterValue(index, value);
@@ -51691,40 +52567,8 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     ParameterValue constrainParameterValue(ParameterIndex index, ParameterValue value) const {
         switch (index) {
-        case 0:
-            return this->param_13_value_constrain(value);
-        case 1:
-            return this->param_14_value_constrain(value);
-        case 2:
-            return this->param_15_value_constrain(value);
-        case 3:
-            return this->param_16_value_constrain(value);
-        case 4:
-            return this->param_17_value_constrain(value);
-        case 5:
-            return this->param_18_value_constrain(value);
-        case 6:
-            return this->param_19_value_constrain(value);
-        case 7:
-            return this->param_20_value_constrain(value);
-        case 8:
-            return this->param_21_value_constrain(value);
-        case 9:
-            return this->param_22_value_constrain(value);
-        case 10:
-            return this->param_23_value_constrain(value);
-        case 11:
-            return this->param_24_value_constrain(value);
-        case 12:
-            return this->param_25_value_constrain(value);
-        case 13:
-            return this->param_26_value_constrain(value);
-        case 14:
-            return this->param_27_value_constrain(value);
-        case 15:
-            return this->param_28_value_constrain(value);
         default:
-            index -= 37;
+            index -= 69;
     
             if (index < this->p_11->getNumParameters())
                 return this->p_11->constrainParameterValue(index, value);
@@ -51827,8 +52671,61 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void processNumMessage(MessageTag tag, MessageTag objectId, MillisecondTime time, number payload) {
-        RNBO_UNUSED(objectId);
         this->updateTime(time);
+    
+        switch (tag) {
+        case TAG("format"):
+            if (TAG("p_obj-193/number_obj-12") == objectId)
+                this->numberobj_31_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-16") == objectId)
+                this->numberobj_32_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-18") == objectId)
+                this->numberobj_33_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-79") == objectId)
+                this->numberobj_34_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-103") == objectId)
+                this->numberobj_35_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-107") == objectId)
+                this->numberobj_36_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-119") == objectId)
+                this->numberobj_37_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-125") == objectId)
+                this->numberobj_38_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-127") == objectId)
+                this->numberobj_39_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-129") == objectId)
+                this->numberobj_40_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-131") == objectId)
+                this->numberobj_41_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-134") == objectId)
+                this->numberobj_42_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-136") == objectId)
+                this->numberobj_43_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-138") == objectId)
+                this->numberobj_44_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-140") == objectId)
+                this->numberobj_45_format_set(payload);
+    
+            if (TAG("p_obj-193/number_obj-142") == objectId)
+                this->numberobj_46_format_set(payload);
+    
+            break;
+        }
+    
         this->p_11->processNumMessage(tag, objectId, time, payload);
         this->p_12->processNumMessage(tag, objectId, time, payload);
         this->p_13->processNumMessage(tag, objectId, time, payload);
@@ -51896,7 +52793,42 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     MessageTagInfo resolveTag(MessageTag tag) const {
         switch (tag) {
-    
+        case TAG("setup"):
+            return "setup";
+        case TAG("p_obj-193/number_obj-12"):
+            return "p_obj-193/number_obj-12";
+        case TAG("p_obj-193/number_obj-16"):
+            return "p_obj-193/number_obj-16";
+        case TAG("p_obj-193/number_obj-18"):
+            return "p_obj-193/number_obj-18";
+        case TAG("p_obj-193/number_obj-79"):
+            return "p_obj-193/number_obj-79";
+        case TAG("p_obj-193/number_obj-103"):
+            return "p_obj-193/number_obj-103";
+        case TAG("p_obj-193/number_obj-107"):
+            return "p_obj-193/number_obj-107";
+        case TAG("p_obj-193/number_obj-119"):
+            return "p_obj-193/number_obj-119";
+        case TAG("p_obj-193/number_obj-125"):
+            return "p_obj-193/number_obj-125";
+        case TAG("p_obj-193/number_obj-127"):
+            return "p_obj-193/number_obj-127";
+        case TAG("p_obj-193/number_obj-129"):
+            return "p_obj-193/number_obj-129";
+        case TAG("p_obj-193/number_obj-131"):
+            return "p_obj-193/number_obj-131";
+        case TAG("p_obj-193/number_obj-134"):
+            return "p_obj-193/number_obj-134";
+        case TAG("p_obj-193/number_obj-136"):
+            return "p_obj-193/number_obj-136";
+        case TAG("p_obj-193/number_obj-138"):
+            return "p_obj-193/number_obj-138";
+        case TAG("p_obj-193/number_obj-140"):
+            return "p_obj-193/number_obj-140";
+        case TAG("p_obj-193/number_obj-142"):
+            return "p_obj-193/number_obj-142";
+        case TAG("format"):
+            return "format";
         }
     
         auto subpatchResult_0 = this->p_11->resolveTag(tag);
@@ -52021,217 +52953,297 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     protected:
     
-    void param_13_value_set(number v) {
-        v = this->param_13_value_constrain(v);
-        this->param_13_value = v;
-        this->sendParameter(0, false);
-    
-        if (this->param_13_value != this->param_13_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_13_lastValue = this->param_13_value;
-        }
-    
-        this->p_11_in1_number_set(v);
-    }
-    
-    void param_14_value_set(number v) {
-        v = this->param_14_value_constrain(v);
-        this->param_14_value = v;
-        this->sendParameter(1, false);
-    
-        if (this->param_14_value != this->param_14_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_14_lastValue = this->param_14_value;
-        }
-    
-        this->p_12_in1_number_set(v);
-    }
-    
-    void param_15_value_set(number v) {
-        v = this->param_15_value_constrain(v);
-        this->param_15_value = v;
-        this->sendParameter(2, false);
-    
-        if (this->param_15_value != this->param_15_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_15_lastValue = this->param_15_value;
-        }
-    
-        this->p_13_in1_number_set(v);
-    }
-    
-    void param_16_value_set(number v) {
-        v = this->param_16_value_constrain(v);
-        this->param_16_value = v;
-        this->sendParameter(3, false);
-    
-        if (this->param_16_value != this->param_16_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_16_lastValue = this->param_16_value;
-        }
-    
-        this->p_14_in1_number_set(v);
-    }
-    
-    void param_17_value_set(number v) {
-        v = this->param_17_value_constrain(v);
-        this->param_17_value = v;
-        this->sendParameter(4, false);
-    
-        if (this->param_17_value != this->param_17_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_17_lastValue = this->param_17_value;
-        }
-    
-        this->p_15_in1_number_set(v);
-    }
-    
-    void param_18_value_set(number v) {
-        v = this->param_18_value_constrain(v);
-        this->param_18_value = v;
-        this->sendParameter(5, false);
-    
-        if (this->param_18_value != this->param_18_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_18_lastValue = this->param_18_value;
-        }
-    
-        this->p_16_in1_number_set(v);
-    }
-    
-    void param_19_value_set(number v) {
-        v = this->param_19_value_constrain(v);
-        this->param_19_value = v;
-        this->sendParameter(6, false);
-    
-        if (this->param_19_value != this->param_19_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_19_lastValue = this->param_19_value;
-        }
-    
-        this->p_17_in1_number_set(v);
-    }
-    
-    void param_20_value_set(number v) {
-        v = this->param_20_value_constrain(v);
-        this->param_20_value = v;
-        this->sendParameter(7, false);
-    
-        if (this->param_20_value != this->param_20_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_20_lastValue = this->param_20_value;
-        }
-    
-        this->p_18_in1_number_set(v);
-    }
-    
-    void param_21_value_set(number v) {
-        v = this->param_21_value_constrain(v);
-        this->param_21_value = v;
-        this->sendParameter(8, false);
-    
-        if (this->param_21_value != this->param_21_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_21_lastValue = this->param_21_value;
-        }
-    
-        this->p_19_in1_number_set(v);
-    }
-    
-    void param_22_value_set(number v) {
-        v = this->param_22_value_constrain(v);
-        this->param_22_value = v;
-        this->sendParameter(9, false);
-    
-        if (this->param_22_value != this->param_22_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_22_lastValue = this->param_22_value;
-        }
-    
-        this->p_20_in1_number_set(v);
-    }
-    
-    void param_23_value_set(number v) {
-        v = this->param_23_value_constrain(v);
-        this->param_23_value = v;
-        this->sendParameter(10, false);
-    
-        if (this->param_23_value != this->param_23_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_23_lastValue = this->param_23_value;
-        }
-    
-        this->p_21_in1_number_set(v);
-    }
-    
-    void param_24_value_set(number v) {
-        v = this->param_24_value_constrain(v);
-        this->param_24_value = v;
-        this->sendParameter(11, false);
-    
-        if (this->param_24_value != this->param_24_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_24_lastValue = this->param_24_value;
-        }
-    
-        this->p_22_in1_number_set(v);
-    }
-    
-    void param_25_value_set(number v) {
-        v = this->param_25_value_constrain(v);
-        this->param_25_value = v;
-        this->sendParameter(12, false);
-    
-        if (this->param_25_value != this->param_25_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_25_lastValue = this->param_25_value;
-        }
-    
-        this->p_23_in1_number_set(v);
-    }
-    
-    void param_26_value_set(number v) {
-        v = this->param_26_value_constrain(v);
-        this->param_26_value = v;
-        this->sendParameter(13, false);
-    
-        if (this->param_26_value != this->param_26_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_26_lastValue = this->param_26_value;
-        }
-    
-        this->p_24_in1_number_set(v);
-    }
-    
-    void param_27_value_set(number v) {
-        v = this->param_27_value_constrain(v);
-        this->param_27_value = v;
-        this->sendParameter(14, false);
-    
-        if (this->param_27_value != this->param_27_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_27_lastValue = this->param_27_value;
-        }
-    
-        this->p_25_in1_number_set(v);
-    }
-    
-    void param_28_value_set(number v) {
-        v = this->param_28_value_constrain(v);
-        this->param_28_value = v;
-        this->sendParameter(15, false);
-    
-        if (this->param_28_value != this->param_28_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_28_lastValue = this->param_28_value;
-        }
-    
-        this->p_26_in1_number_set(v);
-    }
-    
     void message_17_bangval_bang() {
-        this->sendParameter(16, true);
+        this->sendParameter(0, true);
         this->message_17_out_set({0});
+    }
+    
+    void numberobj_31_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_31_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_31_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_31_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_31_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_31_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_31_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_31_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_32_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_32_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_32_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_32_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_32_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_32_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_32_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_32_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_33_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_33_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_33_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_33_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_33_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_33_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_33_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_33_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_34_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_34_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_34_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_34_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_34_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_34_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_34_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_34_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_35_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_35_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_35_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_35_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_35_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_35_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_35_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_35_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_36_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_36_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_36_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_36_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_36_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_36_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_36_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_36_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_37_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_37_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_37_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_37_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_37_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_37_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_37_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_37_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_38_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_38_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_38_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_38_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_38_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_38_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_38_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_38_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_39_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_39_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_39_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_39_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_39_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_39_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_39_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_39_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_40_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_40_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_40_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_40_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_40_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_40_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_40_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_40_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_41_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_41_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_41_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_41_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_41_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_41_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_41_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_41_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_42_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_42_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_42_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_42_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_42_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_42_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_42_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_42_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_43_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_43_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_43_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_43_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_43_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_43_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_43_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_43_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_44_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_44_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_44_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_44_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_44_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_44_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_44_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_44_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_45_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_45_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_45_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_45_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_45_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_45_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_45_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_45_currentFormat = 6;
+        }
+    }
+    
+    void numberobj_46_format_set(number v) {
+        if (v == 0) {
+            this->numberobj_46_currentFormat = 0;
+        } else if (v == 1) {
+            this->numberobj_46_currentFormat = 1;
+        } else if (v == 2) {
+            this->numberobj_46_currentFormat = 2;
+        } else if (v == 3) {
+            this->numberobj_46_currentFormat = 3;
+        } else if (v == 4) {
+            this->numberobj_46_currentFormat = 4;
+        } else if (v == 5) {
+            this->numberobj_46_currentFormat = 5;
+        } else if (v == 6) {
+            this->numberobj_46_currentFormat = 6;
+        }
     }
     
     number msToSamps(MillisecondTime ms, number sampleRate) {
@@ -52263,6 +53275,22 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void initializeObjects() {
+        this->numberobj_31_init();
+        this->numberobj_32_init();
+        this->numberobj_33_init();
+        this->numberobj_34_init();
+        this->numberobj_35_init();
+        this->numberobj_36_init();
+        this->numberobj_37_init();
+        this->numberobj_38_init();
+        this->numberobj_39_init();
+        this->numberobj_40_init();
+        this->numberobj_41_init();
+        this->numberobj_42_init();
+        this->numberobj_43_init();
+        this->numberobj_44_init();
+        this->numberobj_45_init();
+        this->numberobj_46_init();
         this->p_11->initializeObjects();
         this->p_12->initializeObjects();
         this->p_13->initializeObjects();
@@ -52303,70 +53331,6 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_24->startup();
         this->p_25->startup();
         this->p_26->startup();
-    
-        {
-            this->scheduleParamInit(0, 0);
-        }
-    
-        {
-            this->scheduleParamInit(1, 0);
-        }
-    
-        {
-            this->scheduleParamInit(2, 0);
-        }
-    
-        {
-            this->scheduleParamInit(3, 0);
-        }
-    
-        {
-            this->scheduleParamInit(4, 0);
-        }
-    
-        {
-            this->scheduleParamInit(5, 0);
-        }
-    
-        {
-            this->scheduleParamInit(6, 0);
-        }
-    
-        {
-            this->scheduleParamInit(7, 0);
-        }
-    
-        {
-            this->scheduleParamInit(8, 0);
-        }
-    
-        {
-            this->scheduleParamInit(9, 0);
-        }
-    
-        {
-            this->scheduleParamInit(10, 0);
-        }
-    
-        {
-            this->scheduleParamInit(11, 0);
-        }
-    
-        {
-            this->scheduleParamInit(12, 0);
-        }
-    
-        {
-            this->scheduleParamInit(13, 0);
-        }
-    
-        {
-            this->scheduleParamInit(14, 0);
-        }
-    
-        {
-            this->scheduleParamInit(15, 0);
-        }
     }
     
     void allocateDataRefs() {
@@ -52406,22 +53370,26 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->route_69_input_bang_bang();
     }
     
+    void gate_24_onoff_set(number v) {
+        this->gate_24_onoff = v;
+    }
+    
     void eventoutlet_72_in1_bang_bang() {
         ;
         this->getPatcher()->p_33_out4_bang_bang();
     }
     
     void button_09_bangval_bang() {
-        this->sendParameter(24, true);
+        this->sendParameter(20, true);
         this->eventoutlet_72_in1_bang_bang();
     }
     
-    void receive_20_output_bang_bang() {
+    void receive_24_output_bang_bang() {
         this->button_09_bangval_bang();
     }
     
     void send_61_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -52429,14 +53397,14 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->send_61_input_bang_bang();
     }
     
-    void receive_20_output_number_set(number v) {
-        this->receive_20_output_number = v;
+    void receive_24_output_number_set(number v) {
+        this->receive_24_output_number = v;
         this->button_09_bangval_bang();
     }
     
     void send_61_input_number_set(number v) {
         this->send_61_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -52444,14 +53412,14 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->send_61_input_number_set(v);
     }
     
-    void receive_20_output_list_set(const list& v) {
-        this->receive_20_output_list = jsCreateListCopy(v);
+    void receive_24_output_list_set(const list& v) {
+        this->receive_24_output_list = jsCreateListCopy(v);
         this->button_09_bangval_bang();
     }
     
     void send_61_input_list_set(const list& v) {
         this->send_61_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -52465,16 +53433,16 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void button_07_bangval_bang() {
-        this->sendParameter(22, true);
+        this->sendParameter(15, true);
         this->eventoutlet_71_in1_bang_bang();
     }
     
-    void receive_19_output_bang_bang() {
+    void receive_22_output_bang_bang() {
         this->button_07_bangval_bang();
     }
     
     void send_62_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -52482,14 +53450,14 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->send_62_input_bang_bang();
     }
     
-    void receive_19_output_number_set(number v) {
-        this->receive_19_output_number = v;
+    void receive_22_output_number_set(number v) {
+        this->receive_22_output_number = v;
         this->button_07_bangval_bang();
     }
     
     void send_62_input_number_set(number v) {
         this->send_62_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -52497,14 +53465,14 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->send_62_input_number_set(v);
     }
     
-    void receive_19_output_list_set(const list& v) {
-        this->receive_19_output_list = jsCreateListCopy(v);
+    void receive_22_output_list_set(const list& v) {
+        this->receive_22_output_list = jsCreateListCopy(v);
         this->button_07_bangval_bang();
     }
     
     void send_62_input_list_set(const list& v) {
         this->send_62_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -52518,16 +53486,16 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void button_05_bangval_bang() {
-        this->sendParameter(20, true);
+        this->sendParameter(10, true);
         this->eventoutlet_70_in1_bang_bang();
     }
     
-    void receive_18_output_bang_bang() {
+    void receive_20_output_bang_bang() {
         this->button_05_bangval_bang();
     }
     
     void send_63_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -52535,14 +53503,14 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->send_63_input_bang_bang();
     }
     
-    void receive_18_output_number_set(number v) {
-        this->receive_18_output_number = v;
+    void receive_20_output_number_set(number v) {
+        this->receive_20_output_number = v;
         this->button_05_bangval_bang();
     }
     
     void send_63_input_number_set(number v) {
         this->send_63_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -52550,14 +53518,14 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->send_63_input_number_set(v);
     }
     
-    void receive_18_output_list_set(const list& v) {
-        this->receive_18_output_list = jsCreateListCopy(v);
+    void receive_20_output_list_set(const list& v) {
+        this->receive_20_output_list = jsCreateListCopy(v);
         this->button_05_bangval_bang();
     }
     
     void send_63_input_list_set(const list& v) {
         this->send_63_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -52571,16 +53539,16 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void button_04_bangval_bang() {
-        this->sendParameter(19, true);
+        this->sendParameter(8, true);
         this->eventoutlet_69_in1_bang_bang();
     }
     
-    void receive_17_output_bang_bang() {
+    void receive_18_output_bang_bang() {
         this->button_04_bangval_bang();
     }
     
     void send_64_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -52588,14 +53556,14 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->send_64_input_bang_bang();
     }
     
-    void receive_17_output_number_set(number v) {
-        this->receive_17_output_number = v;
+    void receive_18_output_number_set(number v) {
+        this->receive_18_output_number = v;
         this->button_04_bangval_bang();
     }
     
     void send_64_input_number_set(number v) {
         this->send_64_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -52603,14 +53571,14 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->send_64_input_number_set(v);
     }
     
-    void receive_17_output_list_set(const list& v) {
-        this->receive_17_output_list = jsCreateListCopy(v);
+    void receive_18_output_list_set(const list& v) {
+        this->receive_18_output_list = jsCreateListCopy(v);
         this->button_04_bangval_bang();
     }
     
     void send_64_input_list_set(const list& v) {
         this->send_64_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -52623,21 +53591,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_26->eventinlet_36_out1_number_set(v);
     }
     
-    void param_28_value_bang() {
-        number v = this->param_28_value;
-        this->sendParameter(15, false);
-    
-        if (this->param_28_value != this->param_28_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_28_lastValue = this->param_28_value;
-        }
-    
+    void gate_24_out1_number_set(number v) {
+        this->gate_24_out1_number = v;
         this->p_26_in1_number_set(v);
     }
     
+    void gate_24_input_number_set(number v) {
+        if (this->gate_24_onoff == 1)
+            this->gate_24_out1_number_set(v);
+    }
+    
+    void message_48_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_24_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_24_onoff_set(converted);
+        }
+    }
+    
+    void message_48_bangval_bang() {
+        this->sendParameter(66, true);
+        this->message_48_out_set({1});
+    }
+    
+    void numberobj_46_output_set(number v) {
+        this->gate_24_input_number_set(v);
+    }
+    
+    void numberobj_46_value_bang() {
+        number v = this->numberobj_46_value;
+        this->sendParameter(67, false);
+        this->numberobj_46_output_set(v);
+    }
+    
     void button_21_bangval_bang() {
-        this->sendParameter(36, true);
-        this->param_28_value_bang();
+        this->sendParameter(65, true);
+        this->message_48_bangval_bang();
+        this->numberobj_46_value_bang();
     }
     
     void route_69_match16_bang_bang() {
@@ -52654,8 +53646,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_21_bangval_bang();
     }
     
+    void gate_23_onoff_set(number v) {
+        this->gate_23_onoff = v;
+    }
+    
     void send_57_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -52665,7 +53661,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_57_input_number_set(number v) {
         this->send_57_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -52675,7 +53671,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_57_input_list_set(const list& v) {
         this->send_57_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -52684,7 +53680,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_58_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -52694,7 +53690,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_58_input_number_set(number v) {
         this->send_58_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -52704,7 +53700,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_58_input_list_set(const list& v) {
         this->send_58_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -52713,7 +53709,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_59_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -52723,7 +53719,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_59_input_number_set(number v) {
         this->send_59_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -52733,7 +53729,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_59_input_list_set(const list& v) {
         this->send_59_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -52742,7 +53738,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_60_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -52752,7 +53748,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_60_input_number_set(number v) {
         this->send_60_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -52762,7 +53758,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_60_input_list_set(const list& v) {
         this->send_60_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -52775,21 +53771,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_25->eventinlet_35_out1_number_set(v);
     }
     
-    void param_27_value_bang() {
-        number v = this->param_27_value;
-        this->sendParameter(14, false);
-    
-        if (this->param_27_value != this->param_27_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_27_lastValue = this->param_27_value;
-        }
-    
+    void gate_23_out1_number_set(number v) {
+        this->gate_23_out1_number = v;
         this->p_25_in1_number_set(v);
     }
     
+    void gate_23_input_number_set(number v) {
+        if (this->gate_23_onoff == 1)
+            this->gate_23_out1_number_set(v);
+    }
+    
+    void message_46_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_23_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_23_onoff_set(converted);
+        }
+    }
+    
+    void message_46_bangval_bang() {
+        this->sendParameter(62, true);
+        this->message_46_out_set({1});
+    }
+    
+    void numberobj_45_output_set(number v) {
+        this->gate_23_input_number_set(v);
+    }
+    
+    void numberobj_45_value_bang() {
+        number v = this->numberobj_45_value;
+        this->sendParameter(63, false);
+        this->numberobj_45_output_set(v);
+    }
+    
     void button_20_bangval_bang() {
-        this->sendParameter(35, true);
-        this->param_27_value_bang();
+        this->sendParameter(61, true);
+        this->message_46_bangval_bang();
+        this->numberobj_45_value_bang();
     }
     
     void route_69_match15_bang_bang() {
@@ -52806,8 +53826,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_20_bangval_bang();
     }
     
+    void gate_22_onoff_set(number v) {
+        this->gate_22_onoff = v;
+    }
+    
     void send_53_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -52817,7 +53841,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_53_input_number_set(number v) {
         this->send_53_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -52827,7 +53851,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_53_input_list_set(const list& v) {
         this->send_53_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -52836,7 +53860,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_54_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -52846,7 +53870,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_54_input_number_set(number v) {
         this->send_54_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -52856,7 +53880,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_54_input_list_set(const list& v) {
         this->send_54_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -52865,7 +53889,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_55_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -52875,7 +53899,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_55_input_number_set(number v) {
         this->send_55_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -52885,7 +53909,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_55_input_list_set(const list& v) {
         this->send_55_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -52894,7 +53918,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_56_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -52904,7 +53928,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_56_input_number_set(number v) {
         this->send_56_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -52914,7 +53938,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_56_input_list_set(const list& v) {
         this->send_56_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -52927,21 +53951,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_24->eventinlet_34_out1_number_set(v);
     }
     
-    void param_26_value_bang() {
-        number v = this->param_26_value;
-        this->sendParameter(13, false);
-    
-        if (this->param_26_value != this->param_26_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_26_lastValue = this->param_26_value;
-        }
-    
+    void gate_22_out1_number_set(number v) {
+        this->gate_22_out1_number = v;
         this->p_24_in1_number_set(v);
     }
     
+    void gate_22_input_number_set(number v) {
+        if (this->gate_22_onoff == 1)
+            this->gate_22_out1_number_set(v);
+    }
+    
+    void message_44_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_22_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_22_onoff_set(converted);
+        }
+    }
+    
+    void message_44_bangval_bang() {
+        this->sendParameter(59, true);
+        this->message_44_out_set({1});
+    }
+    
+    void numberobj_44_output_set(number v) {
+        this->gate_22_input_number_set(v);
+    }
+    
+    void numberobj_44_value_bang() {
+        number v = this->numberobj_44_value;
+        this->sendParameter(57, false);
+        this->numberobj_44_output_set(v);
+    }
+    
     void button_19_bangval_bang() {
-        this->sendParameter(34, true);
-        this->param_26_value_bang();
+        this->sendParameter(58, true);
+        this->message_44_bangval_bang();
+        this->numberobj_44_value_bang();
     }
     
     void route_69_match14_bang_bang() {
@@ -52958,8 +54006,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_19_bangval_bang();
     }
     
+    void gate_21_onoff_set(number v) {
+        this->gate_21_onoff = v;
+    }
+    
     void send_49_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -52969,7 +54021,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_49_input_number_set(number v) {
         this->send_49_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -52979,7 +54031,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_49_input_list_set(const list& v) {
         this->send_49_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -52988,7 +54040,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_50_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -52998,7 +54050,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_50_input_number_set(number v) {
         this->send_50_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -53008,7 +54060,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_50_input_list_set(const list& v) {
         this->send_50_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -53017,7 +54069,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_51_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -53027,7 +54079,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_51_input_number_set(number v) {
         this->send_51_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -53037,7 +54089,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_51_input_list_set(const list& v) {
         this->send_51_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -53046,7 +54098,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_52_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -53056,7 +54108,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_52_input_number_set(number v) {
         this->send_52_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -53066,7 +54118,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_52_input_list_set(const list& v) {
         this->send_52_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -53079,21 +54131,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_23->eventinlet_33_out1_number_set(v);
     }
     
-    void param_25_value_bang() {
-        number v = this->param_25_value;
-        this->sendParameter(12, false);
-    
-        if (this->param_25_value != this->param_25_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_25_lastValue = this->param_25_value;
-        }
-    
+    void gate_21_out1_number_set(number v) {
+        this->gate_21_out1_number = v;
         this->p_23_in1_number_set(v);
     }
     
+    void gate_21_input_number_set(number v) {
+        if (this->gate_21_onoff == 1)
+            this->gate_21_out1_number_set(v);
+    }
+    
+    void message_42_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_21_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_21_onoff_set(converted);
+        }
+    }
+    
+    void message_42_bangval_bang() {
+        this->sendParameter(54, true);
+        this->message_42_out_set({1});
+    }
+    
+    void numberobj_43_output_set(number v) {
+        this->gate_21_input_number_set(v);
+    }
+    
+    void numberobj_43_value_bang() {
+        number v = this->numberobj_43_value;
+        this->sendParameter(55, false);
+        this->numberobj_43_output_set(v);
+    }
+    
     void button_18_bangval_bang() {
-        this->sendParameter(33, true);
-        this->param_25_value_bang();
+        this->sendParameter(53, true);
+        this->message_42_bangval_bang();
+        this->numberobj_43_value_bang();
     }
     
     void route_69_match13_bang_bang() {
@@ -53110,8 +54186,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_18_bangval_bang();
     }
     
+    void gate_20_onoff_set(number v) {
+        this->gate_20_onoff = v;
+    }
+    
     void send_45_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -53121,7 +54201,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_45_input_number_set(number v) {
         this->send_45_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -53131,7 +54211,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_45_input_list_set(const list& v) {
         this->send_45_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -53140,7 +54220,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_46_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -53150,7 +54230,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_46_input_number_set(number v) {
         this->send_46_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -53160,7 +54240,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_46_input_list_set(const list& v) {
         this->send_46_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -53169,7 +54249,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_47_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -53179,7 +54259,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_47_input_number_set(number v) {
         this->send_47_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -53189,7 +54269,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_47_input_list_set(const list& v) {
         this->send_47_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -53198,7 +54278,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_48_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -53208,7 +54288,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_48_input_number_set(number v) {
         this->send_48_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -53218,7 +54298,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_48_input_list_set(const list& v) {
         this->send_48_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -53231,21 +54311,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_22->eventinlet_32_out1_number_set(v);
     }
     
-    void param_24_value_bang() {
-        number v = this->param_24_value;
-        this->sendParameter(11, false);
-    
-        if (this->param_24_value != this->param_24_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_24_lastValue = this->param_24_value;
-        }
-    
+    void gate_20_out1_number_set(number v) {
+        this->gate_20_out1_number = v;
         this->p_22_in1_number_set(v);
     }
     
+    void gate_20_input_number_set(number v) {
+        if (this->gate_20_onoff == 1)
+            this->gate_20_out1_number_set(v);
+    }
+    
+    void message_40_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_20_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_20_onoff_set(converted);
+        }
+    }
+    
+    void message_40_bangval_bang() {
+        this->sendParameter(50, true);
+        this->message_40_out_set({1});
+    }
+    
+    void numberobj_42_output_set(number v) {
+        this->gate_20_input_number_set(v);
+    }
+    
+    void numberobj_42_value_bang() {
+        number v = this->numberobj_42_value;
+        this->sendParameter(51, false);
+        this->numberobj_42_output_set(v);
+    }
+    
     void button_17_bangval_bang() {
-        this->sendParameter(32, true);
-        this->param_24_value_bang();
+        this->sendParameter(49, true);
+        this->message_40_bangval_bang();
+        this->numberobj_42_value_bang();
     }
     
     void route_69_match12_bang_bang() {
@@ -53262,8 +54366,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_17_bangval_bang();
     }
     
+    void gate_19_onoff_set(number v) {
+        this->gate_19_onoff = v;
+    }
+    
     void send_41_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -53273,7 +54381,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_41_input_number_set(number v) {
         this->send_41_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -53283,7 +54391,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_41_input_list_set(const list& v) {
         this->send_41_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -53292,7 +54400,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_42_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -53302,7 +54410,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_42_input_number_set(number v) {
         this->send_42_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -53312,7 +54420,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_42_input_list_set(const list& v) {
         this->send_42_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -53321,7 +54429,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_43_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -53331,7 +54439,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_43_input_number_set(number v) {
         this->send_43_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -53341,7 +54449,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_43_input_list_set(const list& v) {
         this->send_43_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -53350,7 +54458,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_44_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -53360,7 +54468,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_44_input_number_set(number v) {
         this->send_44_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -53370,7 +54478,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_44_input_list_set(const list& v) {
         this->send_44_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -53383,21 +54491,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_21->eventinlet_31_out1_number_set(v);
     }
     
-    void param_23_value_bang() {
-        number v = this->param_23_value;
-        this->sendParameter(10, false);
-    
-        if (this->param_23_value != this->param_23_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_23_lastValue = this->param_23_value;
-        }
-    
+    void gate_19_out1_number_set(number v) {
+        this->gate_19_out1_number = v;
         this->p_21_in1_number_set(v);
     }
     
+    void gate_19_input_number_set(number v) {
+        if (this->gate_19_onoff == 1)
+            this->gate_19_out1_number_set(v);
+    }
+    
+    void message_38_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_19_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_19_onoff_set(converted);
+        }
+    }
+    
+    void message_38_bangval_bang() {
+        this->sendParameter(46, true);
+        this->message_38_out_set({1});
+    }
+    
+    void numberobj_41_output_set(number v) {
+        this->gate_19_input_number_set(v);
+    }
+    
+    void numberobj_41_value_bang() {
+        number v = this->numberobj_41_value;
+        this->sendParameter(47, false);
+        this->numberobj_41_output_set(v);
+    }
+    
     void button_16_bangval_bang() {
-        this->sendParameter(31, true);
-        this->param_23_value_bang();
+        this->sendParameter(45, true);
+        this->message_38_bangval_bang();
+        this->numberobj_41_value_bang();
     }
     
     void route_69_match11_bang_bang() {
@@ -53414,8 +54546,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_16_bangval_bang();
     }
     
+    void gate_18_onoff_set(number v) {
+        this->gate_18_onoff = v;
+    }
+    
     void send_37_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -53425,7 +54561,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_37_input_number_set(number v) {
         this->send_37_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -53435,7 +54571,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_37_input_list_set(const list& v) {
         this->send_37_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -53444,7 +54580,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_38_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -53454,7 +54590,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_38_input_number_set(number v) {
         this->send_38_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -53464,7 +54600,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_38_input_list_set(const list& v) {
         this->send_38_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -53473,7 +54609,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_39_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -53483,7 +54619,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_39_input_number_set(number v) {
         this->send_39_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -53493,7 +54629,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_39_input_list_set(const list& v) {
         this->send_39_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -53502,7 +54638,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_40_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -53512,7 +54648,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_40_input_number_set(number v) {
         this->send_40_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -53522,7 +54658,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_40_input_list_set(const list& v) {
         this->send_40_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -53535,21 +54671,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_20->eventinlet_30_out1_number_set(v);
     }
     
-    void param_22_value_bang() {
-        number v = this->param_22_value;
-        this->sendParameter(9, false);
-    
-        if (this->param_22_value != this->param_22_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_22_lastValue = this->param_22_value;
-        }
-    
+    void gate_18_out1_number_set(number v) {
+        this->gate_18_out1_number = v;
         this->p_20_in1_number_set(v);
     }
     
+    void gate_18_input_number_set(number v) {
+        if (this->gate_18_onoff == 1)
+            this->gate_18_out1_number_set(v);
+    }
+    
+    void message_36_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_18_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_18_onoff_set(converted);
+        }
+    }
+    
+    void message_36_bangval_bang() {
+        this->sendParameter(42, true);
+        this->message_36_out_set({1});
+    }
+    
+    void numberobj_40_output_set(number v) {
+        this->gate_18_input_number_set(v);
+    }
+    
+    void numberobj_40_value_bang() {
+        number v = this->numberobj_40_value;
+        this->sendParameter(43, false);
+        this->numberobj_40_output_set(v);
+    }
+    
     void button_15_bangval_bang() {
-        this->sendParameter(30, true);
-        this->param_22_value_bang();
+        this->sendParameter(41, true);
+        this->message_36_bangval_bang();
+        this->numberobj_40_value_bang();
     }
     
     void route_69_match10_bang_bang() {
@@ -53566,8 +54726,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_15_bangval_bang();
     }
     
+    void gate_17_onoff_set(number v) {
+        this->gate_17_onoff = v;
+    }
+    
     void send_33_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -53577,7 +54741,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_33_input_number_set(number v) {
         this->send_33_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -53587,7 +54751,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_33_input_list_set(const list& v) {
         this->send_33_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -53596,7 +54760,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_34_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -53606,7 +54770,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_34_input_number_set(number v) {
         this->send_34_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -53616,7 +54780,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_34_input_list_set(const list& v) {
         this->send_34_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -53625,7 +54789,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_35_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -53635,7 +54799,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_35_input_number_set(number v) {
         this->send_35_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -53645,7 +54809,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_35_input_list_set(const list& v) {
         this->send_35_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -53654,7 +54818,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_36_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -53664,7 +54828,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_36_input_number_set(number v) {
         this->send_36_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -53674,7 +54838,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_36_input_list_set(const list& v) {
         this->send_36_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -53687,21 +54851,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_19->eventinlet_29_out1_number_set(v);
     }
     
-    void param_21_value_bang() {
-        number v = this->param_21_value;
-        this->sendParameter(8, false);
-    
-        if (this->param_21_value != this->param_21_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_21_lastValue = this->param_21_value;
-        }
-    
+    void gate_17_out1_number_set(number v) {
+        this->gate_17_out1_number = v;
         this->p_19_in1_number_set(v);
     }
     
+    void gate_17_input_number_set(number v) {
+        if (this->gate_17_onoff == 1)
+            this->gate_17_out1_number_set(v);
+    }
+    
+    void message_34_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_17_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_17_onoff_set(converted);
+        }
+    }
+    
+    void message_34_bangval_bang() {
+        this->sendParameter(38, true);
+        this->message_34_out_set({1});
+    }
+    
+    void numberobj_39_output_set(number v) {
+        this->gate_17_input_number_set(v);
+    }
+    
+    void numberobj_39_value_bang() {
+        number v = this->numberobj_39_value;
+        this->sendParameter(39, false);
+        this->numberobj_39_output_set(v);
+    }
+    
     void button_14_bangval_bang() {
-        this->sendParameter(29, true);
-        this->param_21_value_bang();
+        this->sendParameter(37, true);
+        this->message_34_bangval_bang();
+        this->numberobj_39_value_bang();
     }
     
     void route_69_match9_bang_bang() {
@@ -53718,8 +54906,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_14_bangval_bang();
     }
     
+    void gate_16_onoff_set(number v) {
+        this->gate_16_onoff = v;
+    }
+    
     void send_29_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -53729,7 +54921,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_29_input_number_set(number v) {
         this->send_29_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -53739,7 +54931,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_29_input_list_set(const list& v) {
         this->send_29_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -53748,7 +54940,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_30_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -53758,7 +54950,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_30_input_number_set(number v) {
         this->send_30_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -53768,7 +54960,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_30_input_list_set(const list& v) {
         this->send_30_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -53777,7 +54969,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_31_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -53787,7 +54979,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_31_input_number_set(number v) {
         this->send_31_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -53797,7 +54989,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_31_input_list_set(const list& v) {
         this->send_31_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -53806,7 +54998,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_32_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -53816,7 +55008,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_32_input_number_set(number v) {
         this->send_32_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -53826,7 +55018,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_32_input_list_set(const list& v) {
         this->send_32_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -53839,21 +55031,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_18->eventinlet_28_out1_number_set(v);
     }
     
-    void param_20_value_bang() {
-        number v = this->param_20_value;
-        this->sendParameter(7, false);
-    
-        if (this->param_20_value != this->param_20_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_20_lastValue = this->param_20_value;
-        }
-    
+    void gate_16_out1_number_set(number v) {
+        this->gate_16_out1_number = v;
         this->p_18_in1_number_set(v);
     }
     
+    void gate_16_input_number_set(number v) {
+        if (this->gate_16_onoff == 1)
+            this->gate_16_out1_number_set(v);
+    }
+    
+    void message_32_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_16_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_16_onoff_set(converted);
+        }
+    }
+    
+    void message_32_bangval_bang() {
+        this->sendParameter(34, true);
+        this->message_32_out_set({1});
+    }
+    
+    void numberobj_38_output_set(number v) {
+        this->gate_16_input_number_set(v);
+    }
+    
+    void numberobj_38_value_bang() {
+        number v = this->numberobj_38_value;
+        this->sendParameter(35, false);
+        this->numberobj_38_output_set(v);
+    }
+    
     void button_13_bangval_bang() {
-        this->sendParameter(28, true);
-        this->param_20_value_bang();
+        this->sendParameter(33, true);
+        this->message_32_bangval_bang();
+        this->numberobj_38_value_bang();
     }
     
     void route_69_match8_bang_bang() {
@@ -53870,8 +55086,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_13_bangval_bang();
     }
     
+    void gate_15_onoff_set(number v) {
+        this->gate_15_onoff = v;
+    }
+    
     void send_25_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -53881,7 +55101,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_25_input_number_set(number v) {
         this->send_25_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -53891,7 +55111,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_25_input_list_set(const list& v) {
         this->send_25_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -53900,7 +55120,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_26_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -53910,7 +55130,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_26_input_number_set(number v) {
         this->send_26_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -53920,7 +55140,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_26_input_list_set(const list& v) {
         this->send_26_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -53929,7 +55149,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_27_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -53939,7 +55159,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_27_input_number_set(number v) {
         this->send_27_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -53949,7 +55169,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_27_input_list_set(const list& v) {
         this->send_27_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -53958,7 +55178,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_28_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -53968,7 +55188,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_28_input_number_set(number v) {
         this->send_28_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -53978,7 +55198,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_28_input_list_set(const list& v) {
         this->send_28_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -53991,21 +55211,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_17->eventinlet_27_out1_number_set(v);
     }
     
-    void param_19_value_bang() {
-        number v = this->param_19_value;
-        this->sendParameter(6, false);
-    
-        if (this->param_19_value != this->param_19_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_19_lastValue = this->param_19_value;
-        }
-    
+    void gate_15_out1_number_set(number v) {
+        this->gate_15_out1_number = v;
         this->p_17_in1_number_set(v);
     }
     
+    void gate_15_input_number_set(number v) {
+        if (this->gate_15_onoff == 1)
+            this->gate_15_out1_number_set(v);
+    }
+    
+    void message_30_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_15_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_15_onoff_set(converted);
+        }
+    }
+    
+    void message_30_bangval_bang() {
+        this->sendParameter(31, true);
+        this->message_30_out_set({1});
+    }
+    
+    void numberobj_37_output_set(number v) {
+        this->gate_15_input_number_set(v);
+    }
+    
+    void numberobj_37_value_bang() {
+        number v = this->numberobj_37_value;
+        this->sendParameter(29, false);
+        this->numberobj_37_output_set(v);
+    }
+    
     void button_12_bangval_bang() {
-        this->sendParameter(27, true);
-        this->param_19_value_bang();
+        this->sendParameter(30, true);
+        this->message_30_bangval_bang();
+        this->numberobj_37_value_bang();
     }
     
     void route_69_match7_bang_bang() {
@@ -54022,8 +55266,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_12_bangval_bang();
     }
     
+    void gate_14_onoff_set(number v) {
+        this->gate_14_onoff = v;
+    }
+    
     void send_21_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -54033,7 +55281,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_21_input_number_set(number v) {
         this->send_21_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -54043,7 +55291,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_21_input_list_set(const list& v) {
         this->send_21_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -54052,7 +55300,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_22_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -54062,7 +55310,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_22_input_number_set(number v) {
         this->send_22_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -54072,7 +55320,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_22_input_list_set(const list& v) {
         this->send_22_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -54081,7 +55329,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_23_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -54091,7 +55339,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_23_input_number_set(number v) {
         this->send_23_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -54101,7 +55349,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_23_input_list_set(const list& v) {
         this->send_23_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -54110,7 +55358,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_24_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -54120,7 +55368,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_24_input_number_set(number v) {
         this->send_24_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -54130,7 +55378,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_24_input_list_set(const list& v) {
         this->send_24_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -54143,21 +55391,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_16->eventinlet_26_out1_number_set(v);
     }
     
-    void param_18_value_bang() {
-        number v = this->param_18_value;
-        this->sendParameter(5, false);
-    
-        if (this->param_18_value != this->param_18_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_18_lastValue = this->param_18_value;
-        }
-    
+    void gate_14_out1_number_set(number v) {
+        this->gate_14_out1_number = v;
         this->p_16_in1_number_set(v);
     }
     
-    void button_11_bangval_bang() {
+    void gate_14_input_number_set(number v) {
+        if (this->gate_14_onoff == 1)
+            this->gate_14_out1_number_set(v);
+    }
+    
+    void message_28_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_14_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_14_onoff_set(converted);
+        }
+    }
+    
+    void message_28_bangval_bang() {
         this->sendParameter(26, true);
-        this->param_18_value_bang();
+        this->message_28_out_set({1});
+    }
+    
+    void numberobj_36_output_set(number v) {
+        this->gate_14_input_number_set(v);
+    }
+    
+    void numberobj_36_value_bang() {
+        number v = this->numberobj_36_value;
+        this->sendParameter(27, false);
+        this->numberobj_36_output_set(v);
+    }
+    
+    void button_11_bangval_bang() {
+        this->sendParameter(25, true);
+        this->message_28_bangval_bang();
+        this->numberobj_36_value_bang();
     }
     
     void route_69_match6_bang_bang() {
@@ -54174,8 +55446,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_11_bangval_bang();
     }
     
+    void gate_13_onoff_set(number v) {
+        this->gate_13_onoff = v;
+    }
+    
     void send_17_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -54185,7 +55461,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_17_input_number_set(number v) {
         this->send_17_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -54195,7 +55471,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_17_input_list_set(const list& v) {
         this->send_17_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -54204,7 +55480,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_18_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -54214,7 +55490,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_18_input_number_set(number v) {
         this->send_18_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -54224,7 +55500,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_18_input_list_set(const list& v) {
         this->send_18_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -54233,7 +55509,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_19_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -54243,7 +55519,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_19_input_number_set(number v) {
         this->send_19_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -54253,7 +55529,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_19_input_list_set(const list& v) {
         this->send_19_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -54262,7 +55538,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_20_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -54272,7 +55548,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_20_input_number_set(number v) {
         this->send_20_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -54282,7 +55558,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_20_input_list_set(const list& v) {
         this->send_20_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -54295,21 +55571,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_15->eventinlet_25_out1_number_set(v);
     }
     
-    void param_17_value_bang() {
-        number v = this->param_17_value;
-        this->sendParameter(4, false);
-    
-        if (this->param_17_value != this->param_17_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_17_lastValue = this->param_17_value;
-        }
-    
+    void gate_13_out1_number_set(number v) {
+        this->gate_13_out1_number = v;
         this->p_15_in1_number_set(v);
     }
     
+    void gate_13_input_number_set(number v) {
+        if (this->gate_13_onoff == 1)
+            this->gate_13_out1_number_set(v);
+    }
+    
+    void message_26_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_13_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_13_onoff_set(converted);
+        }
+    }
+    
+    void message_26_bangval_bang() {
+        this->sendParameter(22, true);
+        this->message_26_out_set({1});
+    }
+    
+    void numberobj_35_output_set(number v) {
+        this->gate_13_input_number_set(v);
+    }
+    
+    void numberobj_35_value_bang() {
+        number v = this->numberobj_35_value;
+        this->sendParameter(23, false);
+        this->numberobj_35_output_set(v);
+    }
+    
     void button_10_bangval_bang() {
-        this->sendParameter(25, true);
-        this->param_17_value_bang();
+        this->sendParameter(21, true);
+        this->message_26_bangval_bang();
+        this->numberobj_35_value_bang();
     }
     
     void route_69_match5_bang_bang() {
@@ -54326,8 +55626,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_10_bangval_bang();
     }
     
+    void gate_12_onoff_set(number v) {
+        this->gate_12_onoff = v;
+    }
+    
     void send_13_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -54337,7 +55641,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_13_input_number_set(number v) {
         this->send_13_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -54347,7 +55651,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_13_input_list_set(const list& v) {
         this->send_13_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -54356,7 +55660,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_14_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -54366,7 +55670,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_14_input_number_set(number v) {
         this->send_14_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -54376,7 +55680,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_14_input_list_set(const list& v) {
         this->send_14_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -54385,7 +55689,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_15_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -54395,7 +55699,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_15_input_number_set(number v) {
         this->send_15_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -54405,7 +55709,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_15_input_list_set(const list& v) {
         this->send_15_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -54414,7 +55718,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_16_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -54424,7 +55728,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_16_input_number_set(number v) {
         this->send_16_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -54434,7 +55738,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_16_input_list_set(const list& v) {
         this->send_16_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -54447,21 +55751,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_14->eventinlet_24_out1_number_set(v);
     }
     
-    void param_16_value_bang() {
-        number v = this->param_16_value;
-        this->sendParameter(3, false);
-    
-        if (this->param_16_value != this->param_16_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_16_lastValue = this->param_16_value;
-        }
-    
+    void gate_12_out1_number_set(number v) {
+        this->gate_12_out1_number = v;
         this->p_14_in1_number_set(v);
     }
     
+    void gate_12_input_number_set(number v) {
+        if (this->gate_12_onoff == 1)
+            this->gate_12_out1_number_set(v);
+    }
+    
+    void message_24_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_12_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_12_onoff_set(converted);
+        }
+    }
+    
+    void message_24_bangval_bang() {
+        this->sendParameter(17, true);
+        this->message_24_out_set({1});
+    }
+    
+    void numberobj_34_output_set(number v) {
+        this->gate_12_input_number_set(v);
+    }
+    
+    void numberobj_34_value_bang() {
+        number v = this->numberobj_34_value;
+        this->sendParameter(18, false);
+        this->numberobj_34_output_set(v);
+    }
+    
     void button_08_bangval_bang() {
-        this->sendParameter(23, true);
-        this->param_16_value_bang();
+        this->sendParameter(16, true);
+        this->message_24_bangval_bang();
+        this->numberobj_34_value_bang();
     }
     
     void route_69_match4_bang_bang() {
@@ -54478,8 +55806,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_08_bangval_bang();
     }
     
+    void gate_11_onoff_set(number v) {
+        this->gate_11_onoff = v;
+    }
+    
     void send_09_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -54489,7 +55821,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_09_input_number_set(number v) {
         this->send_09_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -54499,7 +55831,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_09_input_list_set(const list& v) {
         this->send_09_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -54508,7 +55840,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_10_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -54518,7 +55850,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_10_input_number_set(number v) {
         this->send_10_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -54528,7 +55860,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_10_input_list_set(const list& v) {
         this->send_10_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -54537,7 +55869,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_11_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -54547,7 +55879,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_11_input_number_set(number v) {
         this->send_11_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -54557,7 +55889,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_11_input_list_set(const list& v) {
         this->send_11_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -54566,7 +55898,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_12_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -54576,7 +55908,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_12_input_number_set(number v) {
         this->send_12_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -54586,7 +55918,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_12_input_list_set(const list& v) {
         this->send_12_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -54599,21 +55931,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_13->eventinlet_23_out1_number_set(v);
     }
     
-    void param_15_value_bang() {
-        number v = this->param_15_value;
-        this->sendParameter(2, false);
-    
-        if (this->param_15_value != this->param_15_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_15_lastValue = this->param_15_value;
-        }
-    
+    void gate_11_out1_number_set(number v) {
+        this->gate_11_out1_number = v;
         this->p_13_in1_number_set(v);
     }
     
+    void gate_11_input_number_set(number v) {
+        if (this->gate_11_onoff == 1)
+            this->gate_11_out1_number_set(v);
+    }
+    
+    void message_22_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_11_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_11_onoff_set(converted);
+        }
+    }
+    
+    void message_22_bangval_bang() {
+        this->sendParameter(12, true);
+        this->message_22_out_set({1});
+    }
+    
+    void numberobj_33_output_set(number v) {
+        this->gate_11_input_number_set(v);
+    }
+    
+    void numberobj_33_value_bang() {
+        number v = this->numberobj_33_value;
+        this->sendParameter(13, false);
+        this->numberobj_33_output_set(v);
+    }
+    
     void button_06_bangval_bang() {
-        this->sendParameter(21, true);
-        this->param_15_value_bang();
+        this->sendParameter(11, true);
+        this->message_22_bangval_bang();
+        this->numberobj_33_value_bang();
     }
     
     void route_69_match3_bang_bang() {
@@ -54630,8 +55986,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_06_bangval_bang();
     }
     
+    void gate_10_onoff_set(number v) {
+        this->gate_10_onoff = v;
+    }
+    
     void send_05_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -54641,7 +56001,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_05_input_number_set(number v) {
         this->send_05_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -54651,7 +56011,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_05_input_list_set(const list& v) {
         this->send_05_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -54660,7 +56020,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_06_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -54670,7 +56030,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_06_input_number_set(number v) {
         this->send_06_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -54680,7 +56040,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_06_input_list_set(const list& v) {
         this->send_06_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -54689,7 +56049,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_07_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -54699,7 +56059,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_07_input_number_set(number v) {
         this->send_07_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -54709,7 +56069,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_07_input_list_set(const list& v) {
         this->send_07_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -54718,7 +56078,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_08_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -54728,7 +56088,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_08_input_number_set(number v) {
         this->send_08_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -54738,7 +56098,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_08_input_list_set(const list& v) {
         this->send_08_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -54751,21 +56111,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_12->eventinlet_22_out1_number_set(v);
     }
     
-    void param_14_value_bang() {
-        number v = this->param_14_value;
-        this->sendParameter(1, false);
-    
-        if (this->param_14_value != this->param_14_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_14_lastValue = this->param_14_value;
-        }
-    
+    void gate_10_out1_number_set(number v) {
+        this->gate_10_out1_number = v;
         this->p_12_in1_number_set(v);
     }
     
+    void gate_10_input_number_set(number v) {
+        if (this->gate_10_onoff == 1)
+            this->gate_10_out1_number_set(v);
+    }
+    
+    void message_20_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_10_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_10_onoff_set(converted);
+        }
+    }
+    
+    void message_20_bangval_bang() {
+        this->sendParameter(7, true);
+        this->message_20_out_set({1});
+    }
+    
+    void numberobj_32_output_set(number v) {
+        this->gate_10_input_number_set(v);
+    }
+    
+    void numberobj_32_value_bang() {
+        number v = this->numberobj_32_value;
+        this->sendParameter(5, false);
+        this->numberobj_32_output_set(v);
+    }
+    
     void button_03_bangval_bang() {
-        this->sendParameter(18, true);
-        this->param_14_value_bang();
+        this->sendParameter(6, true);
+        this->message_20_bangval_bang();
+        this->numberobj_32_value_bang();
     }
     
     void route_69_match2_bang_bang() {
@@ -54782,8 +56166,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->button_03_bangval_bang();
     }
     
+    void gate_09_onoff_set(number v) {
+        this->gate_09_onoff = v;
+    }
+    
     void send_01_input_bang_bang() {
-        this->receive_20_output_bang_bang();
+        this->receive_24_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_4_bang_bang();
     }
     
@@ -54793,7 +56181,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_01_input_number_set(number v) {
         this->send_01_input_number = v;
-        this->receive_20_output_number_set(v);
+        this->receive_24_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_4_number_set(v);
     }
     
@@ -54803,7 +56191,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_01_input_list_set(const list& v) {
         this->send_01_input_list = jsCreateListCopy(v);
-        this->receive_20_output_list_set(v);
+        this->receive_24_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_4_list_set(v);
     }
     
@@ -54812,7 +56200,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_02_input_bang_bang() {
-        this->receive_19_output_bang_bang();
+        this->receive_22_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_3_bang_bang();
     }
     
@@ -54822,7 +56210,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_02_input_number_set(number v) {
         this->send_02_input_number = v;
-        this->receive_19_output_number_set(v);
+        this->receive_22_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_3_number_set(v);
     }
     
@@ -54832,7 +56220,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_02_input_list_set(const list& v) {
         this->send_02_input_list = jsCreateListCopy(v);
-        this->receive_19_output_list_set(v);
+        this->receive_22_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_3_list_set(v);
     }
     
@@ -54841,7 +56229,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_03_input_bang_bang() {
-        this->receive_18_output_bang_bang();
+        this->receive_20_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_2_bang_bang();
     }
     
@@ -54851,7 +56239,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_03_input_number_set(number v) {
         this->send_03_input_number = v;
-        this->receive_18_output_number_set(v);
+        this->receive_20_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_2_number_set(v);
     }
     
@@ -54861,7 +56249,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_03_input_list_set(const list& v) {
         this->send_03_input_list = jsCreateListCopy(v);
-        this->receive_18_output_list_set(v);
+        this->receive_20_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_2_list_set(v);
     }
     
@@ -54870,7 +56258,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     }
     
     void send_04_input_bang_bang() {
-        this->receive_17_output_bang_bang();
+        this->receive_18_output_bang_bang();
         this->getPatcher()->p_33_source_t_drum_1_bang_bang();
     }
     
@@ -54880,7 +56268,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_04_input_number_set(number v) {
         this->send_04_input_number = v;
-        this->receive_17_output_number_set(v);
+        this->receive_18_output_number_set(v);
         this->getPatcher()->p_33_source_t_drum_1_number_set(v);
     }
     
@@ -54890,7 +56278,7 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
     
     void send_04_input_list_set(const list& v) {
         this->send_04_input_list = jsCreateListCopy(v);
-        this->receive_17_output_list_set(v);
+        this->receive_18_output_list_set(v);
         this->getPatcher()->p_33_source_t_drum_1_list_set(v);
     }
     
@@ -54903,21 +56291,45 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->p_11->eventinlet_21_out1_number_set(v);
     }
     
-    void param_13_value_bang() {
-        number v = this->param_13_value;
-        this->sendParameter(0, false);
-    
-        if (this->param_13_value != this->param_13_lastValue) {
-            this->getEngine()->presetTouched();
-            this->param_13_lastValue = this->param_13_value;
-        }
-    
+    void gate_09_out1_number_set(number v) {
+        this->gate_09_out1_number = v;
         this->p_11_in1_number_set(v);
     }
     
+    void gate_09_input_number_set(number v) {
+        if (this->gate_09_onoff == 1)
+            this->gate_09_out1_number_set(v);
+    }
+    
+    void message_18_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_09_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_09_onoff_set(converted);
+        }
+    }
+    
+    void message_18_bangval_bang() {
+        this->sendParameter(3, true);
+        this->message_18_out_set({1});
+    }
+    
+    void numberobj_31_output_set(number v) {
+        this->gate_09_input_number_set(v);
+    }
+    
+    void numberobj_31_value_bang() {
+        number v = this->numberobj_31_value;
+        this->sendParameter(1, false);
+        this->numberobj_31_output_set(v);
+    }
+    
     void button_02_bangval_bang() {
-        this->sendParameter(17, true);
-        this->param_13_value_bang();
+        this->sendParameter(2, true);
+        this->message_18_bangval_bang();
+        this->numberobj_31_value_bang();
     }
     
     void route_69_match1_bang_bang() {
@@ -55161,279 +56573,455 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->route_69_input_list_set(v);
     }
     
-    static number param_13_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_14_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_15_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_16_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_17_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_18_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_19_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_20_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_21_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_22_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_23_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_24_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_25_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_26_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_27_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    static number param_28_value_constrain(number v) {
-        v = (v > 15 ? 15 : (v < 0 ? 0 : v));
-        return v;
-    }
-    
-    void param_28_normalizedvalue_set(number v) {
-        this->param_28_value_set(this->fromnormalized(15, v));
-    }
-    
-    void param_27_normalizedvalue_set(number v) {
-        this->param_27_value_set(this->fromnormalized(14, v));
-    }
-    
-    void param_26_normalizedvalue_set(number v) {
-        this->param_26_value_set(this->fromnormalized(13, v));
-    }
-    
-    void param_25_normalizedvalue_set(number v) {
-        this->param_25_value_set(this->fromnormalized(12, v));
-    }
-    
-    void param_24_normalizedvalue_set(number v) {
-        this->param_24_value_set(this->fromnormalized(11, v));
-    }
-    
-    void param_23_normalizedvalue_set(number v) {
-        this->param_23_value_set(this->fromnormalized(10, v));
-    }
-    
-    void param_22_normalizedvalue_set(number v) {
-        this->param_22_value_set(this->fromnormalized(9, v));
-    }
-    
-    void param_21_normalizedvalue_set(number v) {
-        this->param_21_value_set(this->fromnormalized(8, v));
-    }
-    
-    void param_20_normalizedvalue_set(number v) {
-        this->param_20_value_set(this->fromnormalized(7, v));
-    }
-    
-    void param_19_normalizedvalue_set(number v) {
-        this->param_19_value_set(this->fromnormalized(6, v));
-    }
-    
-    void param_18_normalizedvalue_set(number v) {
-        this->param_18_value_set(this->fromnormalized(5, v));
-    }
-    
-    void param_17_normalizedvalue_set(number v) {
-        this->param_17_value_set(this->fromnormalized(4, v));
-    }
-    
-    void param_16_normalizedvalue_set(number v) {
-        this->param_16_value_set(this->fromnormalized(3, v));
-    }
-    
-    void param_15_normalizedvalue_set(number v) {
-        this->param_15_value_set(this->fromnormalized(2, v));
-    }
-    
-    void param_14_normalizedvalue_set(number v) {
-        this->param_14_value_set(this->fromnormalized(1, v));
-    }
-    
-    void param_13_normalizedvalue_set(number v) {
-        this->param_13_value_set(this->fromnormalized(0, v));
-    }
-    
-    void message_17_out_set(const list& v) {
+    void message_35_out_set(const list& v) {
         {
             if (v->length > 1)
-                this->param_28_normalizedvalue_set(v[1]);
+                this->gate_17_input_number_set(v[1]);
     
             number converted = (v->length > 0 ? v[0] : 0);
-            this->param_28_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_27_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_27_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_26_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_26_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_25_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_25_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_24_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_24_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_23_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_23_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_22_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_22_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_21_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_21_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_20_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_20_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_19_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_19_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_18_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_18_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_17_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_17_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_16_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_16_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_15_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_15_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_14_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_14_value_set(converted);
-        }
-    
-        {
-            if (v->length > 1)
-                this->param_13_normalizedvalue_set(v[1]);
-    
-            number converted = (v->length > 0 ? v[0] : 0);
-            this->param_13_value_set(converted);
+            this->gate_17_onoff_set(converted);
         }
     }
+    
+    void message_35_bangval_bang() {
+        this->sendParameter(40, true);
+        this->message_35_out_set({0});
+    }
+    
+    void numberobj_39_value_set(number v) {
+        this->numberobj_39_value_setter(v);
+        v = this->numberobj_39_value;
+        this->sendParameter(39, false);
+        this->numberobj_39_output_set(v);
+    }
+    
+    void receive_29_output_number_set(number v) {
+        this->receive_29_output_number = v;
+        this->message_35_bangval_bang();
+        this->numberobj_39_value_set(v);
+    }
+    
+    void message_19_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_09_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_09_onoff_set(converted);
+        }
+    }
+    
+    void message_19_bangval_bang() {
+        this->sendParameter(4, true);
+        this->message_19_out_set({0});
+    }
+    
+    void numberobj_31_value_set(number v) {
+        this->numberobj_31_value_setter(v);
+        v = this->numberobj_31_value;
+        this->sendParameter(1, false);
+        this->numberobj_31_output_set(v);
+    }
+    
+    void receive_17_output_number_set(number v) {
+        this->receive_17_output_number = v;
+        this->message_19_bangval_bang();
+        this->numberobj_31_value_set(v);
+    }
+    
+    void message_37_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_18_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_18_onoff_set(converted);
+        }
+    }
+    
+    void message_37_bangval_bang() {
+        this->sendParameter(44, true);
+        this->message_37_out_set({0});
+    }
+    
+    void numberobj_40_value_set(number v) {
+        this->numberobj_40_value_setter(v);
+        v = this->numberobj_40_value;
+        this->sendParameter(43, false);
+        this->numberobj_40_output_set(v);
+    }
+    
+    void receive_30_output_number_set(number v) {
+        this->receive_30_output_number = v;
+        this->message_37_bangval_bang();
+        this->numberobj_40_value_set(v);
+    }
+    
+    void message_21_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_10_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_10_onoff_set(converted);
+        }
+    }
+    
+    void message_21_bangval_bang() {
+        this->sendParameter(9, true);
+        this->message_21_out_set({0});
+    }
+    
+    void numberobj_32_value_set(number v) {
+        this->numberobj_32_value_setter(v);
+        v = this->numberobj_32_value;
+        this->sendParameter(5, false);
+        this->numberobj_32_output_set(v);
+    }
+    
+    void receive_19_output_number_set(number v) {
+        this->receive_19_output_number = v;
+        this->message_21_bangval_bang();
+        this->numberobj_32_value_set(v);
+    }
+    
+    void message_39_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_19_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_19_onoff_set(converted);
+        }
+    }
+    
+    void message_39_bangval_bang() {
+        this->sendParameter(48, true);
+        this->message_39_out_set({0});
+    }
+    
+    void numberobj_41_value_set(number v) {
+        this->numberobj_41_value_setter(v);
+        v = this->numberobj_41_value;
+        this->sendParameter(47, false);
+        this->numberobj_41_output_set(v);
+    }
+    
+    void receive_31_output_number_set(number v) {
+        this->receive_31_output_number = v;
+        this->message_39_bangval_bang();
+        this->numberobj_41_value_set(v);
+    }
+    
+    void message_23_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_11_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_11_onoff_set(converted);
+        }
+    }
+    
+    void message_23_bangval_bang() {
+        this->sendParameter(14, true);
+        this->message_23_out_set({0});
+    }
+    
+    void numberobj_33_value_set(number v) {
+        this->numberobj_33_value_setter(v);
+        v = this->numberobj_33_value;
+        this->sendParameter(13, false);
+        this->numberobj_33_output_set(v);
+    }
+    
+    void receive_21_output_number_set(number v) {
+        this->receive_21_output_number = v;
+        this->message_23_bangval_bang();
+        this->numberobj_33_value_set(v);
+    }
+    
+    void message_41_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_20_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_20_onoff_set(converted);
+        }
+    }
+    
+    void message_41_bangval_bang() {
+        this->sendParameter(52, true);
+        this->message_41_out_set({0});
+    }
+    
+    void numberobj_42_value_set(number v) {
+        this->numberobj_42_value_setter(v);
+        v = this->numberobj_42_value;
+        this->sendParameter(51, false);
+        this->numberobj_42_output_set(v);
+    }
+    
+    void receive_32_output_number_set(number v) {
+        this->receive_32_output_number = v;
+        this->message_41_bangval_bang();
+        this->numberobj_42_value_set(v);
+    }
+    
+    void message_25_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_12_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_12_onoff_set(converted);
+        }
+    }
+    
+    void message_25_bangval_bang() {
+        this->sendParameter(19, true);
+        this->message_25_out_set({0});
+    }
+    
+    void numberobj_34_value_set(number v) {
+        this->numberobj_34_value_setter(v);
+        v = this->numberobj_34_value;
+        this->sendParameter(18, false);
+        this->numberobj_34_output_set(v);
+    }
+    
+    void receive_23_output_number_set(number v) {
+        this->receive_23_output_number = v;
+        this->message_25_bangval_bang();
+        this->numberobj_34_value_set(v);
+    }
+    
+    void message_43_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_21_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_21_onoff_set(converted);
+        }
+    }
+    
+    void message_43_bangval_bang() {
+        this->sendParameter(56, true);
+        this->message_43_out_set({0});
+    }
+    
+    void numberobj_43_value_set(number v) {
+        this->numberobj_43_value_setter(v);
+        v = this->numberobj_43_value;
+        this->sendParameter(55, false);
+        this->numberobj_43_output_set(v);
+    }
+    
+    void receive_33_output_number_set(number v) {
+        this->receive_33_output_number = v;
+        this->message_43_bangval_bang();
+        this->numberobj_43_value_set(v);
+    }
+    
+    void message_27_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_13_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_13_onoff_set(converted);
+        }
+    }
+    
+    void message_27_bangval_bang() {
+        this->sendParameter(24, true);
+        this->message_27_out_set({0});
+    }
+    
+    void numberobj_35_value_set(number v) {
+        this->numberobj_35_value_setter(v);
+        v = this->numberobj_35_value;
+        this->sendParameter(23, false);
+        this->numberobj_35_output_set(v);
+    }
+    
+    void receive_25_output_number_set(number v) {
+        this->receive_25_output_number = v;
+        this->message_27_bangval_bang();
+        this->numberobj_35_value_set(v);
+    }
+    
+    void message_45_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_22_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_22_onoff_set(converted);
+        }
+    }
+    
+    void message_45_bangval_bang() {
+        this->sendParameter(60, true);
+        this->message_45_out_set({0});
+    }
+    
+    void numberobj_44_value_set(number v) {
+        this->numberobj_44_value_setter(v);
+        v = this->numberobj_44_value;
+        this->sendParameter(57, false);
+        this->numberobj_44_output_set(v);
+    }
+    
+    void receive_34_output_number_set(number v) {
+        this->receive_34_output_number = v;
+        this->message_45_bangval_bang();
+        this->numberobj_44_value_set(v);
+    }
+    
+    void message_29_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_14_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_14_onoff_set(converted);
+        }
+    }
+    
+    void message_29_bangval_bang() {
+        this->sendParameter(28, true);
+        this->message_29_out_set({0});
+    }
+    
+    void numberobj_36_value_set(number v) {
+        this->numberobj_36_value_setter(v);
+        v = this->numberobj_36_value;
+        this->sendParameter(27, false);
+        this->numberobj_36_output_set(v);
+    }
+    
+    void receive_26_output_number_set(number v) {
+        this->receive_26_output_number = v;
+        this->message_29_bangval_bang();
+        this->numberobj_36_value_set(v);
+    }
+    
+    void message_47_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_23_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_23_onoff_set(converted);
+        }
+    }
+    
+    void message_47_bangval_bang() {
+        this->sendParameter(64, true);
+        this->message_47_out_set({0});
+    }
+    
+    void numberobj_45_value_set(number v) {
+        this->numberobj_45_value_setter(v);
+        v = this->numberobj_45_value;
+        this->sendParameter(63, false);
+        this->numberobj_45_output_set(v);
+    }
+    
+    void receive_35_output_number_set(number v) {
+        this->receive_35_output_number = v;
+        this->message_47_bangval_bang();
+        this->numberobj_45_value_set(v);
+    }
+    
+    void message_31_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_15_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_15_onoff_set(converted);
+        }
+    }
+    
+    void message_31_bangval_bang() {
+        this->sendParameter(32, true);
+        this->message_31_out_set({0});
+    }
+    
+    void numberobj_37_value_set(number v) {
+        this->numberobj_37_value_setter(v);
+        v = this->numberobj_37_value;
+        this->sendParameter(29, false);
+        this->numberobj_37_output_set(v);
+    }
+    
+    void receive_27_output_number_set(number v) {
+        this->receive_27_output_number = v;
+        this->message_31_bangval_bang();
+        this->numberobj_37_value_set(v);
+    }
+    
+    void message_49_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_24_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_24_onoff_set(converted);
+        }
+    }
+    
+    void message_49_bangval_bang() {
+        this->sendParameter(68, true);
+        this->message_49_out_set({0});
+    }
+    
+    void numberobj_46_value_set(number v) {
+        this->numberobj_46_value_setter(v);
+        v = this->numberobj_46_value;
+        this->sendParameter(67, false);
+        this->numberobj_46_output_set(v);
+    }
+    
+    void receive_36_output_number_set(number v) {
+        this->receive_36_output_number = v;
+        this->message_49_bangval_bang();
+        this->numberobj_46_value_set(v);
+    }
+    
+    void message_33_out_set(const list& v) {
+        {
+            if (v->length > 1)
+                this->gate_16_input_number_set(v[1]);
+    
+            number converted = (v->length > 0 ? v[0] : 0);
+            this->gate_16_onoff_set(converted);
+        }
+    }
+    
+    void message_33_bangval_bang() {
+        this->sendParameter(36, true);
+        this->message_33_out_set({0});
+    }
+    
+    void numberobj_38_value_set(number v) {
+        this->numberobj_38_value_setter(v);
+        v = this->numberobj_38_value;
+        this->sendParameter(35, false);
+        this->numberobj_38_output_set(v);
+    }
+    
+    void receive_28_output_number_set(number v) {
+        this->receive_28_output_number = v;
+        this->message_33_bangval_bang();
+        this->numberobj_38_value_set(v);
+    }
+    
+    void message_17_out_set(const list& ) {}
     
     void p_11_perform(Index n) {
         // subpatcher: decode
@@ -55522,180 +57110,404 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         this->stackprotect_count = __stackprotect_count;
     }
     
-    void param_13_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_13_value;
+    void numberobj_31_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_31_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_31_value = localvalue;
     }
     
-    void param_13_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_32_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_32_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_32_value = localvalue;
+    }
+    
+    void numberobj_33_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_33_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_33_value = localvalue;
+    }
+    
+    void numberobj_34_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_34_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_34_value = localvalue;
+    }
+    
+    void numberobj_35_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_35_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_35_value = localvalue;
+    }
+    
+    void numberobj_36_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_36_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_36_value = localvalue;
+    }
+    
+    void numberobj_37_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_37_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_37_value = localvalue;
+    }
+    
+    void numberobj_38_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_38_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_38_value = localvalue;
+    }
+    
+    void numberobj_39_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_39_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_39_value = localvalue;
+    }
+    
+    void numberobj_40_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_40_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_40_value = localvalue;
+    }
+    
+    void numberobj_41_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_41_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_41_value = localvalue;
+    }
+    
+    void numberobj_42_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_42_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_42_value = localvalue;
+    }
+    
+    void numberobj_43_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_43_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_43_value = localvalue;
+    }
+    
+    void numberobj_44_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_44_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_44_value = localvalue;
+    }
+    
+    void numberobj_45_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_45_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_45_value = localvalue;
+    }
+    
+    void numberobj_46_value_setter(number v) {
+        number localvalue = v;
+    
+        if (this->numberobj_46_currentFormat != 6) {
+            localvalue = rnbo_trunc(localvalue);
+        }
+    
+        this->numberobj_46_value = localvalue;
+    }
+    
+    void numberobj_31_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-12"), 1, this->_currentTime);
+    }
+    
+    void numberobj_31_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_31_value;
+    }
+    
+    void numberobj_31_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_13_value_set(preset["value"]);
+        this->numberobj_31_value_set(preset["value"]);
     }
     
-    void param_14_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_14_value;
+    void numberobj_32_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-16"), 1, this->_currentTime);
     }
     
-    void param_14_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_32_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_32_value;
+    }
+    
+    void numberobj_32_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_14_value_set(preset["value"]);
+        this->numberobj_32_value_set(preset["value"]);
     }
     
-    void param_15_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_15_value;
+    void numberobj_33_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-18"), 1, this->_currentTime);
     }
     
-    void param_15_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_33_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_33_value;
+    }
+    
+    void numberobj_33_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_15_value_set(preset["value"]);
+        this->numberobj_33_value_set(preset["value"]);
     }
     
-    void param_16_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_16_value;
+    void numberobj_34_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-79"), 1, this->_currentTime);
     }
     
-    void param_16_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_34_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_34_value;
+    }
+    
+    void numberobj_34_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_16_value_set(preset["value"]);
+        this->numberobj_34_value_set(preset["value"]);
     }
     
-    void param_17_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_17_value;
+    void numberobj_35_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-103"), 1, this->_currentTime);
     }
     
-    void param_17_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_35_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_35_value;
+    }
+    
+    void numberobj_35_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_17_value_set(preset["value"]);
+        this->numberobj_35_value_set(preset["value"]);
     }
     
-    void param_18_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_18_value;
+    void numberobj_36_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-107"), 1, this->_currentTime);
     }
     
-    void param_18_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_36_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_36_value;
+    }
+    
+    void numberobj_36_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_18_value_set(preset["value"]);
+        this->numberobj_36_value_set(preset["value"]);
     }
     
-    void param_19_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_19_value;
+    void numberobj_37_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-119"), 1, this->_currentTime);
     }
     
-    void param_19_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_37_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_37_value;
+    }
+    
+    void numberobj_37_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_19_value_set(preset["value"]);
+        this->numberobj_37_value_set(preset["value"]);
     }
     
-    void param_20_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_20_value;
+    void numberobj_38_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-125"), 1, this->_currentTime);
     }
     
-    void param_20_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_38_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_38_value;
+    }
+    
+    void numberobj_38_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_20_value_set(preset["value"]);
+        this->numberobj_38_value_set(preset["value"]);
     }
     
-    void param_21_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_21_value;
+    void numberobj_39_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-127"), 1, this->_currentTime);
     }
     
-    void param_21_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_39_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_39_value;
+    }
+    
+    void numberobj_39_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_21_value_set(preset["value"]);
+        this->numberobj_39_value_set(preset["value"]);
     }
     
-    void param_22_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_22_value;
+    void numberobj_40_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-129"), 1, this->_currentTime);
     }
     
-    void param_22_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_40_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_40_value;
+    }
+    
+    void numberobj_40_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_22_value_set(preset["value"]);
+        this->numberobj_40_value_set(preset["value"]);
     }
     
-    void param_23_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_23_value;
+    void numberobj_41_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-131"), 1, this->_currentTime);
     }
     
-    void param_23_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_41_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_41_value;
+    }
+    
+    void numberobj_41_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_23_value_set(preset["value"]);
+        this->numberobj_41_value_set(preset["value"]);
     }
     
-    void param_24_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_24_value;
+    void numberobj_42_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-134"), 1, this->_currentTime);
     }
     
-    void param_24_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_42_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_42_value;
+    }
+    
+    void numberobj_42_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_24_value_set(preset["value"]);
+        this->numberobj_42_value_set(preset["value"]);
     }
     
-    void param_25_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_25_value;
+    void numberobj_43_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-136"), 1, this->_currentTime);
     }
     
-    void param_25_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_43_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_43_value;
+    }
+    
+    void numberobj_43_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_25_value_set(preset["value"]);
+        this->numberobj_43_value_set(preset["value"]);
     }
     
-    void param_26_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_26_value;
+    void numberobj_44_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-138"), 1, this->_currentTime);
     }
     
-    void param_26_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_44_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_44_value;
+    }
+    
+    void numberobj_44_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_26_value_set(preset["value"]);
+        this->numberobj_44_value_set(preset["value"]);
     }
     
-    void param_27_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_27_value;
+    void numberobj_45_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-140"), 1, this->_currentTime);
     }
     
-    void param_27_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_45_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_45_value;
+    }
+    
+    void numberobj_45_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_27_value_set(preset["value"]);
+        this->numberobj_45_value_set(preset["value"]);
     }
     
-    void param_28_getPresetValue(PatcherStateInterface& preset) {
-        preset["value"] = this->param_28_value;
+    void numberobj_46_init() {
+        this->getEngine()->sendNumMessage(TAG("setup"), TAG("p_obj-193/number_obj-142"), 1, this->_currentTime);
     }
     
-    void param_28_setPresetValue(PatcherStateInterface& preset) {
+    void numberobj_46_getPresetValue(PatcherStateInterface& preset) {
+        preset["value"] = this->numberobj_46_value;
+    }
+    
+    void numberobj_46_setPresetValue(PatcherStateInterface& preset) {
         if ((bool)(stateIsEmpty(preset)))
             return;
     
-        this->param_28_value_set(preset["value"]);
+        this->numberobj_46_value_set(preset["value"]);
     }
     
     bool stackprotect_check() {
@@ -55738,106 +57550,170 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         route_69_selector14 = 14;
         route_69_selector15 = 15;
         route_69_selector16 = 16;
+        numberobj_31_value = 0;
+        numberobj_31_value_setter(numberobj_31_value);
+        gate_09_onoff = 0;
+        gate_09_out1_number = 0;
         send_01_input_number = 0;
         send_02_input_number = 0;
         send_03_input_number = 0;
         send_04_input_number = 0;
-        param_13_value = 0;
         p_11_target = 0;
+        receive_17_output_number = 0;
+        receive_18_output_number = 0;
+        numberobj_32_value = 0;
+        numberobj_32_value_setter(numberobj_32_value);
+        gate_10_onoff = 0;
+        gate_10_out1_number = 0;
         send_05_input_number = 0;
         send_06_input_number = 0;
         send_07_input_number = 0;
         send_08_input_number = 0;
         p_12_target = 0;
-        param_14_value = 0;
-        receive_17_output_number = 0;
-        receive_18_output_number = 0;
+        receive_19_output_number = 0;
+        receive_20_output_number = 0;
+        numberobj_33_value = 0;
+        numberobj_33_value_setter(numberobj_33_value);
+        gate_11_onoff = 0;
+        gate_11_out1_number = 0;
         send_09_input_number = 0;
         send_10_input_number = 0;
         send_11_input_number = 0;
         send_12_input_number = 0;
         p_13_target = 0;
-        param_15_value = 0;
-        receive_19_output_number = 0;
+        receive_21_output_number = 0;
+        receive_22_output_number = 0;
         send_13_input_number = 0;
         send_14_input_number = 0;
         send_15_input_number = 0;
         send_16_input_number = 0;
         p_14_target = 0;
-        param_16_value = 0;
-        receive_20_output_number = 0;
+        numberobj_34_value = 0;
+        numberobj_34_value_setter(numberobj_34_value);
+        gate_12_onoff = 0;
+        gate_12_out1_number = 0;
+        receive_23_output_number = 0;
+        receive_24_output_number = 0;
+        numberobj_35_value = 0;
+        numberobj_35_value_setter(numberobj_35_value);
+        gate_13_onoff = 0;
+        gate_13_out1_number = 0;
         send_17_input_number = 0;
         send_18_input_number = 0;
         send_19_input_number = 0;
         send_20_input_number = 0;
         p_15_target = 0;
-        param_17_value = 0;
+        receive_25_output_number = 0;
+        numberobj_36_value = 0;
+        numberobj_36_value_setter(numberobj_36_value);
+        gate_14_onoff = 0;
+        gate_14_out1_number = 0;
         send_21_input_number = 0;
         send_22_input_number = 0;
         send_23_input_number = 0;
         send_24_input_number = 0;
         p_16_target = 0;
-        param_18_value = 0;
+        receive_26_output_number = 0;
+        numberobj_37_value = 0;
+        numberobj_37_value_setter(numberobj_37_value);
+        gate_15_onoff = 0;
+        gate_15_out1_number = 0;
         send_25_input_number = 0;
         send_26_input_number = 0;
         send_27_input_number = 0;
         send_28_input_number = 0;
         p_17_target = 0;
-        param_19_value = 0;
+        receive_27_output_number = 0;
         send_29_input_number = 0;
         send_30_input_number = 0;
         send_31_input_number = 0;
         send_32_input_number = 0;
         p_18_target = 0;
-        param_20_value = 0;
+        numberobj_38_value = 0;
+        numberobj_38_value_setter(numberobj_38_value);
+        gate_16_onoff = 0;
+        gate_16_out1_number = 0;
+        receive_28_output_number = 0;
+        numberobj_39_value = 0;
+        numberobj_39_value_setter(numberobj_39_value);
+        gate_17_onoff = 0;
+        gate_17_out1_number = 0;
         send_33_input_number = 0;
         send_34_input_number = 0;
         send_35_input_number = 0;
         send_36_input_number = 0;
         p_19_target = 0;
-        param_21_value = 0;
+        receive_29_output_number = 0;
+        numberobj_40_value = 0;
+        numberobj_40_value_setter(numberobj_40_value);
+        gate_18_onoff = 0;
+        gate_18_out1_number = 0;
         send_37_input_number = 0;
         send_38_input_number = 0;
         send_39_input_number = 0;
         send_40_input_number = 0;
         p_20_target = 0;
-        param_22_value = 0;
+        receive_30_output_number = 0;
+        numberobj_41_value = 0;
+        numberobj_41_value_setter(numberobj_41_value);
+        gate_19_onoff = 0;
+        gate_19_out1_number = 0;
         send_41_input_number = 0;
         send_42_input_number = 0;
         send_43_input_number = 0;
         send_44_input_number = 0;
         p_21_target = 0;
-        param_23_value = 0;
+        receive_31_output_number = 0;
         send_45_input_number = 0;
         send_46_input_number = 0;
         send_47_input_number = 0;
         send_48_input_number = 0;
         p_22_target = 0;
-        param_24_value = 0;
+        numberobj_42_value = 0;
+        numberobj_42_value_setter(numberobj_42_value);
+        gate_20_onoff = 0;
+        gate_20_out1_number = 0;
+        receive_32_output_number = 0;
+        numberobj_43_value = 0;
+        numberobj_43_value_setter(numberobj_43_value);
+        gate_21_onoff = 0;
+        gate_21_out1_number = 0;
         send_49_input_number = 0;
         send_50_input_number = 0;
         send_51_input_number = 0;
         send_52_input_number = 0;
         p_23_target = 0;
-        param_25_value = 0;
+        receive_33_output_number = 0;
+        numberobj_44_value = 0;
+        numberobj_44_value_setter(numberobj_44_value);
+        gate_22_onoff = 0;
+        gate_22_out1_number = 0;
         send_53_input_number = 0;
         send_54_input_number = 0;
         send_55_input_number = 0;
         send_56_input_number = 0;
         p_24_target = 0;
-        param_26_value = 0;
+        receive_34_output_number = 0;
+        numberobj_45_value = 0;
+        numberobj_45_value_setter(numberobj_45_value);
+        gate_23_onoff = 0;
+        gate_23_out1_number = 0;
         send_57_input_number = 0;
         send_58_input_number = 0;
         send_59_input_number = 0;
         send_60_input_number = 0;
         p_25_target = 0;
-        param_27_value = 0;
+        receive_35_output_number = 0;
         send_61_input_number = 0;
         send_62_input_number = 0;
         send_63_input_number = 0;
         send_64_input_number = 0;
         p_26_target = 0;
-        param_28_value = 0;
+        numberobj_46_value = 0;
+        numberobj_46_value_setter(numberobj_46_value);
+        gate_24_onoff = 0;
+        gate_24_out1_number = 0;
+        receive_36_output_number = 0;
         _currentTime = 0;
         audioProcessSampleCount = 0;
         sampleOffsetIntoNextAudioBuffer = 0;
@@ -55848,22 +57724,38 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         maxvs = 0;
         sr = 44100;
         invsr = 0.00002267573696;
-        param_13_lastValue = 0;
-        param_14_lastValue = 0;
-        param_15_lastValue = 0;
-        param_16_lastValue = 0;
-        param_17_lastValue = 0;
-        param_18_lastValue = 0;
-        param_19_lastValue = 0;
-        param_20_lastValue = 0;
-        param_21_lastValue = 0;
-        param_22_lastValue = 0;
-        param_23_lastValue = 0;
-        param_24_lastValue = 0;
-        param_25_lastValue = 0;
-        param_26_lastValue = 0;
-        param_27_lastValue = 0;
-        param_28_lastValue = 0;
+        numberobj_31_currentFormat = 6;
+        numberobj_31_lastValue = 0;
+        numberobj_32_currentFormat = 6;
+        numberobj_32_lastValue = 0;
+        numberobj_33_currentFormat = 6;
+        numberobj_33_lastValue = 0;
+        numberobj_34_currentFormat = 6;
+        numberobj_34_lastValue = 0;
+        numberobj_35_currentFormat = 6;
+        numberobj_35_lastValue = 0;
+        numberobj_36_currentFormat = 6;
+        numberobj_36_lastValue = 0;
+        numberobj_37_currentFormat = 6;
+        numberobj_37_lastValue = 0;
+        numberobj_38_currentFormat = 6;
+        numberobj_38_lastValue = 0;
+        numberobj_39_currentFormat = 6;
+        numberobj_39_lastValue = 0;
+        numberobj_40_currentFormat = 6;
+        numberobj_40_lastValue = 0;
+        numberobj_41_currentFormat = 6;
+        numberobj_41_lastValue = 0;
+        numberobj_42_currentFormat = 6;
+        numberobj_42_lastValue = 0;
+        numberobj_43_currentFormat = 6;
+        numberobj_43_lastValue = 0;
+        numberobj_44_currentFormat = 6;
+        numberobj_44_lastValue = 0;
+        numberobj_45_currentFormat = 6;
+        numberobj_45_lastValue = 0;
+        numberobj_46_currentFormat = 6;
+        numberobj_46_lastValue = 0;
         stackprotect_count = 0;
         _voiceIndex = 0;
         _noteNumber = 0;
@@ -55889,6 +57781,10 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number route_69_selector14;
         number route_69_selector15;
         number route_69_selector16;
+        number numberobj_31_value;
+        number gate_09_onoff;
+        number gate_09_out1_number;
+        list gate_09_out1_list;
         number send_01_input_number;
         list send_01_input_list;
         number send_02_input_number;
@@ -55897,8 +57793,15 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         list send_03_input_list;
         number send_04_input_number;
         list send_04_input_list;
-        number param_13_value;
         number p_11_target;
+        number receive_17_output_number;
+        list receive_17_output_list;
+        number receive_18_output_number;
+        list receive_18_output_list;
+        number numberobj_32_value;
+        number gate_10_onoff;
+        number gate_10_out1_number;
+        list gate_10_out1_list;
         number send_05_input_number;
         list send_05_input_list;
         number send_06_input_number;
@@ -55908,11 +57811,14 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_08_input_number;
         list send_08_input_list;
         number p_12_target;
-        number param_14_value;
-        number receive_17_output_number;
-        list receive_17_output_list;
-        number receive_18_output_number;
-        list receive_18_output_list;
+        number receive_19_output_number;
+        list receive_19_output_list;
+        number receive_20_output_number;
+        list receive_20_output_list;
+        number numberobj_33_value;
+        number gate_11_onoff;
+        number gate_11_out1_number;
+        list gate_11_out1_list;
         number send_09_input_number;
         list send_09_input_list;
         number send_10_input_number;
@@ -55922,9 +57828,10 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_12_input_number;
         list send_12_input_list;
         number p_13_target;
-        number param_15_value;
-        number receive_19_output_number;
-        list receive_19_output_list;
+        number receive_21_output_number;
+        list receive_21_output_list;
+        number receive_22_output_number;
+        list receive_22_output_list;
         number send_13_input_number;
         list send_13_input_list;
         number send_14_input_number;
@@ -55934,9 +57841,18 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_16_input_number;
         list send_16_input_list;
         number p_14_target;
-        number param_16_value;
-        number receive_20_output_number;
-        list receive_20_output_list;
+        number numberobj_34_value;
+        number gate_12_onoff;
+        number gate_12_out1_number;
+        list gate_12_out1_list;
+        number receive_23_output_number;
+        list receive_23_output_list;
+        number receive_24_output_number;
+        list receive_24_output_list;
+        number numberobj_35_value;
+        number gate_13_onoff;
+        number gate_13_out1_number;
+        list gate_13_out1_list;
         number send_17_input_number;
         list send_17_input_list;
         number send_18_input_number;
@@ -55946,7 +57862,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_20_input_number;
         list send_20_input_list;
         number p_15_target;
-        number param_17_value;
+        number receive_25_output_number;
+        list receive_25_output_list;
+        number numberobj_36_value;
+        number gate_14_onoff;
+        number gate_14_out1_number;
+        list gate_14_out1_list;
         number send_21_input_number;
         list send_21_input_list;
         number send_22_input_number;
@@ -55956,7 +57877,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_24_input_number;
         list send_24_input_list;
         number p_16_target;
-        number param_18_value;
+        number receive_26_output_number;
+        list receive_26_output_list;
+        number numberobj_37_value;
+        number gate_15_onoff;
+        number gate_15_out1_number;
+        list gate_15_out1_list;
         number send_25_input_number;
         list send_25_input_list;
         number send_26_input_number;
@@ -55966,7 +57892,8 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_28_input_number;
         list send_28_input_list;
         number p_17_target;
-        number param_19_value;
+        number receive_27_output_number;
+        list receive_27_output_list;
         number send_29_input_number;
         list send_29_input_list;
         number send_30_input_number;
@@ -55976,7 +57903,16 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_32_input_number;
         list send_32_input_list;
         number p_18_target;
-        number param_20_value;
+        number numberobj_38_value;
+        number gate_16_onoff;
+        number gate_16_out1_number;
+        list gate_16_out1_list;
+        number receive_28_output_number;
+        list receive_28_output_list;
+        number numberobj_39_value;
+        number gate_17_onoff;
+        number gate_17_out1_number;
+        list gate_17_out1_list;
         number send_33_input_number;
         list send_33_input_list;
         number send_34_input_number;
@@ -55986,7 +57922,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_36_input_number;
         list send_36_input_list;
         number p_19_target;
-        number param_21_value;
+        number receive_29_output_number;
+        list receive_29_output_list;
+        number numberobj_40_value;
+        number gate_18_onoff;
+        number gate_18_out1_number;
+        list gate_18_out1_list;
         number send_37_input_number;
         list send_37_input_list;
         number send_38_input_number;
@@ -55996,7 +57937,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_40_input_number;
         list send_40_input_list;
         number p_20_target;
-        number param_22_value;
+        number receive_30_output_number;
+        list receive_30_output_list;
+        number numberobj_41_value;
+        number gate_19_onoff;
+        number gate_19_out1_number;
+        list gate_19_out1_list;
         number send_41_input_number;
         list send_41_input_list;
         number send_42_input_number;
@@ -56006,7 +57952,8 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_44_input_number;
         list send_44_input_list;
         number p_21_target;
-        number param_23_value;
+        number receive_31_output_number;
+        list receive_31_output_list;
         number send_45_input_number;
         list send_45_input_list;
         number send_46_input_number;
@@ -56016,7 +57963,16 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_48_input_number;
         list send_48_input_list;
         number p_22_target;
-        number param_24_value;
+        number numberobj_42_value;
+        number gate_20_onoff;
+        number gate_20_out1_number;
+        list gate_20_out1_list;
+        number receive_32_output_number;
+        list receive_32_output_list;
+        number numberobj_43_value;
+        number gate_21_onoff;
+        number gate_21_out1_number;
+        list gate_21_out1_list;
         number send_49_input_number;
         list send_49_input_list;
         number send_50_input_number;
@@ -56026,7 +57982,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_52_input_number;
         list send_52_input_list;
         number p_23_target;
-        number param_25_value;
+        number receive_33_output_number;
+        list receive_33_output_list;
+        number numberobj_44_value;
+        number gate_22_onoff;
+        number gate_22_out1_number;
+        list gate_22_out1_list;
         number send_53_input_number;
         list send_53_input_list;
         number send_54_input_number;
@@ -56036,7 +57997,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_56_input_number;
         list send_56_input_list;
         number p_24_target;
-        number param_26_value;
+        number receive_34_output_number;
+        list receive_34_output_list;
+        number numberobj_45_value;
+        number gate_23_onoff;
+        number gate_23_out1_number;
+        list gate_23_out1_list;
         number send_57_input_number;
         list send_57_input_list;
         number send_58_input_number;
@@ -56046,7 +58012,8 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_60_input_number;
         list send_60_input_list;
         number p_25_target;
-        number param_27_value;
+        number receive_35_output_number;
+        list receive_35_output_list;
         number send_61_input_number;
         list send_61_input_list;
         number send_62_input_number;
@@ -56056,7 +58023,12 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         number send_64_input_number;
         list send_64_input_list;
         number p_26_target;
-        number param_28_value;
+        number numberobj_46_value;
+        number gate_24_onoff;
+        number gate_24_out1_number;
+        list gate_24_out1_list;
+        number receive_36_output_number;
+        list receive_36_output_list;
         MillisecondTime _currentTime;
         SampleIndex audioProcessSampleCount;
         SampleIndex sampleOffsetIntoNextAudioBuffer;
@@ -56067,57 +58039,73 @@ class RNBOSubpatcher_568 : public PatcherInterfaceImpl {
         Index maxvs;
         number sr;
         number invsr;
-        number param_13_lastValue;
-        number param_14_lastValue;
-        number param_15_lastValue;
-        number param_16_lastValue;
-        number param_17_lastValue;
-        number param_18_lastValue;
-        number param_19_lastValue;
-        number param_20_lastValue;
-        number param_21_lastValue;
-        number param_22_lastValue;
-        number param_23_lastValue;
-        number param_24_lastValue;
-        number param_25_lastValue;
-        number param_26_lastValue;
-        number param_27_lastValue;
-        number param_28_lastValue;
+        Int numberobj_31_currentFormat;
+        number numberobj_31_lastValue;
+        Int numberobj_32_currentFormat;
+        number numberobj_32_lastValue;
+        Int numberobj_33_currentFormat;
+        number numberobj_33_lastValue;
+        Int numberobj_34_currentFormat;
+        number numberobj_34_lastValue;
+        Int numberobj_35_currentFormat;
+        number numberobj_35_lastValue;
+        Int numberobj_36_currentFormat;
+        number numberobj_36_lastValue;
+        Int numberobj_37_currentFormat;
+        number numberobj_37_lastValue;
+        Int numberobj_38_currentFormat;
+        number numberobj_38_lastValue;
+        Int numberobj_39_currentFormat;
+        number numberobj_39_lastValue;
+        Int numberobj_40_currentFormat;
+        number numberobj_40_lastValue;
+        Int numberobj_41_currentFormat;
+        number numberobj_41_lastValue;
+        Int numberobj_42_currentFormat;
+        number numberobj_42_lastValue;
+        Int numberobj_43_currentFormat;
+        number numberobj_43_lastValue;
+        Int numberobj_44_currentFormat;
+        number numberobj_44_lastValue;
+        Int numberobj_45_currentFormat;
+        number numberobj_45_lastValue;
+        Int numberobj_46_currentFormat;
+        number numberobj_46_lastValue;
         number stackprotect_count;
         Index _voiceIndex;
         Int _noteNumber;
         Index isMuted;
         ParameterIndex parameterOffset;
-        RNBOSubpatcher_545* p_11;
-        RNBOSubpatcher_546* p_12;
-        RNBOSubpatcher_547* p_13;
-        RNBOSubpatcher_548* p_14;
-        RNBOSubpatcher_549* p_15;
-        RNBOSubpatcher_550* p_16;
-        RNBOSubpatcher_551* p_17;
-        RNBOSubpatcher_552* p_18;
-        RNBOSubpatcher_553* p_19;
-        RNBOSubpatcher_554* p_20;
-        RNBOSubpatcher_555* p_21;
-        RNBOSubpatcher_556* p_22;
-        RNBOSubpatcher_557* p_23;
-        RNBOSubpatcher_558* p_24;
-        RNBOSubpatcher_559* p_25;
-        RNBOSubpatcher_560* p_26;
+        RNBOSubpatcher_1035* p_11;
+        RNBOSubpatcher_1036* p_12;
+        RNBOSubpatcher_1037* p_13;
+        RNBOSubpatcher_1038* p_14;
+        RNBOSubpatcher_1039* p_15;
+        RNBOSubpatcher_1040* p_16;
+        RNBOSubpatcher_1041* p_17;
+        RNBOSubpatcher_1042* p_18;
+        RNBOSubpatcher_1043* p_19;
+        RNBOSubpatcher_1044* p_20;
+        RNBOSubpatcher_1045* p_21;
+        RNBOSubpatcher_1046* p_22;
+        RNBOSubpatcher_1047* p_23;
+        RNBOSubpatcher_1048* p_24;
+        RNBOSubpatcher_1049* p_25;
+        RNBOSubpatcher_1050* p_26;
     
 };
 
-class RNBOSubpatcher_569 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_1059 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    RNBOSubpatcher_569()
+    RNBOSubpatcher_1059()
     {
     }
     
-    ~RNBOSubpatcher_569()
+    ~RNBOSubpatcher_1059()
     {
     }
     
@@ -56869,52 +58857,116 @@ ParameterIndex getParameterIndexForID(ConstCharPointer paramid) const {
         return 1;
     }
 
-    if (!stringCompare(paramid, "key_offset")) {
+    if (!stringCompare(paramid, "drum9")) {
         return 2;
     }
 
-    if (!stringCompare(paramid, "current_beat")) {
+    if (!stringCompare(paramid, "drum1")) {
         return 3;
     }
 
-    if (!stringCompare(paramid, "tempo")) {
+    if (!stringCompare(paramid, "key_offset")) {
         return 4;
     }
 
-    if (!stringCompare(paramid, "octave")) {
+    if (!stringCompare(paramid, "current_beat")) {
         return 5;
     }
 
-    if (!stringCompare(paramid, "reverb_mix")) {
+    if (!stringCompare(paramid, "drum10")) {
         return 6;
     }
 
-    if (!stringCompare(paramid, "chord_1")) {
+    if (!stringCompare(paramid, "drum2")) {
         return 7;
     }
 
-    if (!stringCompare(paramid, "chord_2")) {
+    if (!stringCompare(paramid, "drum11")) {
         return 8;
     }
 
-    if (!stringCompare(paramid, "chord_3")) {
+    if (!stringCompare(paramid, "drum3")) {
         return 9;
     }
 
-    if (!stringCompare(paramid, "chord_4")) {
+    if (!stringCompare(paramid, "tempo")) {
         return 10;
     }
 
-    if (!stringCompare(paramid, "message_obj-242/bangval")) {
+    if (!stringCompare(paramid, "drum12")) {
         return 11;
     }
 
-    if (!stringCompare(paramid, "number_obj-36/value")) {
+    if (!stringCompare(paramid, "drum4")) {
         return 12;
     }
 
-    if (!stringCompare(paramid, "toggle_obj-55/value")) {
+    if (!stringCompare(paramid, "octave")) {
         return 13;
+    }
+
+    if (!stringCompare(paramid, "reverb_mix")) {
+        return 14;
+    }
+
+    if (!stringCompare(paramid, "drum13")) {
+        return 15;
+    }
+
+    if (!stringCompare(paramid, "drum5")) {
+        return 16;
+    }
+
+    if (!stringCompare(paramid, "chord_1")) {
+        return 17;
+    }
+
+    if (!stringCompare(paramid, "drum14")) {
+        return 18;
+    }
+
+    if (!stringCompare(paramid, "drum6")) {
+        return 19;
+    }
+
+    if (!stringCompare(paramid, "chord_2")) {
+        return 20;
+    }
+
+    if (!stringCompare(paramid, "drum15")) {
+        return 21;
+    }
+
+    if (!stringCompare(paramid, "drum7")) {
+        return 22;
+    }
+
+    if (!stringCompare(paramid, "drum16")) {
+        return 23;
+    }
+
+    if (!stringCompare(paramid, "drum8")) {
+        return 24;
+    }
+
+    if (!stringCompare(paramid, "chord_3")) {
+        return 25;
+    }
+
+    if (!stringCompare(paramid, "chord_4")) {
+        return 26;
+    }
+
+    if (!stringCompare(paramid, "message_obj-242/bangval")) {
+        return 27;
+    }
+
+    if (!stringCompare(paramid, "number_obj-36/value")) {
+        return 28;
+    }
+
+    if (!stringCompare(paramid, "toggle_obj-55/value")) {
+        return 29;
     }
 
     return INVALID_INDEX;
@@ -57249,44 +59301,44 @@ Index getPatcherSerial() const {
 void getState(PatcherStateInterface& ) {}
 
 void setState() {
-    this->patcher_01 = new RNBOSubpatcher_561();
+    this->patcher_01 = new RNBOSubpatcher_1051();
     this->patcher_01->setEngineAndPatcher(this->getEngine(), this);
     this->patcher_01->initialize();
     this->patcher_01->setParameterOffset(this->getParameterOffset(this->patcher_01));
-    this->p_27 = new RNBOSubpatcher_562();
+    this->p_27 = new RNBOSubpatcher_1052();
     this->p_27->setEngineAndPatcher(this->getEngine(), this);
     this->p_27->initialize();
     this->p_27->setParameterOffset(this->getParameterOffset(this->p_27));
-    this->p_28 = new RNBOSubpatcher_563();
+    this->p_28 = new RNBOSubpatcher_1053();
     this->p_28->setEngineAndPatcher(this->getEngine(), this);
     this->p_28->initialize();
     this->p_28->setParameterOffset(this->getParameterOffset(this->p_28));
-    this->p_29 = new RNBOSubpatcher_564();
+    this->p_29 = new RNBOSubpatcher_1054();
     this->p_29->setEngineAndPatcher(this->getEngine(), this);
     this->p_29->initialize();
     this->p_29->setParameterOffset(this->getParameterOffset(this->p_29));
 
     for (Index i = 0; i < 4; i++) {
-        this->p_30[(Index)i] = new RNBOSubpatcher_565();
+        this->p_30[(Index)i] = new RNBOSubpatcher_1055();
         this->p_30[(Index)i]->setEngineAndPatcher(this->getEngine(), this);
         this->p_30[(Index)i]->initialize();
         this->p_30[(Index)i]->setParameterOffset(this->getParameterOffset(this->p_30[0]));
         this->p_30[(Index)i]->setVoiceIndex(i + 1);
     }
 
-    this->p_31 = new RNBOSubpatcher_566();
+    this->p_31 = new RNBOSubpatcher_1056();
     this->p_31->setEngineAndPatcher(this->getEngine(), this);
     this->p_31->initialize();
     this->p_31->setParameterOffset(this->getParameterOffset(this->p_31));
-    this->p_32 = new RNBOSubpatcher_567();
+    this->p_32 = new RNBOSubpatcher_1057();
     this->p_32->setEngineAndPatcher(this->getEngine(), this);
     this->p_32->initialize();
     this->p_32->setParameterOffset(this->getParameterOffset(this->p_32));
-    this->p_33 = new RNBOSubpatcher_568();
+    this->p_33 = new RNBOSubpatcher_1058();
     this->p_33->setEngineAndPatcher(this->getEngine(), this);
     this->p_33->initialize();
     this->p_33->setParameterOffset(this->getParameterOffset(this->p_33));
-    this->p_34 = new RNBOSubpatcher_569();
+    this->p_34 = new RNBOSubpatcher_1059();
     this->p_34->setEngineAndPatcher(this->getEngine(), this);
     this->p_34->initialize();
     this->p_34->setParameterOffset(this->getParameterOffset(this->p_34));
@@ -57294,15 +59346,31 @@ void setState() {
 
 void getPreset(PatcherStateInterface& preset) {
     preset["__presetid"] = "rnbo";
-    this->param_29_getPresetValue(getSubState(preset, "playing"));
-    this->param_30_getPresetValue(getSubState(preset, "bitcrushing"));
-    this->param_31_getPresetValue(getSubState(preset, "key_offset"));
-    this->param_32_getPresetValue(getSubState(preset, "current_beat"));
-    this->param_33_getPresetValue(getSubState(preset, "tempo"));
-    this->param_34_getPresetValue(getSubState(preset, "octave"));
-    this->param_35_getPresetValue(getSubState(preset, "reverb_mix"));
-    this->param_36_getPresetValue(getSubState(preset, "chord_1"));
-    this->param_37_getPresetValue(getSubState(preset, "chord_2"));
+    this->param_13_getPresetValue(getSubState(preset, "playing"));
+    this->param_14_getPresetValue(getSubState(preset, "bitcrushing"));
+    this->param_15_getPresetValue(getSubState(preset, "drum9"));
+    this->param_16_getPresetValue(getSubState(preset, "drum1"));
+    this->param_17_getPresetValue(getSubState(preset, "key_offset"));
+    this->param_18_getPresetValue(getSubState(preset, "current_beat"));
+    this->param_19_getPresetValue(getSubState(preset, "drum10"));
+    this->param_20_getPresetValue(getSubState(preset, "drum2"));
+    this->param_21_getPresetValue(getSubState(preset, "drum11"));
+    this->param_22_getPresetValue(getSubState(preset, "drum3"));
+    this->param_23_getPresetValue(getSubState(preset, "tempo"));
+    this->param_24_getPresetValue(getSubState(preset, "drum12"));
+    this->param_25_getPresetValue(getSubState(preset, "drum4"));
+    this->param_26_getPresetValue(getSubState(preset, "octave"));
+    this->param_27_getPresetValue(getSubState(preset, "reverb_mix"));
+    this->param_28_getPresetValue(getSubState(preset, "drum13"));
+    this->param_29_getPresetValue(getSubState(preset, "drum5"));
+    this->param_30_getPresetValue(getSubState(preset, "chord_1"));
+    this->param_31_getPresetValue(getSubState(preset, "drum14"));
+    this->param_32_getPresetValue(getSubState(preset, "drum6"));
+    this->param_33_getPresetValue(getSubState(preset, "chord_2"));
+    this->param_34_getPresetValue(getSubState(preset, "drum15"));
+    this->param_35_getPresetValue(getSubState(preset, "drum7"));
+    this->param_36_getPresetValue(getSubState(preset, "drum16"));
+    this->param_37_getPresetValue(getSubState(preset, "drum8"));
     this->param_38_getPresetValue(getSubState(preset, "chord_3"));
     this->param_39_getPresetValue(getSubState(preset, "chord_4"));
     this->patcher_01->getPreset(getSubState(getSubState(preset, "__sps"), "patcher_obj-15"));
@@ -57321,15 +59389,31 @@ void getPreset(PatcherStateInterface& preset) {
 
 void setPreset(MillisecondTime time, PatcherStateInterface& preset) {
     this->updateTime(time);
-    this->param_29_setPresetValue(getSubState(preset, "playing"));
-    this->param_30_setPresetValue(getSubState(preset, "bitcrushing"));
-    this->param_31_setPresetValue(getSubState(preset, "key_offset"));
-    this->param_32_setPresetValue(getSubState(preset, "current_beat"));
-    this->param_33_setPresetValue(getSubState(preset, "tempo"));
-    this->param_34_setPresetValue(getSubState(preset, "octave"));
-    this->param_35_setPresetValue(getSubState(preset, "reverb_mix"));
-    this->param_36_setPresetValue(getSubState(preset, "chord_1"));
-    this->param_37_setPresetValue(getSubState(preset, "chord_2"));
+    this->param_13_setPresetValue(getSubState(preset, "playing"));
+    this->param_14_setPresetValue(getSubState(preset, "bitcrushing"));
+    this->param_15_setPresetValue(getSubState(preset, "drum9"));
+    this->param_16_setPresetValue(getSubState(preset, "drum1"));
+    this->param_17_setPresetValue(getSubState(preset, "key_offset"));
+    this->param_18_setPresetValue(getSubState(preset, "current_beat"));
+    this->param_19_setPresetValue(getSubState(preset, "drum10"));
+    this->param_20_setPresetValue(getSubState(preset, "drum2"));
+    this->param_21_setPresetValue(getSubState(preset, "drum11"));
+    this->param_22_setPresetValue(getSubState(preset, "drum3"));
+    this->param_23_setPresetValue(getSubState(preset, "tempo"));
+    this->param_24_setPresetValue(getSubState(preset, "drum12"));
+    this->param_25_setPresetValue(getSubState(preset, "drum4"));
+    this->param_26_setPresetValue(getSubState(preset, "octave"));
+    this->param_27_setPresetValue(getSubState(preset, "reverb_mix"));
+    this->param_28_setPresetValue(getSubState(preset, "drum13"));
+    this->param_29_setPresetValue(getSubState(preset, "drum5"));
+    this->param_30_setPresetValue(getSubState(preset, "chord_1"));
+    this->param_31_setPresetValue(getSubState(preset, "drum14"));
+    this->param_32_setPresetValue(getSubState(preset, "drum6"));
+    this->param_33_setPresetValue(getSubState(preset, "chord_2"));
+    this->param_34_setPresetValue(getSubState(preset, "drum15"));
+    this->param_35_setPresetValue(getSubState(preset, "drum7"));
+    this->param_36_setPresetValue(getSubState(preset, "drum16"));
+    this->param_37_setPresetValue(getSubState(preset, "drum8"));
     this->param_38_setPresetValue(getSubState(preset, "chord_3"));
     this->param_39_setPresetValue(getSubState(preset, "chord_4"));
 
@@ -57355,70 +59439,6 @@ void setPreset(MillisecondTime time, PatcherStateInterface& preset) {
 
     this->p_29->param_12_setPresetValue(
         getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-45"), "parallel_mix")
-    );
-
-    this->p_33->param_13_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_1")
-    );
-
-    this->p_33->param_14_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_2")
-    );
-
-    this->p_33->param_15_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_3")
-    );
-
-    this->p_33->param_16_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_4")
-    );
-
-    this->p_33->param_17_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_5")
-    );
-
-    this->p_33->param_18_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_6")
-    );
-
-    this->p_33->param_19_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_7")
-    );
-
-    this->p_33->param_20_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_8")
-    );
-
-    this->p_33->param_21_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_9")
-    );
-
-    this->p_33->param_22_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_10")
-    );
-
-    this->p_33->param_23_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_11")
-    );
-
-    this->p_33->param_24_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_12")
-    );
-
-    this->p_33->param_25_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_13")
-    );
-
-    this->p_33->param_26_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_14")
-    );
-
-    this->p_33->param_27_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_15")
-    );
-
-    this->p_33->param_28_setPresetValue(
-        getSubState(getSubState(getSubState(preset, "__sps"), "p_obj-193"), "drums_16")
     );
 
     this->patcher_01->param_04_setPresetValue(
@@ -57537,49 +59557,97 @@ void setParameterValue(ParameterIndex index, ParameterValue v, MillisecondTime t
 
     switch (index) {
     case 0:
-        this->param_29_value_set(v);
+        this->param_13_value_set(v);
         break;
     case 1:
-        this->param_30_value_set(v);
+        this->param_14_value_set(v);
         break;
     case 2:
-        this->param_31_value_set(v);
+        this->param_15_value_set(v);
         break;
     case 3:
-        this->param_32_value_set(v);
+        this->param_16_value_set(v);
         break;
     case 4:
-        this->param_33_value_set(v);
+        this->param_17_value_set(v);
         break;
     case 5:
-        this->param_34_value_set(v);
+        this->param_18_value_set(v);
         break;
     case 6:
-        this->param_35_value_set(v);
+        this->param_19_value_set(v);
         break;
     case 7:
-        this->param_36_value_set(v);
+        this->param_20_value_set(v);
         break;
     case 8:
-        this->param_37_value_set(v);
+        this->param_21_value_set(v);
         break;
     case 9:
-        this->param_38_value_set(v);
+        this->param_22_value_set(v);
         break;
     case 10:
-        this->param_39_value_set(v);
+        this->param_23_value_set(v);
         break;
     case 11:
-        this->message_18_bangval_bang();
+        this->param_24_value_set(v);
         break;
     case 12:
-        this->numberobj_31_value_set(v);
+        this->param_25_value_set(v);
         break;
     case 13:
+        this->param_26_value_set(v);
+        break;
+    case 14:
+        this->param_27_value_set(v);
+        break;
+    case 15:
+        this->param_28_value_set(v);
+        break;
+    case 16:
+        this->param_29_value_set(v);
+        break;
+    case 17:
+        this->param_30_value_set(v);
+        break;
+    case 18:
+        this->param_31_value_set(v);
+        break;
+    case 19:
+        this->param_32_value_set(v);
+        break;
+    case 20:
+        this->param_33_value_set(v);
+        break;
+    case 21:
+        this->param_34_value_set(v);
+        break;
+    case 22:
+        this->param_35_value_set(v);
+        break;
+    case 23:
+        this->param_36_value_set(v);
+        break;
+    case 24:
+        this->param_37_value_set(v);
+        break;
+    case 25:
+        this->param_38_value_set(v);
+        break;
+    case 26:
+        this->param_39_value_set(v);
+        break;
+    case 27:
+        this->message_50_bangval_bang();
+        break;
+    case 28:
+        this->numberobj_47_value_set(v);
+        break;
+    case 29:
         this->toggle_01_value_set(v);
         break;
     default:
-        index -= 14;
+        index -= 30;
 
         if (index < this->patcher_01->getNumParameters())
             this->patcher_01->setParameterValue(index, v, time);
@@ -57639,33 +59707,65 @@ void processNormalizedParameterEvent(ParameterIndex index, ParameterValue value,
 ParameterValue getParameterValue(ParameterIndex index)  {
     switch (index) {
     case 0:
-        return this->param_29_value;
+        return this->param_13_value;
     case 1:
-        return this->param_30_value;
+        return this->param_14_value;
     case 2:
-        return this->param_31_value;
+        return this->param_15_value;
     case 3:
-        return this->param_32_value;
+        return this->param_16_value;
     case 4:
-        return this->param_33_value;
+        return this->param_17_value;
     case 5:
-        return this->param_34_value;
+        return this->param_18_value;
     case 6:
-        return this->param_35_value;
+        return this->param_19_value;
     case 7:
-        return this->param_36_value;
+        return this->param_20_value;
     case 8:
-        return this->param_37_value;
+        return this->param_21_value;
     case 9:
-        return this->param_38_value;
+        return this->param_22_value;
     case 10:
-        return this->param_39_value;
+        return this->param_23_value;
+    case 11:
+        return this->param_24_value;
     case 12:
-        return this->numberobj_31_value;
+        return this->param_25_value;
     case 13:
+        return this->param_26_value;
+    case 14:
+        return this->param_27_value;
+    case 15:
+        return this->param_28_value;
+    case 16:
+        return this->param_29_value;
+    case 17:
+        return this->param_30_value;
+    case 18:
+        return this->param_31_value;
+    case 19:
+        return this->param_32_value;
+    case 20:
+        return this->param_33_value;
+    case 21:
+        return this->param_34_value;
+    case 22:
+        return this->param_35_value;
+    case 23:
+        return this->param_36_value;
+    case 24:
+        return this->param_37_value;
+    case 25:
+        return this->param_38_value;
+    case 26:
+        return this->param_39_value;
+    case 28:
+        return this->numberobj_47_value;
+    case 29:
         return this->toggle_01_value;
     default:
-        index -= 14;
+        index -= 30;
 
         if (index < this->patcher_01->getNumParameters())
             return this->patcher_01->getParameterValue(index);
@@ -57723,7 +59823,7 @@ ParameterIndex getNumSignalOutParameters() const {
 }
 
 ParameterIndex getNumParameters() const {
-    return 14 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters() + this->p_31->getNumParameters() + this->p_32->getNumParameters() + this->p_33->getNumParameters() + this->p_34->getNumParameters();
+    return 30 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters() + this->p_31->getNumParameters() + this->p_32->getNumParameters() + this->p_33->getNumParameters() + this->p_34->getNumParameters();
 }
 
 ConstCharPointer getParameterName(ParameterIndex index) const {
@@ -57733,31 +59833,63 @@ ConstCharPointer getParameterName(ParameterIndex index) const {
     case 1:
         return "bitcrushing";
     case 2:
-        return "key_offset";
+        return "drum9";
     case 3:
-        return "current_beat";
+        return "drum1";
     case 4:
-        return "tempo";
+        return "key_offset";
     case 5:
-        return "octave";
+        return "current_beat";
     case 6:
-        return "reverb_mix";
+        return "drum10";
     case 7:
-        return "chord_1";
+        return "drum2";
     case 8:
-        return "chord_2";
+        return "drum11";
     case 9:
-        return "chord_3";
+        return "drum3";
     case 10:
-        return "chord_4";
+        return "tempo";
     case 11:
-        return "message_18_bangval";
+        return "drum12";
     case 12:
-        return "numberobj_31_value";
+        return "drum4";
     case 13:
+        return "octave";
+    case 14:
+        return "reverb_mix";
+    case 15:
+        return "drum13";
+    case 16:
+        return "drum5";
+    case 17:
+        return "chord_1";
+    case 18:
+        return "drum14";
+    case 19:
+        return "drum6";
+    case 20:
+        return "chord_2";
+    case 21:
+        return "drum15";
+    case 22:
+        return "drum7";
+    case 23:
+        return "drum16";
+    case 24:
+        return "drum8";
+    case 25:
+        return "chord_3";
+    case 26:
+        return "chord_4";
+    case 27:
+        return "message_50_bangval";
+    case 28:
+        return "numberobj_47_value";
+    case 29:
         return "toggle_01_value";
     default:
-        index -= 14;
+        index -= 30;
 
         if (index < this->patcher_01->getNumParameters())
             return this->patcher_01->getParameterName(index);
@@ -57816,31 +59948,63 @@ ConstCharPointer getParameterId(ParameterIndex index) const {
     case 1:
         return "bitcrushing";
     case 2:
-        return "key_offset";
+        return "drum9";
     case 3:
-        return "current_beat";
+        return "drum1";
     case 4:
-        return "tempo";
+        return "key_offset";
     case 5:
-        return "octave";
+        return "current_beat";
     case 6:
-        return "reverb_mix";
+        return "drum10";
     case 7:
-        return "chord_1";
+        return "drum2";
     case 8:
-        return "chord_2";
+        return "drum11";
     case 9:
-        return "chord_3";
+        return "drum3";
     case 10:
-        return "chord_4";
+        return "tempo";
     case 11:
-        return "message_obj-242/bangval";
+        return "drum12";
     case 12:
-        return "number_obj-36/value";
+        return "drum4";
     case 13:
+        return "octave";
+    case 14:
+        return "reverb_mix";
+    case 15:
+        return "drum13";
+    case 16:
+        return "drum5";
+    case 17:
+        return "chord_1";
+    case 18:
+        return "drum14";
+    case 19:
+        return "drum6";
+    case 20:
+        return "chord_2";
+    case 21:
+        return "drum15";
+    case 22:
+        return "drum7";
+    case 23:
+        return "drum16";
+    case 24:
+        return "drum8";
+    case 25:
+        return "chord_3";
+    case 26:
+        return "chord_4";
+    case 27:
+        return "message_obj-242/bangval";
+    case 28:
+        return "number_obj-36/value";
+    case 29:
         return "toggle_obj-55/value";
     default:
-        index -= 14;
+        index -= 30;
 
         if (index < this->patcher_01->getNumParameters())
             return this->patcher_01->getParameterId(index);
@@ -57933,7 +60097,7 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->type = ParameterTypeNumber;
             info->initialValue = 0;
             info->min = 0;
-            info->max = 1;
+            info->max = 15;
             info->exponent = 1;
             info->steps = 0;
             info->debug = false;
@@ -57947,6 +60111,40 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->signalIndex = INVALID_INDEX;
             break;
         case 3:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 4:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 1;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 5:
             info->type = ParameterTypeNumber;
             info->initialValue = 0;
             info->min = 1;
@@ -57963,45 +60161,11 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->ioType = IOTypeUndefined;
             info->signalIndex = INVALID_INDEX;
             break;
-        case 4:
-            info->type = ParameterTypeNumber;
-            info->initialValue = 110;
-            info->min = 0;
-            info->max = 200;
-            info->exponent = 1;
-            info->steps = 0;
-            info->debug = false;
-            info->saveable = true;
-            info->transmittable = true;
-            info->initialized = true;
-            info->visible = true;
-            info->displayName = "";
-            info->unit = "";
-            info->ioType = IOTypeUndefined;
-            info->signalIndex = INVALID_INDEX;
-            break;
-        case 5:
-            info->type = ParameterTypeNumber;
-            info->initialValue = 4;
-            info->min = 0;
-            info->max = 8;
-            info->exponent = 1;
-            info->steps = 0;
-            info->debug = false;
-            info->saveable = true;
-            info->transmittable = true;
-            info->initialized = true;
-            info->visible = true;
-            info->displayName = "";
-            info->unit = "";
-            info->ioType = IOTypeUndefined;
-            info->signalIndex = INVALID_INDEX;
-            break;
         case 6:
             info->type = ParameterTypeNumber;
-            info->initialValue = 50;
+            info->initialValue = 0;
             info->min = 0;
-            info->max = 100;
+            info->max = 15;
             info->exponent = 1;
             info->steps = 0;
             info->debug = false;
@@ -58018,7 +60182,7 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->type = ParameterTypeNumber;
             info->initialValue = 0;
             info->min = 0;
-            info->max = 4;
+            info->max = 15;
             info->exponent = 1;
             info->steps = 0;
             info->debug = false;
@@ -58035,7 +60199,7 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->type = ParameterTypeNumber;
             info->initialValue = 0;
             info->min = 0;
-            info->max = 4;
+            info->max = 15;
             info->exponent = 1;
             info->steps = 0;
             info->debug = false;
@@ -58052,7 +60216,7 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->type = ParameterTypeNumber;
             info->initialValue = 0;
             info->min = 0;
-            info->max = 4;
+            info->max = 15;
             info->exponent = 1;
             info->steps = 0;
             info->debug = false;
@@ -58066,6 +60230,125 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->signalIndex = INVALID_INDEX;
             break;
         case 10:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 110;
+            info->min = 0;
+            info->max = 200;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 11:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 12:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 13:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 4;
+            info->min = 0;
+            info->max = 8;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 14:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 50;
+            info->min = 0;
+            info->max = 100;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 15:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 16:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 17:
             info->type = ParameterTypeNumber;
             info->initialValue = 0;
             info->min = 0;
@@ -58082,7 +60365,160 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->ioType = IOTypeUndefined;
             info->signalIndex = INVALID_INDEX;
             break;
-        case 11:
+        case 18:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 19:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 20:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 4;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 21:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 22:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 23:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 24:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 15;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 25:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 4;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 26:
+            info->type = ParameterTypeNumber;
+            info->initialValue = 0;
+            info->min = 0;
+            info->max = 4;
+            info->exponent = 1;
+            info->steps = 0;
+            info->debug = false;
+            info->saveable = true;
+            info->transmittable = true;
+            info->initialized = true;
+            info->visible = true;
+            info->displayName = "";
+            info->unit = "";
+            info->ioType = IOTypeUndefined;
+            info->signalIndex = INVALID_INDEX;
+            break;
+        case 27:
             info->type = ParameterTypeBang;
             info->initialValue = 0;
             info->min = 0;
@@ -58099,7 +60535,7 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->ioType = IOTypeUndefined;
             info->signalIndex = INVALID_INDEX;
             break;
-        case 12:
+        case 28:
             info->type = ParameterTypeNumber;
             info->initialValue = 0;
             info->min = 0;
@@ -58116,7 +60552,7 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->ioType = IOTypeUndefined;
             info->signalIndex = INVALID_INDEX;
             break;
-        case 13:
+        case 29:
             info->type = ParameterTypeNumber;
             info->initialValue = 1;
             info->min = 0;
@@ -58134,7 +60570,7 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
             info->signalIndex = INVALID_INDEX;
             break;
         default:
-            index -= 14;
+            index -= 30;
 
             if (index < this->patcher_01->getNumParameters())
                 this->patcher_01->getParameterInfo(index, info);
@@ -58193,31 +60629,31 @@ void sendParameter(ParameterIndex index, bool ignoreValue) {
 
 ParameterIndex getParameterOffset(BaseInterface* subpatcher) const {
     if (subpatcher == this->patcher_01)
-        return 14;
+        return 30;
 
     if (subpatcher == this->p_27)
-        return 14 + this->patcher_01->getNumParameters();
+        return 30 + this->patcher_01->getNumParameters();
 
     if (subpatcher == this->p_28)
-        return 14 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters();
+        return 30 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters();
 
     if (subpatcher == this->p_29)
-        return 14 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters();
+        return 30 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters();
 
     if (subpatcher == this->p_30[0])
-        return 14 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters();
+        return 30 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters();
 
     if (subpatcher == this->p_31)
-        return 14 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters();
+        return 30 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters();
 
     if (subpatcher == this->p_32)
-        return 14 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters() + this->p_31->getNumParameters();
+        return 30 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters() + this->p_31->getNumParameters();
 
     if (subpatcher == this->p_33)
-        return 14 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters() + this->p_31->getNumParameters() + this->p_32->getNumParameters();
+        return 30 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters() + this->p_31->getNumParameters() + this->p_32->getNumParameters();
 
     if (subpatcher == this->p_34)
-        return 14 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters() + this->p_31->getNumParameters() + this->p_32->getNumParameters() + this->p_33->getNumParameters();
+        return 30 + this->patcher_01->getNumParameters() + this->p_27->getNumParameters() + this->p_28->getNumParameters() + this->p_29->getNumParameters() + this->p_30[0]->getNumParameters() + this->p_31->getNumParameters() + this->p_32->getNumParameters() + this->p_33->getNumParameters();
 
     return 0;
 }
@@ -58239,42 +60675,63 @@ ParameterValue applyStepsToNormalizedParameterValue(ParameterValue normalizedVal
 ParameterValue convertToNormalizedParameterValue(ParameterIndex index, ParameterValue value) const {
     switch (index) {
     case 0:
-    case 2:
-    case 12:
-    case 13:
+    case 4:
+    case 28:
+    case 29:
         {
             value = (value < 0 ? 0 : (value > 1 ? 1 : value));
             ParameterValue normalizedValue = (value - 0) / (1 - 0);
             return normalizedValue;
         }
-    case 7:
-    case 8:
-    case 9:
-    case 10:
+    case 17:
+    case 20:
+    case 25:
+    case 26:
         {
             value = (value < 0 ? 0 : (value > 4 ? 4 : value));
             ParameterValue normalizedValue = (value - 0) / (4 - 0);
             return normalizedValue;
         }
-    case 5:
+    case 13:
         {
             value = (value < 0 ? 0 : (value > 8 ? 8 : value));
             ParameterValue normalizedValue = (value - 0) / (8 - 0);
             return normalizedValue;
         }
+    case 2:
+    case 3:
     case 6:
+    case 7:
+    case 8:
+    case 9:
+    case 11:
+    case 12:
+    case 15:
+    case 16:
+    case 18:
+    case 19:
+    case 21:
+    case 22:
+    case 23:
+    case 24:
+        {
+            value = (value < 0 ? 0 : (value > 15 ? 15 : value));
+            ParameterValue normalizedValue = (value - 0) / (15 - 0);
+            return normalizedValue;
+        }
+    case 14:
         {
             value = (value < 0 ? 0 : (value > 100 ? 100 : value));
             ParameterValue normalizedValue = (value - 0) / (100 - 0);
             return normalizedValue;
         }
-    case 4:
+    case 10:
         {
             value = (value < 0 ? 0 : (value > 200 ? 200 : value));
             ParameterValue normalizedValue = (value - 0) / (200 - 0);
             return normalizedValue;
         }
-    case 3:
+    case 5:
         {
             value = (value < 1 ? 1 : (value > 32 ? 32 : value));
             ParameterValue normalizedValue = (value - 1) / (32 - 1);
@@ -58287,7 +60744,7 @@ ParameterValue convertToNormalizedParameterValue(ParameterIndex index, Parameter
             return normalizedValue;
         }
     default:
-        index -= 14;
+        index -= 30;
 
         if (index < this->patcher_01->getNumParameters())
             return this->patcher_01->convertToNormalizedParameterValue(index, value);
@@ -58344,9 +60801,9 @@ ParameterValue convertFromNormalizedParameterValue(ParameterIndex index, Paramet
 
     switch (index) {
     case 0:
-    case 2:
-    case 12:
-    case 13:
+    case 4:
+    case 28:
+    case 29:
         {
             value = (value < 0 ? 0 : (value > 1 ? 1 : value));
 
@@ -58354,10 +60811,10 @@ ParameterValue convertFromNormalizedParameterValue(ParameterIndex index, Paramet
                 return 0 + value * (1 - 0);
             }
         }
-    case 7:
-    case 8:
-    case 9:
-    case 10:
+    case 17:
+    case 20:
+    case 25:
+    case 26:
         {
             value = (value < 0 ? 0 : (value > 1 ? 1 : value));
 
@@ -58365,7 +60822,7 @@ ParameterValue convertFromNormalizedParameterValue(ParameterIndex index, Paramet
                 return 0 + value * (4 - 0);
             }
         }
-    case 5:
+    case 13:
         {
             value = (value < 0 ? 0 : (value > 1 ? 1 : value));
 
@@ -58373,7 +60830,30 @@ ParameterValue convertFromNormalizedParameterValue(ParameterIndex index, Paramet
                 return 0 + value * (8 - 0);
             }
         }
+    case 2:
+    case 3:
     case 6:
+    case 7:
+    case 8:
+    case 9:
+    case 11:
+    case 12:
+    case 15:
+    case 16:
+    case 18:
+    case 19:
+    case 21:
+    case 22:
+    case 23:
+    case 24:
+        {
+            value = (value < 0 ? 0 : (value > 1 ? 1 : value));
+
+            {
+                return 0 + value * (15 - 0);
+            }
+        }
+    case 14:
         {
             value = (value < 0 ? 0 : (value > 1 ? 1 : value));
 
@@ -58381,7 +60861,7 @@ ParameterValue convertFromNormalizedParameterValue(ParameterIndex index, Paramet
                 return 0 + value * (100 - 0);
             }
         }
-    case 4:
+    case 10:
         {
             value = (value < 0 ? 0 : (value > 1 ? 1 : value));
 
@@ -58389,7 +60869,7 @@ ParameterValue convertFromNormalizedParameterValue(ParameterIndex index, Paramet
                 return 0 + value * (200 - 0);
             }
         }
-    case 3:
+    case 5:
         {
             value = (value < 0 ? 0 : (value > 1 ? 1 : value));
 
@@ -58406,7 +60886,7 @@ ParameterValue convertFromNormalizedParameterValue(ParameterIndex index, Paramet
             }
         }
     default:
-        index -= 14;
+        index -= 30;
 
         if (index < this->patcher_01->getNumParameters())
             return this->patcher_01->convertFromNormalizedParameterValue(index, value);
@@ -58461,29 +60941,61 @@ ParameterValue convertFromNormalizedParameterValue(ParameterIndex index, Paramet
 ParameterValue constrainParameterValue(ParameterIndex index, ParameterValue value) const {
     switch (index) {
     case 0:
-        return this->param_29_value_constrain(value);
+        return this->param_13_value_constrain(value);
     case 1:
-        return this->param_30_value_constrain(value);
+        return this->param_14_value_constrain(value);
     case 2:
-        return this->param_31_value_constrain(value);
+        return this->param_15_value_constrain(value);
     case 3:
-        return this->param_32_value_constrain(value);
+        return this->param_16_value_constrain(value);
     case 4:
-        return this->param_33_value_constrain(value);
+        return this->param_17_value_constrain(value);
     case 5:
-        return this->param_34_value_constrain(value);
+        return this->param_18_value_constrain(value);
     case 6:
-        return this->param_35_value_constrain(value);
+        return this->param_19_value_constrain(value);
     case 7:
-        return this->param_36_value_constrain(value);
+        return this->param_20_value_constrain(value);
     case 8:
-        return this->param_37_value_constrain(value);
+        return this->param_21_value_constrain(value);
     case 9:
-        return this->param_38_value_constrain(value);
+        return this->param_22_value_constrain(value);
     case 10:
+        return this->param_23_value_constrain(value);
+    case 11:
+        return this->param_24_value_constrain(value);
+    case 12:
+        return this->param_25_value_constrain(value);
+    case 13:
+        return this->param_26_value_constrain(value);
+    case 14:
+        return this->param_27_value_constrain(value);
+    case 15:
+        return this->param_28_value_constrain(value);
+    case 16:
+        return this->param_29_value_constrain(value);
+    case 17:
+        return this->param_30_value_constrain(value);
+    case 18:
+        return this->param_31_value_constrain(value);
+    case 19:
+        return this->param_32_value_constrain(value);
+    case 20:
+        return this->param_33_value_constrain(value);
+    case 21:
+        return this->param_34_value_constrain(value);
+    case 22:
+        return this->param_35_value_constrain(value);
+    case 23:
+        return this->param_36_value_constrain(value);
+    case 24:
+        return this->param_37_value_constrain(value);
+    case 25:
+        return this->param_38_value_constrain(value);
+    case 26:
         return this->param_39_value_constrain(value);
     default:
-        index -= 14;
+        index -= 30;
 
         if (index < this->patcher_01->getNumParameters())
             return this->patcher_01->constrainParameterValue(index, value);
@@ -58600,7 +61112,7 @@ void processNumMessage(MessageTag tag, MessageTag objectId, MillisecondTime time
     switch (tag) {
     case TAG("format"):
         if (TAG("number_obj-36") == objectId)
-            this->numberobj_31_format_set(payload);
+            this->numberobj_47_format_set(payload);
 
         break;
     }
@@ -58761,114 +61273,322 @@ const MessageInfo& getMessageInfo(MessageIndex index) const {
 
 protected:
 
+void param_13_value_set(number v) {
+    v = this->param_13_value_constrain(v);
+    this->param_13_value = v;
+    this->sendParameter(0, false);
+
+    if (this->param_13_value != this->param_13_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_13_lastValue = this->param_13_value;
+    }
+
+    this->send_65_input_number_set(v);
+}
+
+void param_14_value_set(number v) {
+    v = this->param_14_value_constrain(v);
+    this->param_14_value = v;
+    this->sendParameter(1, false);
+
+    if (this->param_14_value != this->param_14_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_14_lastValue = this->param_14_value;
+    }
+
+    this->send_66_input_number_set(v);
+}
+
+void param_15_value_set(number v) {
+    v = this->param_15_value_constrain(v);
+    this->param_15_value = v;
+    this->sendParameter(2, false);
+
+    if (this->param_15_value != this->param_15_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_15_lastValue = this->param_15_value;
+    }
+
+    this->send_67_input_number_set(v);
+}
+
+void param_16_value_set(number v) {
+    v = this->param_16_value_constrain(v);
+    this->param_16_value = v;
+    this->sendParameter(3, false);
+
+    if (this->param_16_value != this->param_16_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_16_lastValue = this->param_16_value;
+    }
+
+    this->send_68_input_number_set(v);
+}
+
+void param_17_value_set(number v) {
+    v = this->param_17_value_constrain(v);
+    this->param_17_value = v;
+    this->sendParameter(4, false);
+
+    if (this->param_17_value != this->param_17_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_17_lastValue = this->param_17_value;
+    }
+
+    this->send_70_input_number_set(v);
+}
+
+void param_19_value_set(number v) {
+    v = this->param_19_value_constrain(v);
+    this->param_19_value = v;
+    this->sendParameter(6, false);
+
+    if (this->param_19_value != this->param_19_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_19_lastValue = this->param_19_value;
+    }
+
+    this->send_72_input_number_set(v);
+}
+
+void param_20_value_set(number v) {
+    v = this->param_20_value_constrain(v);
+    this->param_20_value = v;
+    this->sendParameter(7, false);
+
+    if (this->param_20_value != this->param_20_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_20_lastValue = this->param_20_value;
+    }
+
+    this->send_73_input_number_set(v);
+}
+
+void param_21_value_set(number v) {
+    v = this->param_21_value_constrain(v);
+    this->param_21_value = v;
+    this->sendParameter(8, false);
+
+    if (this->param_21_value != this->param_21_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_21_lastValue = this->param_21_value;
+    }
+
+    this->send_76_input_number_set(v);
+}
+
+void param_22_value_set(number v) {
+    v = this->param_22_value_constrain(v);
+    this->param_22_value = v;
+    this->sendParameter(9, false);
+
+    if (this->param_22_value != this->param_22_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_22_lastValue = this->param_22_value;
+    }
+
+    this->send_77_input_number_set(v);
+}
+
+void param_23_value_set(number v) {
+    v = this->param_23_value_constrain(v);
+    this->param_23_value = v;
+    this->sendParameter(10, false);
+
+    if (this->param_23_value != this->param_23_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_23_lastValue = this->param_23_value;
+    }
+
+    this->expr_252_in1_set(v);
+}
+
+void param_24_value_set(number v) {
+    v = this->param_24_value_constrain(v);
+    this->param_24_value = v;
+    this->sendParameter(11, false);
+
+    if (this->param_24_value != this->param_24_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_24_lastValue = this->param_24_value;
+    }
+
+    this->send_82_input_number_set(v);
+}
+
+void param_25_value_set(number v) {
+    v = this->param_25_value_constrain(v);
+    this->param_25_value = v;
+    this->sendParameter(12, false);
+
+    if (this->param_25_value != this->param_25_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_25_lastValue = this->param_25_value;
+    }
+
+    this->send_83_input_number_set(v);
+}
+
+void param_26_value_set(number v) {
+    v = this->param_26_value_constrain(v);
+    this->param_26_value = v;
+    this->sendParameter(13, false);
+
+    if (this->param_26_value != this->param_26_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_26_lastValue = this->param_26_value;
+    }
+
+    this->expr_254_in1_set(v);
+}
+
+void param_27_value_set(number v) {
+    v = this->param_27_value_constrain(v);
+    this->param_27_value = v;
+    this->sendParameter(14, false);
+
+    if (this->param_27_value != this->param_27_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_27_lastValue = this->param_27_value;
+    }
+
+    this->patcher_01_mix_set(v);
+}
+
+void param_28_value_set(number v) {
+    v = this->param_28_value_constrain(v);
+    this->param_28_value = v;
+    this->sendParameter(15, false);
+
+    if (this->param_28_value != this->param_28_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_28_lastValue = this->param_28_value;
+    }
+
+    this->send_86_input_number_set(v);
+}
+
 void param_29_value_set(number v) {
     v = this->param_29_value_constrain(v);
     this->param_29_value = v;
-    this->sendParameter(0, false);
+    this->sendParameter(16, false);
 
     if (this->param_29_value != this->param_29_lastValue) {
         this->getEngine()->presetTouched();
         this->param_29_lastValue = this->param_29_value;
     }
 
-    this->send_65_input_number_set(v);
+    this->send_87_input_number_set(v);
 }
 
 void param_30_value_set(number v) {
     v = this->param_30_value_constrain(v);
     this->param_30_value = v;
-    this->sendParameter(1, false);
+    this->sendParameter(17, false);
 
     if (this->param_30_value != this->param_30_lastValue) {
         this->getEngine()->presetTouched();
         this->param_30_lastValue = this->param_30_value;
     }
 
-    this->send_66_input_number_set(v);
+    this->p_27_in1_number_set(v);
 }
 
 void param_31_value_set(number v) {
     v = this->param_31_value_constrain(v);
     this->param_31_value = v;
-    this->sendParameter(2, false);
+    this->sendParameter(18, false);
 
     if (this->param_31_value != this->param_31_lastValue) {
         this->getEngine()->presetTouched();
         this->param_31_lastValue = this->param_31_value;
     }
 
-    this->send_68_input_number_set(v);
+    this->send_88_input_number_set(v);
+}
+
+void param_32_value_set(number v) {
+    v = this->param_32_value_constrain(v);
+    this->param_32_value = v;
+    this->sendParameter(19, false);
+
+    if (this->param_32_value != this->param_32_lastValue) {
+        this->getEngine()->presetTouched();
+        this->param_32_lastValue = this->param_32_value;
+    }
+
+    this->send_89_input_number_set(v);
 }
 
 void param_33_value_set(number v) {
     v = this->param_33_value_constrain(v);
     this->param_33_value = v;
-    this->sendParameter(4, false);
+    this->sendParameter(20, false);
 
     if (this->param_33_value != this->param_33_lastValue) {
         this->getEngine()->presetTouched();
         this->param_33_lastValue = this->param_33_value;
     }
 
-    this->expr_252_in1_set(v);
+    this->p_28_in1_number_set(v);
 }
 
 void param_34_value_set(number v) {
     v = this->param_34_value_constrain(v);
     this->param_34_value = v;
-    this->sendParameter(5, false);
+    this->sendParameter(21, false);
 
     if (this->param_34_value != this->param_34_lastValue) {
         this->getEngine()->presetTouched();
         this->param_34_lastValue = this->param_34_value;
     }
 
-    this->expr_254_in1_set(v);
+    this->send_90_input_number_set(v);
 }
 
 void param_35_value_set(number v) {
     v = this->param_35_value_constrain(v);
     this->param_35_value = v;
-    this->sendParameter(6, false);
+    this->sendParameter(22, false);
 
     if (this->param_35_value != this->param_35_lastValue) {
         this->getEngine()->presetTouched();
         this->param_35_lastValue = this->param_35_value;
     }
 
-    this->patcher_01_mix_set(v);
+    this->send_91_input_number_set(v);
 }
 
 void param_36_value_set(number v) {
     v = this->param_36_value_constrain(v);
     this->param_36_value = v;
-    this->sendParameter(7, false);
+    this->sendParameter(23, false);
 
     if (this->param_36_value != this->param_36_lastValue) {
         this->getEngine()->presetTouched();
         this->param_36_lastValue = this->param_36_value;
     }
 
-    this->p_27_in1_number_set(v);
+    this->send_92_input_number_set(v);
 }
 
 void param_37_value_set(number v) {
     v = this->param_37_value_constrain(v);
     this->param_37_value = v;
-    this->sendParameter(8, false);
+    this->sendParameter(24, false);
 
     if (this->param_37_value != this->param_37_lastValue) {
         this->getEngine()->presetTouched();
         this->param_37_lastValue = this->param_37_value;
     }
 
-    this->p_28_in1_number_set(v);
+    this->send_93_input_number_set(v);
 }
 
 void param_38_value_set(number v) {
     v = this->param_38_value_constrain(v);
     this->param_38_value = v;
-    this->sendParameter(9, false);
+    this->sendParameter(25, false);
 
     if (this->param_38_value != this->param_38_lastValue) {
         this->getEngine()->presetTouched();
@@ -58881,7 +61601,7 @@ void param_38_value_set(number v) {
 void param_39_value_set(number v) {
     v = this->param_39_value_constrain(v);
     this->param_39_value = v;
-    this->sendParameter(10, false);
+    this->sendParameter(26, false);
 
     if (this->param_39_value != this->param_39_lastValue) {
         this->getEngine()->presetTouched();
@@ -58910,28 +61630,28 @@ void loadmess_11_startupbang_bang() {
     this->loadmess_11_message_bang();
 }
 
-void numberobj_31_value_set(number v) {
-    this->numberobj_31_value_setter(v);
-    v = this->numberobj_31_value;
-    this->sendParameter(12, false);
-    this->numberobj_31_output_set(v);
+void numberobj_47_value_set(number v) {
+    this->numberobj_47_value_setter(v);
+    v = this->numberobj_47_value;
+    this->sendParameter(28, false);
+    this->numberobj_47_output_set(v);
 }
 
-void numberobj_31_format_set(number v) {
+void numberobj_47_format_set(number v) {
     if (v == 0) {
-        this->numberobj_31_currentFormat = 0;
+        this->numberobj_47_currentFormat = 0;
     } else if (v == 1) {
-        this->numberobj_31_currentFormat = 1;
+        this->numberobj_47_currentFormat = 1;
     } else if (v == 2) {
-        this->numberobj_31_currentFormat = 2;
+        this->numberobj_47_currentFormat = 2;
     } else if (v == 3) {
-        this->numberobj_31_currentFormat = 3;
+        this->numberobj_47_currentFormat = 3;
     } else if (v == 4) {
-        this->numberobj_31_currentFormat = 4;
+        this->numberobj_47_currentFormat = 4;
     } else if (v == 5) {
-        this->numberobj_31_currentFormat = 5;
+        this->numberobj_47_currentFormat = 5;
     } else if (v == 6) {
-        this->numberobj_31_currentFormat = 6;
+        this->numberobj_47_currentFormat = 6;
     }
 }
 
@@ -59038,7 +61758,7 @@ void allocateDataRefs() {
 }
 
 void initializeObjects() {
-    this->numberobj_31_init();
+    this->numberobj_47_init();
     this->patcher_01->initializeObjects();
     this->p_27->initializeObjects();
     this->p_28->initializeObjects();
@@ -59128,10 +61848,74 @@ void startup() {
         this->scheduleParamInit(10, 0);
     }
 
+    {
+        this->scheduleParamInit(11, 0);
+    }
+
+    {
+        this->scheduleParamInit(12, 0);
+    }
+
+    {
+        this->scheduleParamInit(13, 0);
+    }
+
+    {
+        this->scheduleParamInit(14, 0);
+    }
+
+    {
+        this->scheduleParamInit(15, 0);
+    }
+
+    {
+        this->scheduleParamInit(16, 0);
+    }
+
+    {
+        this->scheduleParamInit(17, 0);
+    }
+
+    {
+        this->scheduleParamInit(18, 0);
+    }
+
+    {
+        this->scheduleParamInit(19, 0);
+    }
+
+    {
+        this->scheduleParamInit(20, 0);
+    }
+
+    {
+        this->scheduleParamInit(21, 0);
+    }
+
+    {
+        this->scheduleParamInit(22, 0);
+    }
+
+    {
+        this->scheduleParamInit(23, 0);
+    }
+
+    {
+        this->scheduleParamInit(24, 0);
+    }
+
+    {
+        this->scheduleParamInit(25, 0);
+    }
+
+    {
+        this->scheduleParamInit(26, 0);
+    }
+
     this->processParamInitEvents();
 }
 
-static number param_29_value_constrain(number v) {
+static number param_13_value_constrain(number v) {
     v = (v > 1 ? 1 : (v < 0 ? 0 : v));
     return v;
 }
@@ -59140,8 +61924,8 @@ void expr_257_in2_set(number v) {
     this->expr_257_in2 = v;
 }
 
-void receive_33_output_number_set(number v) {
-    this->receive_33_output_number = v;
+void receive_49_output_number_set(number v) {
+    this->receive_49_output_number = v;
     this->expr_257_in2_set(v);
 }
 
@@ -59157,13 +61941,13 @@ void p_28_target_playing_number_set(number v) {
     this->p_28->receive_06_output_number_set(v);
 }
 
-void gate_10_onoff_set(number v) {
-    this->gate_10_onoff = v;
+void gate_26_onoff_set(number v) {
+    this->gate_26_onoff = v;
 }
 
 void expr_256_out1_set(number v) {
     this->expr_256_out1 = v;
-    this->gate_10_onoff_set(this->expr_256_out1);
+    this->gate_26_onoff_set(this->expr_256_out1);
 }
 
 void expr_256_in1_set(number in1) {
@@ -59171,8 +61955,8 @@ void expr_256_in1_set(number in1) {
     this->expr_256_out1_set(this->expr_256_in1 + this->expr_256_in2);//#map:+_obj-69:1
 }
 
-void receive_27_output_number_set(number v) {
-    this->receive_27_output_number = v;
+void receive_43_output_number_set(number v) {
+    this->receive_43_output_number = v;
     this->expr_256_in1_set(v);
 }
 
@@ -59191,18 +61975,18 @@ void metro_01_on_set(number v) {
     }
 }
 
-void gate_09_onoff_bang() {}
+void gate_25_onoff_bang() {}
 
-void receive_24_output_bang_bang() {
-    this->gate_09_onoff_bang();
+void receive_40_output_bang_bang() {
+    this->gate_25_onoff_bang();
 }
 
-void send_70_input_bang_bang() {
-    this->receive_24_output_bang_bang();
+void send_74_input_bang_bang() {
+    this->receive_40_output_bang_bang();
 }
 
 void route_71_nomatch_bang_bang() {
-    this->send_70_input_bang_bang();
+    this->send_74_input_bang_bang();
 }
 
 void trigger_14_out2_bang() {}
@@ -59262,8 +62046,8 @@ void trigger_14_input_list_set(const list& v) {
     this->trigger_14_out1_set(v);
 }
 
-void gate_10_out1_list_set(const list& v) {
-    this->gate_10_out1_list = jsCreateListCopy(v);
+void gate_26_out1_list_set(const list& v) {
+    this->gate_26_out1_list = jsCreateListCopy(v);
     this->trigger_14_input_list_set(v);
 }
 
@@ -59393,20 +62177,20 @@ void trigger_15_input_list_set(const list& v) {
     this->trigger_15_out1_set(v);
 }
 
-void gate_10_out2_list_set(const list& v) {
-    this->gate_10_out2_list = jsCreateListCopy(v);
+void gate_26_out2_list_set(const list& v) {
+    this->gate_26_out2_list = jsCreateListCopy(v);
     this->trigger_15_input_list_set(v);
 }
 
-void gate_10_input_list_set(const list& v) {
-    if (this->gate_10_onoff == 1)
-        this->gate_10_out1_list_set(v);
-    else if (this->gate_10_onoff == 2)
-        this->gate_10_out2_list_set(v);
+void gate_26_input_list_set(const list& v) {
+    if (this->gate_26_onoff == 1)
+        this->gate_26_out1_list_set(v);
+    else if (this->gate_26_onoff == 2)
+        this->gate_26_out2_list_set(v);
 }
 
 void trigger_16_out1_set(const list& v) {
-    this->gate_10_input_list_set(v);
+    this->gate_26_input_list_set(v);
 }
 
 void trigger_16_input_list_set(const list& v) {
@@ -59435,8 +62219,8 @@ void counter_09_resetnow_set(number v) {
     this->counter_09_input();
 }
 
-void receive_29_output_list_set(const list& v) {
-    this->receive_29_output_list = jsCreateListCopy(v);
+void receive_45_output_list_set(const list& v) {
+    this->receive_45_output_list = jsCreateListCopy(v);
 
     {
         number converted = (v->length > 0 ? v[0] : 0);
@@ -59460,18 +62244,18 @@ void p_27_target_reset_counter_list_set(const list& v) {
     this->p_27->receive_04_output_list_set(v);
 }
 
-void send_77_input_number_set(number v) {
-    this->send_77_input_number = v;
+void send_85_input_number_set(number v) {
+    this->send_85_input_number = v;
 }
 
-void gate_09_onoff_set(number v) {
-    this->gate_09_onoff = v;
+void gate_25_onoff_set(number v) {
+    this->gate_25_onoff = v;
 }
 
 void counter_08_output_set(number v) {
     this->counter_08_output = v;
-    this->send_77_input_number_set(v);
-    this->gate_09_onoff_set(v);
+    this->send_85_input_number_set(v);
+    this->gate_25_onoff_set(v);
 }
 
 void counter_08_overflow_bang_bang() {}
@@ -59538,8 +62322,8 @@ void expr_253_in2_set(number v) {
     this->expr_253_in2 = v;
 }
 
-void receive_25_output_list_set(const list& v) {
-    this->receive_25_output_list = jsCreateListCopy(v);
+void receive_41_output_list_set(const list& v) {
+    this->receive_41_output_list = jsCreateListCopy(v);
 
     {
         if (v->length > 1)
@@ -59552,7 +62336,7 @@ void receive_25_output_list_set(const list& v) {
 
 void route_70_nomatch_bang_bang() {}
 
-static number param_32_value_constrain(number v) {
+static number param_18_value_constrain(number v) {
     v = (v > 32 ? 32 : (v < 1 ? 1 : v));
     return v;
 }
@@ -59582,7 +62366,7 @@ void p_33_out4_bang_bang() {
 }
 
 void p_33_target_t_drum_4_bang_bang() {
-    this->p_33->receive_20_output_bang_bang();
+    this->p_33->receive_24_output_bang_bang();
 }
 
 void p_33_source_t_drum_4_bang_bang() {
@@ -59590,7 +62374,7 @@ void p_33_source_t_drum_4_bang_bang() {
 }
 
 void p_33_target_t_drum_4_number_set(number v) {
-    this->p_33->receive_20_output_number_set(v);
+    this->p_33->receive_24_output_number_set(v);
 }
 
 void p_33_source_t_drum_4_number_set(number v) {
@@ -59598,7 +62382,7 @@ void p_33_source_t_drum_4_number_set(number v) {
 }
 
 void p_33_target_t_drum_4_list_set(const list& v) {
-    this->p_33->receive_20_output_list_set(v);
+    this->p_33->receive_24_output_list_set(v);
 }
 
 void p_33_source_t_drum_4_list_set(const list& v) {
@@ -59615,7 +62399,7 @@ void p_33_out3_bang_bang() {
 }
 
 void p_33_target_t_drum_3_bang_bang() {
-    this->p_33->receive_19_output_bang_bang();
+    this->p_33->receive_22_output_bang_bang();
 }
 
 void p_33_source_t_drum_3_bang_bang() {
@@ -59623,7 +62407,7 @@ void p_33_source_t_drum_3_bang_bang() {
 }
 
 void p_33_target_t_drum_3_number_set(number v) {
-    this->p_33->receive_19_output_number_set(v);
+    this->p_33->receive_22_output_number_set(v);
 }
 
 void p_33_source_t_drum_3_number_set(number v) {
@@ -59631,7 +62415,7 @@ void p_33_source_t_drum_3_number_set(number v) {
 }
 
 void p_33_target_t_drum_3_list_set(const list& v) {
-    this->p_33->receive_19_output_list_set(v);
+    this->p_33->receive_22_output_list_set(v);
 }
 
 void p_33_source_t_drum_3_list_set(const list& v) {
@@ -59648,7 +62432,7 @@ void p_33_out2_bang_bang() {
 }
 
 void p_33_target_t_drum_2_bang_bang() {
-    this->p_33->receive_18_output_bang_bang();
+    this->p_33->receive_20_output_bang_bang();
 }
 
 void p_33_source_t_drum_2_bang_bang() {
@@ -59656,7 +62440,7 @@ void p_33_source_t_drum_2_bang_bang() {
 }
 
 void p_33_target_t_drum_2_number_set(number v) {
-    this->p_33->receive_18_output_number_set(v);
+    this->p_33->receive_20_output_number_set(v);
 }
 
 void p_33_source_t_drum_2_number_set(number v) {
@@ -59664,7 +62448,7 @@ void p_33_source_t_drum_2_number_set(number v) {
 }
 
 void p_33_target_t_drum_2_list_set(const list& v) {
-    this->p_33->receive_18_output_list_set(v);
+    this->p_33->receive_20_output_list_set(v);
 }
 
 void p_33_source_t_drum_2_list_set(const list& v) {
@@ -59681,7 +62465,7 @@ void p_33_out1_bang_bang() {
 }
 
 void p_33_target_t_drum_1_bang_bang() {
-    this->p_33->receive_17_output_bang_bang();
+    this->p_33->receive_18_output_bang_bang();
 }
 
 void p_33_source_t_drum_1_bang_bang() {
@@ -59689,7 +62473,7 @@ void p_33_source_t_drum_1_bang_bang() {
 }
 
 void p_33_target_t_drum_1_number_set(number v) {
-    this->p_33->receive_17_output_number_set(v);
+    this->p_33->receive_18_output_number_set(v);
 }
 
 void p_33_source_t_drum_1_number_set(number v) {
@@ -59697,7 +62481,7 @@ void p_33_source_t_drum_1_number_set(number v) {
 }
 
 void p_33_target_t_drum_1_list_set(const list& v) {
-    this->p_33->receive_17_output_list_set(v);
+    this->p_33->receive_18_output_list_set(v);
 }
 
 void p_33_source_t_drum_1_list_set(const list& v) {
@@ -59766,32 +62550,32 @@ void expr_257_in1_set(number in1) {
     this->expr_257_out1_set(this->expr_257_in1 * this->expr_257_in2);//#map:*_obj-231:1
 }
 
-void receive_32_output_number_set(number v) {
-    this->receive_32_output_number = v;
+void receive_48_output_number_set(number v) {
+    this->receive_48_output_number = v;
     this->expr_257_in1_set(v);
 }
 
-void send_69_input_number_set(number v) {
-    this->send_69_input_number = v;
-    this->receive_32_output_number_set(v);
+void send_71_input_number_set(number v) {
+    this->send_71_input_number = v;
+    this->receive_48_output_number_set(v);
 }
 
-void param_32_value_set(number v) {
-    v = this->param_32_value_constrain(v);
-    this->param_32_value = v;
-    this->sendParameter(3, false);
+void param_18_value_set(number v) {
+    v = this->param_18_value_constrain(v);
+    this->param_18_value = v;
+    this->sendParameter(5, false);
 
-    if (this->param_32_value != this->param_32_lastValue) {
+    if (this->param_18_value != this->param_18_lastValue) {
         this->getEngine()->presetTouched();
-        this->param_32_lastValue = this->param_32_value;
+        this->param_18_lastValue = this->param_18_value;
     }
 
-    this->send_69_input_number_set(v);
+    this->send_71_input_number_set(v);
 }
 
 void counter_05_output_set(number v) {
     this->counter_05_output = v;
-    this->param_32_value_set(v);
+    this->param_18_value_set(v);
 }
 
 void counter_05_overflow_bang_bang() {}
@@ -59996,8 +62780,8 @@ void expr_251_in2_set(number v) {
     this->expr_251_in2 = v;
 }
 
-void receive_22_output_list_set(const list& v) {
-    this->receive_22_output_list = jsCreateListCopy(v);
+void receive_38_output_list_set(const list& v) {
+    this->receive_38_output_list = jsCreateListCopy(v);
 
     {
         number converted = (v->length > 0 ? v[0] : 0);
@@ -60013,52 +62797,52 @@ void receive_22_output_list_set(const list& v) {
     }
 }
 
-void send_67_input_list_set(const list& v) {
-    this->send_67_input_list = jsCreateListCopy(v);
+void send_69_input_list_set(const list& v) {
+    this->send_69_input_list = jsCreateListCopy(v);
     this->p_32_target_reset_counter_list_set(v);
     this->p_31_target_reset_counter_list_set(v);
-    this->receive_29_output_list_set(v);
+    this->receive_45_output_list_set(v);
     this->p_28_target_reset_counter_list_set(v);
     this->p_27_target_reset_counter_list_set(v);
-    this->receive_25_output_list_set(v);
-    this->receive_22_output_list_set(v);
+    this->receive_41_output_list_set(v);
+    this->receive_38_output_list_set(v);
 }
 
-void message_18_out_set(const list& v) {
-    this->send_67_input_list_set(v);
+void message_50_out_set(const list& v) {
+    this->send_69_input_list_set(v);
 }
 
-void message_18_bangval_bang() {
-    this->sendParameter(11, true);
-    this->message_18_out_set({0});
+void message_50_bangval_bang() {
+    this->sendParameter(27, true);
+    this->message_50_out_set({0});
 }
 
 void route_71_match1_bang_bang() {
-    this->message_18_bangval_bang();
+    this->message_50_bangval_bang();
 }
 
 void route_71_match1_number_set(number v) {
     RNBO_UNUSED(v);
-    this->message_18_bangval_bang();
+    this->message_50_bangval_bang();
 }
 
 void route_71_match1_list_set(const list& v) {
     RNBO_UNUSED(v);
-    this->message_18_bangval_bang();
+    this->message_50_bangval_bang();
 }
 
-void receive_24_output_number_set(number v) {
-    this->receive_24_output_number = v;
-    this->gate_09_onoff_set(v);
+void receive_40_output_number_set(number v) {
+    this->receive_40_output_number = v;
+    this->gate_25_onoff_set(v);
 }
 
-void send_70_input_number_set(number v) {
-    this->send_70_input_number = v;
-    this->receive_24_output_number_set(v);
+void send_74_input_number_set(number v) {
+    this->send_74_input_number = v;
+    this->receive_40_output_number_set(v);
 }
 
 void route_71_nomatch_number_set(number v) {
-    this->send_70_input_number_set(v);
+    this->send_74_input_number_set(v);
 }
 
 void p_27_in2_number_set(number v) {
@@ -60066,19 +62850,19 @@ void p_27_in2_number_set(number v) {
     this->p_27->eventinlet_02_out1_number_set(v);
 }
 
-void receive_26_output_number_set(number v) {
-    this->receive_26_output_number = v;
+void receive_42_output_number_set(number v) {
+    this->receive_42_output_number = v;
     this->p_27_in2_number_set(v);
 }
 
-void send_75_input_number_set(number v) {
-    this->send_75_input_number = v;
-    this->receive_26_output_number_set(v);
+void send_81_input_number_set(number v) {
+    this->send_81_input_number = v;
+    this->receive_42_output_number_set(v);
 }
 
-void gate_09_out1_number_set(number v) {
-    this->gate_09_out1_number = v;
-    this->send_75_input_number_set(v);
+void gate_25_out1_number_set(number v) {
+    this->gate_25_out1_number = v;
+    this->send_81_input_number_set(v);
 }
 
 void p_28_in2_number_set(number v) {
@@ -60086,19 +62870,19 @@ void p_28_in2_number_set(number v) {
     this->p_28->eventinlet_04_out1_number_set(v);
 }
 
-void receive_28_output_number_set(number v) {
-    this->receive_28_output_number = v;
+void receive_44_output_number_set(number v) {
+    this->receive_44_output_number = v;
     this->p_28_in2_number_set(v);
 }
 
-void send_74_input_number_set(number v) {
-    this->send_74_input_number = v;
-    this->receive_28_output_number_set(v);
+void send_80_input_number_set(number v) {
+    this->send_80_input_number = v;
+    this->receive_44_output_number_set(v);
 }
 
-void gate_09_out2_number_set(number v) {
-    this->gate_09_out2_number = v;
-    this->send_74_input_number_set(v);
+void gate_25_out2_number_set(number v) {
+    this->gate_25_out2_number = v;
+    this->send_80_input_number_set(v);
 }
 
 void p_31_in2_number_set(number v) {
@@ -60106,19 +62890,19 @@ void p_31_in2_number_set(number v) {
     this->p_31->eventinlet_18_out1_number_set(v);
 }
 
-void receive_30_output_number_set(number v) {
-    this->receive_30_output_number = v;
+void receive_46_output_number_set(number v) {
+    this->receive_46_output_number = v;
     this->p_31_in2_number_set(v);
 }
 
-void send_73_input_number_set(number v) {
-    this->send_73_input_number = v;
-    this->receive_30_output_number_set(v);
+void send_79_input_number_set(number v) {
+    this->send_79_input_number = v;
+    this->receive_46_output_number_set(v);
 }
 
-void gate_09_out3_number_set(number v) {
-    this->gate_09_out3_number = v;
-    this->send_73_input_number_set(v);
+void gate_25_out3_number_set(number v) {
+    this->gate_25_out3_number = v;
+    this->send_79_input_number_set(v);
 }
 
 void p_32_in2_number_set(number v) {
@@ -60126,51 +62910,51 @@ void p_32_in2_number_set(number v) {
     this->p_32->eventinlet_20_out1_number_set(v);
 }
 
-void receive_31_output_number_set(number v) {
-    this->receive_31_output_number = v;
+void receive_47_output_number_set(number v) {
+    this->receive_47_output_number = v;
     this->p_32_in2_number_set(v);
 }
 
-void send_72_input_number_set(number v) {
-    this->send_72_input_number = v;
-    this->receive_31_output_number_set(v);
+void send_78_input_number_set(number v) {
+    this->send_78_input_number = v;
+    this->receive_47_output_number_set(v);
 }
 
-void gate_09_out4_number_set(number v) {
-    this->gate_09_out4_number = v;
-    this->send_72_input_number_set(v);
+void gate_25_out4_number_set(number v) {
+    this->gate_25_out4_number = v;
+    this->send_78_input_number_set(v);
 }
 
-void gate_09_input_number_set(number v) {
-    if (this->gate_09_onoff == 1)
-        this->gate_09_out1_number_set(v);
-    else if (this->gate_09_onoff == 2)
-        this->gate_09_out2_number_set(v);
-    else if (this->gate_09_onoff == 3)
-        this->gate_09_out3_number_set(v);
-    else if (this->gate_09_onoff == 4)
-        this->gate_09_out4_number_set(v);
+void gate_25_input_number_set(number v) {
+    if (this->gate_25_onoff == 1)
+        this->gate_25_out1_number_set(v);
+    else if (this->gate_25_onoff == 2)
+        this->gate_25_out2_number_set(v);
+    else if (this->gate_25_onoff == 3)
+        this->gate_25_out3_number_set(v);
+    else if (this->gate_25_onoff == 4)
+        this->gate_25_out4_number_set(v);
 }
 
-void receive_24_output_list_set(const list& v) {
-    this->receive_24_output_list = jsCreateListCopy(v);
+void receive_40_output_list_set(const list& v) {
+    this->receive_40_output_list = jsCreateListCopy(v);
 
     {
         if (v->length > 1)
-            this->gate_09_input_number_set(v[1]);
+            this->gate_25_input_number_set(v[1]);
 
         number converted = (v->length > 0 ? v[0] : 0);
-        this->gate_09_onoff_set(converted);
+        this->gate_25_onoff_set(converted);
     }
 }
 
-void send_70_input_list_set(const list& v) {
-    this->send_70_input_list = jsCreateListCopy(v);
-    this->receive_24_output_list_set(v);
+void send_74_input_list_set(const list& v) {
+    this->send_74_input_list = jsCreateListCopy(v);
+    this->receive_40_output_list_set(v);
 }
 
 void route_71_nomatch_list_set(const list& v) {
-    this->send_70_input_list_set(v);
+    this->send_74_input_list_set(v);
 }
 
 void route_71_input_list_set(const list& v) {
@@ -60207,24 +62991,24 @@ void route_71_input_number_set(number v) {
     this->route_71_input_list_set({v});
 }
 
-void receive_23_output_number_set(number v) {
-    this->receive_23_output_number = v;
+void receive_39_output_number_set(number v) {
+    this->receive_39_output_number = v;
     this->metro_01_on_set(v);
     this->route_71_input_number_set(v);
 }
 
 void send_65_input_number_set(number v) {
     this->send_65_input_number = v;
-    this->receive_33_output_number_set(v);
+    this->receive_49_output_number_set(v);
     this->p_32_target_playing_number_set(v);
     this->p_31_target_playing_number_set(v);
     this->p_28_target_playing_number_set(v);
-    this->receive_27_output_number_set(v);
+    this->receive_43_output_number_set(v);
     this->p_27_target_playing_number_set(v);
-    this->receive_23_output_number_set(v);
+    this->receive_39_output_number_set(v);
 }
 
-static number param_30_value_constrain(number v) {
+static number param_14_value_constrain(number v) {
     v = (v > 1 ? 1 : (v < 0.01 ? 0.01 : v));
     return v;
 }
@@ -60233,17 +63017,45 @@ void dspexpr_69_in2_set(number v) {
     this->dspexpr_69_in2 = v;
 }
 
-void receive_21_output_number_set(number v) {
-    this->receive_21_output_number = v;
+void receive_37_output_number_set(number v) {
+    this->receive_37_output_number = v;
     this->dspexpr_69_in2_set(v);
 }
 
 void send_66_input_number_set(number v) {
     this->send_66_input_number = v;
-    this->receive_21_output_number_set(v);
+    this->receive_37_output_number_set(v);
 }
 
-static number param_31_value_constrain(number v) {
+static number param_15_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum9_number_set(number v) {
+    this->p_33->receive_29_output_number_set(v);
+}
+
+void send_67_input_number_set(number v) {
+    this->send_67_input_number = v;
+    this->p_33_target_drum9_number_set(v);
+}
+
+static number param_16_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum1_number_set(number v) {
+    this->p_33->receive_17_output_number_set(v);
+}
+
+void send_68_input_number_set(number v) {
+    this->send_68_input_number = v;
+    this->p_33_target_drum1_number_set(v);
+}
+
+static number param_17_value_constrain(number v) {
     v = (v > 1 ? 1 : (v < 0 ? 0 : v));
     return v;
 }
@@ -60264,15 +63076,71 @@ void p_27_target_key_number_set(number v) {
     this->p_27->receive_03_output_number_set(v);
 }
 
-void send_68_input_number_set(number v) {
-    this->send_68_input_number = v;
+void send_70_input_number_set(number v) {
+    this->send_70_input_number = v;
     this->p_32_target_key_number_set(v);
     this->p_31_target_key_number_set(v);
     this->p_28_target_key_number_set(v);
     this->p_27_target_key_number_set(v);
 }
 
-static number param_33_value_constrain(number v) {
+static number param_19_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum10_number_set(number v) {
+    this->p_33->receive_30_output_number_set(v);
+}
+
+void send_72_input_number_set(number v) {
+    this->send_72_input_number = v;
+    this->p_33_target_drum10_number_set(v);
+}
+
+static number param_20_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum2_number_set(number v) {
+    this->p_33->receive_19_output_number_set(v);
+}
+
+void send_73_input_number_set(number v) {
+    this->send_73_input_number = v;
+    this->p_33_target_drum2_number_set(v);
+}
+
+static number param_21_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum11_number_set(number v) {
+    this->p_33->receive_31_output_number_set(v);
+}
+
+void send_76_input_number_set(number v) {
+    this->send_76_input_number = v;
+    this->p_33_target_drum11_number_set(v);
+}
+
+static number param_22_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum3_number_set(number v) {
+    this->p_33->receive_21_output_number_set(v);
+}
+
+void send_77_input_number_set(number v) {
+    this->send_77_input_number = v;
+    this->p_33_target_drum3_number_set(v);
+}
+
+static number param_23_value_constrain(number v) {
     v = (v > 200 ? 200 : (v < 0 ? 0 : v));
     return v;
 }
@@ -60295,7 +63163,35 @@ void expr_252_in1_set(number in1) {
     );//#map:expr_obj-48:1
 }
 
-static number param_34_value_constrain(number v) {
+static number param_24_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum12_number_set(number v) {
+    this->p_33->receive_32_output_number_set(v);
+}
+
+void send_82_input_number_set(number v) {
+    this->send_82_input_number = v;
+    this->p_33_target_drum12_number_set(v);
+}
+
+static number param_25_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum4_number_set(number v) {
+    this->p_33->receive_23_output_number_set(v);
+}
+
+void send_83_input_number_set(number v) {
+    this->send_83_input_number = v;
+    this->p_33_target_drum4_number_set(v);
+}
+
+static number param_26_value_constrain(number v) {
     v = (v > 8 ? 8 : (v < 0 ? 0 : v));
     return v;
 }
@@ -60316,8 +63212,8 @@ void p_27_target_octave_number_set(number v) {
     this->p_27->receive_01_output_number_set(v);
 }
 
-void send_76_input_number_set(number v) {
-    this->send_76_input_number = v;
+void send_84_input_number_set(number v) {
+    this->send_84_input_number = v;
     this->p_32_target_octave_number_set(v);
     this->p_31_target_octave_number_set(v);
     this->p_28_target_octave_number_set(v);
@@ -60326,7 +63222,7 @@ void send_76_input_number_set(number v) {
 
 void expr_254_out1_set(number v) {
     this->expr_254_out1 = v;
-    this->send_76_input_number_set(this->expr_254_out1);
+    this->send_84_input_number_set(this->expr_254_out1);
 }
 
 void expr_254_in1_set(number in1) {
@@ -60334,7 +63230,7 @@ void expr_254_in1_set(number in1) {
     this->expr_254_out1_set(this->expr_254_in1 * this->expr_254_in2);//#map:*_obj-6:1
 }
 
-static number param_35_value_constrain(number v) {
+static number param_27_value_constrain(number v) {
     v = (v > 100 ? 100 : (v < 0 ? 0 : v));
     return v;
 }
@@ -60345,7 +63241,35 @@ void patcher_01_mix_set(number v) {
     }
 }
 
-static number param_36_value_constrain(number v) {
+static number param_28_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum13_number_set(number v) {
+    this->p_33->receive_33_output_number_set(v);
+}
+
+void send_86_input_number_set(number v) {
+    this->send_86_input_number = v;
+    this->p_33_target_drum13_number_set(v);
+}
+
+static number param_29_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum5_number_set(number v) {
+    this->p_33->receive_25_output_number_set(v);
+}
+
+void send_87_input_number_set(number v) {
+    this->send_87_input_number = v;
+    this->p_33_target_drum5_number_set(v);
+}
+
+static number param_30_value_constrain(number v) {
     v = (v > 4 ? 4 : (v < 0 ? 0 : v));
     return v;
 }
@@ -60355,7 +63279,35 @@ void p_27_in1_number_set(number v) {
     this->p_27->eventinlet_01_out1_number_set(v);
 }
 
-static number param_37_value_constrain(number v) {
+static number param_31_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum14_number_set(number v) {
+    this->p_33->receive_34_output_number_set(v);
+}
+
+void send_88_input_number_set(number v) {
+    this->send_88_input_number = v;
+    this->p_33_target_drum14_number_set(v);
+}
+
+static number param_32_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum6_number_set(number v) {
+    this->p_33->receive_26_output_number_set(v);
+}
+
+void send_89_input_number_set(number v) {
+    this->send_89_input_number = v;
+    this->p_33_target_drum6_number_set(v);
+}
+
+static number param_33_value_constrain(number v) {
     v = (v > 4 ? 4 : (v < 0 ? 0 : v));
     return v;
 }
@@ -60363,6 +63315,62 @@ static number param_37_value_constrain(number v) {
 void p_28_in1_number_set(number v) {
     this->p_28->updateTime(this->_currentTime);
     this->p_28->eventinlet_03_out1_number_set(v);
+}
+
+static number param_34_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum15_number_set(number v) {
+    this->p_33->receive_35_output_number_set(v);
+}
+
+void send_90_input_number_set(number v) {
+    this->send_90_input_number = v;
+    this->p_33_target_drum15_number_set(v);
+}
+
+static number param_35_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum7_number_set(number v) {
+    this->p_33->receive_27_output_number_set(v);
+}
+
+void send_91_input_number_set(number v) {
+    this->send_91_input_number = v;
+    this->p_33_target_drum7_number_set(v);
+}
+
+static number param_36_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum16_number_set(number v) {
+    this->p_33->receive_36_output_number_set(v);
+}
+
+void send_92_input_number_set(number v) {
+    this->send_92_input_number = v;
+    this->p_33_target_drum16_number_set(v);
+}
+
+static number param_37_value_constrain(number v) {
+    v = (v > 15 ? 15 : (v < 0 ? 0 : v));
+    return v;
+}
+
+void p_33_target_drum8_number_set(number v) {
+    this->p_33->receive_28_output_number_set(v);
+}
+
+void send_93_input_number_set(number v) {
+    this->send_93_input_number = v;
+    this->p_33_target_drum8_number_set(v);
 }
 
 static number param_38_value_constrain(number v) {
@@ -60430,7 +63438,7 @@ void counter_06_input_bang() {
 
 void counter_07_output_set(number v) {
     this->counter_07_output = v;
-    this->gate_09_input_number_set(v);
+    this->gate_25_input_number_set(v);
     this->counter_06_input_bang();
 }
 
@@ -60580,11 +63588,11 @@ void counter_07_input_bang() {
         this->counter_07_underflow_number_set(0);
 }
 
-void send_71_input_bang_bang() {}
+void send_75_input_bang_bang() {}
 
 void metro_01_tickout_bang() {
     this->counter_07_input_bang();
-    this->send_71_input_bang_bang();
+    this->send_75_input_bang_bang();
 }
 
 void patcher_01_jitter_set(number v) {
@@ -60650,7 +63658,7 @@ void loadmess_11_message_bang() {
     }
 }
 
-void numberobj_31_output_set(number v) {
+void numberobj_47_output_set(number v) {
     this->p_27_in1_number_set(v);
 }
 
@@ -60667,7 +63675,7 @@ void metro_02_on_set(number v) {
 
 void toggle_01_value_set(number v) {
     this->toggle_01_value = v;
-    this->sendParameter(13, false);
+    this->sendParameter(29, false);
     this->metro_02_on_set(v);
 }
 
@@ -61561,14 +64569,14 @@ void metro_01_interval_setter(number v) {
     this->metro_01_interval = (v > 0 ? v : 0);
 }
 
-void numberobj_31_value_setter(number v) {
+void numberobj_47_value_setter(number v) {
     number localvalue = v;
 
-    if (this->numberobj_31_currentFormat != 6) {
+    if (this->numberobj_47_currentFormat != 6) {
         localvalue = rnbo_trunc(localvalue);
     }
 
-    this->numberobj_31_value = localvalue;
+    this->numberobj_47_value = localvalue;
 }
 
 void metro_02_interval_setter(number v) {
@@ -61592,37 +64600,59 @@ void limi_01_threshold_setter(number v) {
     this->limi_01_threshold = rnbo_pow(10., v * 0.05);
 }
 
-void param_29_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->param_29_value;
+void param_13_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_13_value;
 }
 
-void param_29_setPresetValue(PatcherStateInterface& preset) {
+void param_13_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->param_29_value_set(preset["value"]);
+    this->param_13_value_set(preset["value"]);
 }
 
-void param_30_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->param_30_value;
+void param_14_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_14_value;
 }
 
-void param_30_setPresetValue(PatcherStateInterface& preset) {
+void param_14_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->param_30_value_set(preset["value"]);
+    this->param_14_value_set(preset["value"]);
 }
 
-void param_31_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->param_31_value;
+void param_15_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_15_value;
 }
 
-void param_31_setPresetValue(PatcherStateInterface& preset) {
+void param_15_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->param_31_value_set(preset["value"]);
+    this->param_15_value_set(preset["value"]);
+}
+
+void param_16_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_16_value;
+}
+
+void param_16_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_16_value_set(preset["value"]);
+}
+
+void param_17_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_17_value;
+}
+
+void param_17_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_17_value_set(preset["value"]);
 }
 
 void counter_05_inc() {
@@ -61672,15 +64702,15 @@ void counter_05_input() {
         this->counter_05_underflow_number_set(0);
 }
 
-void param_32_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->param_32_value;
+void param_18_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_18_value;
 }
 
-void param_32_setPresetValue(PatcherStateInterface& preset) {
+void param_18_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->param_32_value_set(preset["value"]);
+    this->param_18_value_set(preset["value"]);
 }
 
 void counter_06_inc() {
@@ -61730,23 +64760,67 @@ void counter_06_input() {
         this->counter_06_underflow_number_set(0);
 }
 
+void param_19_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_19_value;
+}
+
+void param_19_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_19_value_set(preset["value"]);
+}
+
+void param_20_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_20_value;
+}
+
+void param_20_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_20_value_set(preset["value"]);
+}
+
 void metro_01_onTransportChanged(number ) {}
 
 void metro_01_onBeatTimeChanged(number ) {}
+
+void param_21_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_21_value;
+}
+
+void param_21_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_21_value_set(preset["value"]);
+}
+
+void param_22_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_22_value;
+}
+
+void param_22_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_22_value_set(preset["value"]);
+}
 
 void counter_07_inc() {
     this->counter_07_count = ((bool)(this->counter_07_phase) ? this->counter_07_count + 1 : this->counter_07_count - 1);
 }
 
-void param_33_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->param_33_value;
+void param_23_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_23_value;
 }
 
-void param_33_setPresetValue(PatcherStateInterface& preset) {
+void param_23_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->param_33_value_set(preset["value"]);
+    this->param_23_value_set(preset["value"]);
 }
 
 void counter_08_inc() {
@@ -61796,41 +64870,85 @@ void counter_08_input() {
         this->counter_08_underflow_number_set(0);
 }
 
-void param_34_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->param_34_value;
+void param_24_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_24_value;
 }
 
-void param_34_setPresetValue(PatcherStateInterface& preset) {
+void param_24_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->param_34_value_set(preset["value"]);
+    this->param_24_value_set(preset["value"]);
 }
 
-void param_35_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->param_35_value;
+void param_25_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_25_value;
 }
 
-void param_35_setPresetValue(PatcherStateInterface& preset) {
+void param_25_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->param_35_value_set(preset["value"]);
+    this->param_25_value_set(preset["value"]);
 }
 
-void numberobj_31_init() {
+void param_26_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_26_value;
+}
+
+void param_26_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_26_value_set(preset["value"]);
+}
+
+void param_27_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_27_value;
+}
+
+void param_27_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_27_value_set(preset["value"]);
+}
+
+void numberobj_47_init() {
     this->getEngine()->sendNumMessage(TAG("setup"), TAG("number_obj-36"), 1, this->_currentTime);
 }
 
-void numberobj_31_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->numberobj_31_value;
+void numberobj_47_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->numberobj_47_value;
 }
 
-void numberobj_31_setPresetValue(PatcherStateInterface& preset) {
+void numberobj_47_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->numberobj_31_value_set(preset["value"]);
+    this->numberobj_47_value_set(preset["value"]);
+}
+
+void param_28_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_28_value;
+}
+
+void param_28_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_28_value_set(preset["value"]);
+}
+
+void param_29_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_29_value;
+}
+
+void param_29_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_29_value_set(preset["value"]);
 }
 
 void toggle_01_getPresetValue(PatcherStateInterface& preset) {
@@ -61848,19 +64966,41 @@ void metro_02_onTransportChanged(number ) {}
 
 void metro_02_onBeatTimeChanged(number ) {}
 
-void param_36_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->param_36_value;
+void param_30_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_30_value;
 }
 
-void param_36_setPresetValue(PatcherStateInterface& preset) {
+void param_30_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->param_36_value_set(preset["value"]);
+    this->param_30_value_set(preset["value"]);
 }
 
 void listqueue_01_reportSize() {
     this->listqueue_01_size_set(this->listqueue_01_queued->length);
+}
+
+void param_31_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_31_value;
+}
+
+void param_31_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_31_value_set(preset["value"]);
+}
+
+void param_32_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_32_value;
+}
+
+void param_32_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_32_value_set(preset["value"]);
 }
 
 void counter_09_inc() {
@@ -61910,15 +65050,15 @@ void counter_09_input() {
         this->counter_09_underflow_number_set(0);
 }
 
-void param_37_getPresetValue(PatcherStateInterface& preset) {
-    preset["value"] = this->param_37_value;
+void param_33_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_33_value;
 }
 
-void param_37_setPresetValue(PatcherStateInterface& preset) {
+void param_33_setPresetValue(PatcherStateInterface& preset) {
     if ((bool)(stateIsEmpty(preset)))
         return;
 
-    this->param_37_value_set(preset["value"]);
+    this->param_33_value_set(preset["value"]);
 }
 
 number limi_01_dc1_next(number x, number gain) {
@@ -61975,6 +65115,50 @@ void limi_01_dspsetup(bool force) {
     this->limi_01_reset();
     this->limi_01_setupDone = true;
     this->limi_01_dc1_dspsetup();
+}
+
+void param_34_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_34_value;
+}
+
+void param_34_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_34_value_set(preset["value"]);
+}
+
+void param_35_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_35_value;
+}
+
+void param_35_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_35_value_set(preset["value"]);
+}
+
+void param_36_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_36_value;
+}
+
+void param_36_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_36_value_set(preset["value"]);
+}
+
+void param_37_getPresetValue(PatcherStateInterface& preset) {
+    preset["value"] = this->param_37_value;
+}
+
+void param_37_setPresetValue(PatcherStateInterface& preset) {
+    if ((bool)(stateIsEmpty(preset)))
+        return;
+
+    this->param_37_value_set(preset["value"]);
 }
 
 void param_38_getPresetValue(PatcherStateInterface& preset) {
@@ -62650,16 +65834,20 @@ void updateTime(MillisecondTime time) {
 void assign_defaults()
 {
     send_65_input_number = 0;
-    param_29_value = 0;
+    param_13_value = 0;
     send_66_input_number = 0;
-    param_30_value = 0.01;
+    param_14_value = 0.01;
+    send_67_input_number = 0;
+    send_68_input_number = 0;
+    param_15_value = 0;
+    param_16_value = 0;
     dspexpr_69_in1 = 0;
     dspexpr_69_in2 = 1;
     patcher_01_target = 0;
-    receive_21_output_number = 0;
-    send_67_input_number = 0;
-    send_68_input_number = 0;
-    param_31_value = 0;
+    receive_37_output_number = 0;
+    send_69_input_number = 0;
+    send_70_input_number = 0;
+    param_17_value = 0;
     route_70_selector1 = 0;
     counter_05_carryflag = 0;
     counter_05_direction = 0;
@@ -62671,7 +65859,7 @@ void assign_defaults()
     counter_05_overflow_number = 0;
     counter_05_carry = 0;
     counter_05_minimum = 1;
-    param_32_value = 0;
+    param_18_value = 0;
     counter_06_carryflag = 0;
     counter_06_direction = 0;
     counter_06_resetnext = 0;
@@ -62682,29 +65870,37 @@ void assign_defaults()
     counter_06_overflow_number = 0;
     counter_06_carry = 0;
     counter_06_minimum = 0;
-    send_69_input_number = 0;
-    send_70_input_number = 0;
+    send_71_input_number = 0;
+    send_72_input_number = 0;
+    send_73_input_number = 0;
+    param_19_value = 0;
+    param_20_value = 0;
+    send_74_input_number = 0;
     route_71_selector1 = 0;
     expr_251_in1 = 0;
     expr_251_in2 = 1;
     expr_251_out1 = 0;
-    receive_22_output_number = 0;
-    receive_23_output_number = 0;
-    receive_24_output_number = 0;
-    send_71_input_number = 0;
+    receive_38_output_number = 0;
+    receive_39_output_number = 0;
+    receive_40_output_number = 0;
+    send_75_input_number = 0;
     metro_01_on = 0;
     metro_01_interval = 500;
     metro_01_interval_setter(metro_01_interval);
     loadmess_10_message = { 50 };
-    send_72_input_number = 0;
-    send_73_input_number = 0;
-    send_74_input_number = 0;
-    send_75_input_number = 0;
-    gate_09_onoff = 0;
-    gate_09_out1_number = 0;
-    gate_09_out2_number = 0;
-    gate_09_out3_number = 0;
-    gate_09_out4_number = 0;
+    send_76_input_number = 0;
+    send_77_input_number = 0;
+    param_21_value = 0;
+    param_22_value = 0;
+    send_78_input_number = 0;
+    send_79_input_number = 0;
+    send_80_input_number = 0;
+    send_81_input_number = 0;
+    gate_25_onoff = 0;
+    gate_25_out1_number = 0;
+    gate_25_out2_number = 0;
+    gate_25_out3_number = 0;
+    gate_25_out4_number = 0;
     expr_252_in1 = 0;
     expr_252_out1 = 0;
     counter_07_carryflag = 0;
@@ -62717,7 +65913,7 @@ void assign_defaults()
     counter_07_overflow_number = 0;
     counter_07_carry = 0;
     counter_07_minimum = 1;
-    param_33_value = 110;
+    param_23_value = 110;
     select_01_test1 = 1;
     counter_08_carryflag = 0;
     counter_08_direction = 0;
@@ -62729,29 +65925,41 @@ void assign_defaults()
     counter_08_overflow_number = 0;
     counter_08_carry = 0;
     counter_08_minimum = 1;
+    send_82_input_number = 0;
+    send_83_input_number = 0;
+    param_24_value = 0;
+    param_25_value = 0;
     loadmess_11_message = { 30 };
     expr_253_in1 = 0;
     expr_253_in2 = 1;
     expr_253_out1 = 0;
-    receive_25_output_number = 0;
-    param_34_value = 4;
-    send_76_input_number = 0;
+    receive_41_output_number = 0;
+    param_26_value = 4;
+    send_84_input_number = 0;
     expr_254_in1 = 0;
     expr_254_in2 = 12;
     expr_254_out1 = 0;
-    send_77_input_number = 0;
-    param_35_value = 50;
-    numberobj_31_value = 0;
-    numberobj_31_value_setter(numberobj_31_value);
+    send_85_input_number = 0;
+    param_27_value = 50;
+    numberobj_47_value = 0;
+    numberobj_47_value_setter(numberobj_47_value);
+    send_86_input_number = 0;
+    send_87_input_number = 0;
+    param_28_value = 0;
+    param_29_value = 0;
     loadmess_12_message = { 1 };
     toggle_01_value = 1;
     metro_02_on = 0;
     metro_02_interval = 90;
     metro_02_interval_setter(metro_02_interval);
     p_27_target = 0;
-    param_36_value = 0;
-    receive_26_output_number = 0;
+    param_30_value = 0;
+    receive_42_output_number = 0;
     listsort_01_order = 1;
+    send_88_input_number = 0;
+    send_89_input_number = 0;
+    param_31_value = 0;
+    param_32_value = 0;
     expr_255_in1 = 0;
     expr_255_in2 = 1;
     expr_255_out1 = 0;
@@ -62768,9 +65976,9 @@ void assign_defaults()
     expr_256_in1 = 0;
     expr_256_in2 = 1;
     expr_256_out1 = 0;
-    receive_27_output_number = 0;
+    receive_43_output_number = 0;
     p_28_target = 0;
-    param_37_value = 0;
+    param_33_value = 0;
     limi_01_bypass = 0;
     limi_01_dcblock = 0;
     limi_01_lookahead = 100;
@@ -62784,17 +65992,25 @@ void assign_defaults()
     limi_01_release = 1000;
     p_29_target = 0;
     p_30_target = 0;
-    receive_28_output_number = 0;
-    gate_10_onoff = 0;
-    gate_10_out1_number = 0;
-    gate_10_out2_number = 0;
-    receive_29_output_number = 0;
+    send_90_input_number = 0;
+    send_91_input_number = 0;
+    param_34_value = 0;
+    param_35_value = 0;
+    receive_44_output_number = 0;
+    gate_26_onoff = 0;
+    gate_26_out1_number = 0;
+    gate_26_out2_number = 0;
+    receive_45_output_number = 0;
+    send_92_input_number = 0;
+    send_93_input_number = 0;
+    param_36_value = 0;
+    param_37_value = 0;
     p_31_target = 0;
     param_38_value = 0;
-    receive_30_output_number = 0;
+    receive_46_output_number = 0;
     p_32_target = 0;
     param_39_value = 0;
-    receive_31_output_number = 0;
+    receive_47_output_number = 0;
     groove_01_rate_auto = 1;
     groove_01_begin = 0;
     groove_01_end = -1;
@@ -62817,12 +66033,12 @@ void assign_defaults()
     groove_04_crossfade = 0;
     p_33_target = 0;
     p_34_target = 0;
-    receive_32_output_number = 0;
+    receive_48_output_number = 0;
     expr_257_in1 = 0;
     expr_257_in2 = 0;
     expr_257_out1 = 0;
     route_72_selector1 = 0;
-    receive_33_output_number = 0;
+    receive_49_output_number = 0;
     _currentTime = 0;
     audioProcessSampleCount = 0;
     sampleOffsetIntoNextAudioBuffer = 0;
@@ -62844,27 +66060,39 @@ void assign_defaults()
     maxvs = 0;
     sr = 44100;
     invsr = 0.00002267573696;
+    param_13_lastValue = 0;
+    param_14_lastValue = 0;
+    param_15_lastValue = 0;
+    param_16_lastValue = 0;
+    param_17_lastValue = 0;
+    counter_05_count = 1;
+    counter_05_phase = true;
+    param_18_lastValue = 0;
+    counter_06_count = 0;
+    counter_06_phase = true;
+    param_19_lastValue = 0;
+    param_20_lastValue = 0;
+    param_21_lastValue = 0;
+    param_22_lastValue = 0;
+    counter_07_count = 1;
+    counter_07_phase = true;
+    param_23_lastValue = 0;
+    counter_08_count = 1;
+    counter_08_phase = true;
+    param_24_lastValue = 0;
+    param_25_lastValue = 0;
+    param_26_lastValue = 0;
+    param_27_lastValue = 0;
+    numberobj_47_currentFormat = 6;
+    numberobj_47_lastValue = 0;
+    param_28_lastValue = 0;
     param_29_lastValue = 0;
     param_30_lastValue = 0;
     param_31_lastValue = 0;
-    counter_05_count = 1;
-    counter_05_phase = true;
     param_32_lastValue = 0;
-    counter_06_count = 0;
-    counter_06_phase = true;
-    counter_07_count = 1;
-    counter_07_phase = true;
-    param_33_lastValue = 0;
-    counter_08_count = 1;
-    counter_08_phase = true;
-    param_34_lastValue = 0;
-    param_35_lastValue = 0;
-    numberobj_31_currentFormat = 6;
-    numberobj_31_lastValue = 0;
-    param_36_lastValue = 0;
     counter_09_count = 0;
     counter_09_phase = true;
-    param_37_lastValue = 0;
+    param_33_lastValue = 0;
     limi_01_last = 0;
     limi_01_lookaheadIndex = 0;
     limi_01_recover = 0;
@@ -62872,6 +66100,10 @@ void assign_defaults()
     limi_01_dc1_xm1 = 0;
     limi_01_dc1_ym1 = 0;
     limi_01_setupDone = false;
+    param_34_lastValue = 0;
+    param_35_lastValue = 0;
+    param_36_lastValue = 0;
+    param_37_lastValue = 0;
     param_38_lastValue = 0;
     param_39_lastValue = 0;
     groove_01_readIndex = 0;
@@ -62918,20 +66150,26 @@ void assign_defaults()
 
     number send_65_input_number;
     list send_65_input_list;
-    number param_29_value;
+    number param_13_value;
     number send_66_input_number;
     list send_66_input_list;
-    number param_30_value;
-    number dspexpr_69_in1;
-    number dspexpr_69_in2;
-    number patcher_01_target;
-    number receive_21_output_number;
-    list receive_21_output_list;
+    number param_14_value;
     number send_67_input_number;
     list send_67_input_list;
     number send_68_input_number;
     list send_68_input_list;
-    number param_31_value;
+    number param_15_value;
+    number param_16_value;
+    number dspexpr_69_in1;
+    number dspexpr_69_in2;
+    number patcher_01_target;
+    number receive_37_output_number;
+    list receive_37_output_list;
+    number send_69_input_number;
+    list send_69_input_list;
+    number send_70_input_number;
+    list send_70_input_list;
+    number param_17_value;
     number route_70_selector1;
     Int counter_05_carryflag;
     number counter_05_direction;
@@ -62943,7 +66181,7 @@ void assign_defaults()
     number counter_05_overflow_number;
     number counter_05_carry;
     number counter_05_minimum;
-    number param_32_value;
+    number param_18_value;
     Int counter_06_carryflag;
     number counter_06_direction;
     number counter_06_resetnext;
@@ -62954,42 +66192,54 @@ void assign_defaults()
     number counter_06_overflow_number;
     number counter_06_carry;
     number counter_06_minimum;
-    number send_69_input_number;
-    list send_69_input_list;
-    number send_70_input_number;
-    list send_70_input_list;
-    number route_71_selector1;
-    number expr_251_in1;
-    number expr_251_in2;
-    number expr_251_out1;
-    number receive_22_output_number;
-    list receive_22_output_list;
-    number receive_23_output_number;
-    list receive_23_output_list;
-    number receive_24_output_number;
-    list receive_24_output_list;
     number send_71_input_number;
     list send_71_input_list;
-    number metro_01_on;
-    number metro_01_interval;
-    list loadmess_10_message;
     number send_72_input_number;
     list send_72_input_list;
     number send_73_input_number;
     list send_73_input_list;
+    number param_19_value;
+    number param_20_value;
     number send_74_input_number;
     list send_74_input_list;
+    number route_71_selector1;
+    number expr_251_in1;
+    number expr_251_in2;
+    number expr_251_out1;
+    number receive_38_output_number;
+    list receive_38_output_list;
+    number receive_39_output_number;
+    list receive_39_output_list;
+    number receive_40_output_number;
+    list receive_40_output_list;
     number send_75_input_number;
     list send_75_input_list;
-    number gate_09_onoff;
-    number gate_09_out1_number;
-    list gate_09_out1_list;
-    number gate_09_out2_number;
-    list gate_09_out2_list;
-    number gate_09_out3_number;
-    list gate_09_out3_list;
-    number gate_09_out4_number;
-    list gate_09_out4_list;
+    number metro_01_on;
+    number metro_01_interval;
+    list loadmess_10_message;
+    number send_76_input_number;
+    list send_76_input_list;
+    number send_77_input_number;
+    list send_77_input_list;
+    number param_21_value;
+    number param_22_value;
+    number send_78_input_number;
+    list send_78_input_list;
+    number send_79_input_number;
+    list send_79_input_list;
+    number send_80_input_number;
+    list send_80_input_list;
+    number send_81_input_number;
+    list send_81_input_list;
+    number gate_25_onoff;
+    number gate_25_out1_number;
+    list gate_25_out1_list;
+    number gate_25_out2_number;
+    list gate_25_out2_list;
+    number gate_25_out3_number;
+    list gate_25_out3_list;
+    number gate_25_out4_number;
+    list gate_25_out4_list;
     number expr_252_in1;
     number expr_252_out1;
     Int counter_07_carryflag;
@@ -63002,7 +66252,7 @@ void assign_defaults()
     number counter_07_overflow_number;
     number counter_07_carry;
     number counter_07_minimum;
-    number param_33_value;
+    number param_23_value;
     number select_01_test1;
     Int counter_08_carryflag;
     number counter_08_direction;
@@ -63014,32 +66264,50 @@ void assign_defaults()
     number counter_08_overflow_number;
     number counter_08_carry;
     number counter_08_minimum;
+    number send_82_input_number;
+    list send_82_input_list;
+    number send_83_input_number;
+    list send_83_input_list;
+    number param_24_value;
+    number param_25_value;
     list loadmess_11_message;
     number expr_253_in1;
     number expr_253_in2;
     number expr_253_out1;
-    number receive_25_output_number;
-    list receive_25_output_list;
-    number param_34_value;
-    number send_76_input_number;
-    list send_76_input_list;
+    number receive_41_output_number;
+    list receive_41_output_list;
+    number param_26_value;
+    number send_84_input_number;
+    list send_84_input_list;
     number expr_254_in1;
     number expr_254_in2;
     number expr_254_out1;
-    number send_77_input_number;
-    list send_77_input_list;
-    number param_35_value;
-    number numberobj_31_value;
+    number send_85_input_number;
+    list send_85_input_list;
+    number param_27_value;
+    number numberobj_47_value;
+    number send_86_input_number;
+    list send_86_input_list;
+    number send_87_input_number;
+    list send_87_input_list;
+    number param_28_value;
+    number param_29_value;
     list loadmess_12_message;
     number toggle_01_value;
     number metro_02_on;
     number metro_02_interval;
     number p_27_target;
-    number param_36_value;
-    number receive_26_output_number;
-    list receive_26_output_list;
+    number param_30_value;
+    number receive_42_output_number;
+    list receive_42_output_list;
     list listsort_01_input;
     number listsort_01_order;
+    number send_88_input_number;
+    list send_88_input_list;
+    number send_89_input_number;
+    list send_89_input_list;
+    number param_31_value;
+    number param_32_value;
     number expr_255_in1;
     number expr_255_in2;
     number expr_255_out1;
@@ -63056,10 +66324,10 @@ void assign_defaults()
     number expr_256_in1;
     number expr_256_in2;
     number expr_256_out1;
-    number receive_27_output_number;
-    list receive_27_output_list;
+    number receive_43_output_number;
+    list receive_43_output_list;
     number p_28_target;
-    number param_37_value;
+    number param_33_value;
     number limi_01_bypass;
     number limi_01_dcblock;
     number limi_01_lookahead;
@@ -63069,23 +66337,35 @@ void assign_defaults()
     number limi_01_release;
     number p_29_target;
     number p_30_target;
-    number receive_28_output_number;
-    list receive_28_output_list;
-    number gate_10_onoff;
-    number gate_10_out1_number;
-    list gate_10_out1_list;
-    number gate_10_out2_number;
-    list gate_10_out2_list;
-    number receive_29_output_number;
-    list receive_29_output_list;
+    number send_90_input_number;
+    list send_90_input_list;
+    number send_91_input_number;
+    list send_91_input_list;
+    number param_34_value;
+    number param_35_value;
+    number receive_44_output_number;
+    list receive_44_output_list;
+    number gate_26_onoff;
+    number gate_26_out1_number;
+    list gate_26_out1_list;
+    number gate_26_out2_number;
+    list gate_26_out2_list;
+    number receive_45_output_number;
+    list receive_45_output_list;
+    number send_92_input_number;
+    list send_92_input_list;
+    number send_93_input_number;
+    list send_93_input_list;
+    number param_36_value;
+    number param_37_value;
     number p_31_target;
     number param_38_value;
-    number receive_30_output_number;
-    list receive_30_output_list;
+    number receive_46_output_number;
+    list receive_46_output_list;
     number p_32_target;
     number param_39_value;
-    number receive_31_output_number;
-    list receive_31_output_list;
+    number receive_47_output_number;
+    list receive_47_output_list;
     number groove_01_rate_auto;
     number groove_01_begin;
     number groove_01_end;
@@ -63108,14 +66388,14 @@ void assign_defaults()
     number groove_04_crossfade;
     number p_33_target;
     number p_34_target;
-    number receive_32_output_number;
-    list receive_32_output_list;
+    number receive_48_output_number;
+    list receive_48_output_list;
     number expr_257_in1;
     number expr_257_in2;
     number expr_257_out1;
     number route_72_selector1;
-    number receive_33_output_number;
-    list receive_33_output_list;
+    number receive_49_output_number;
+    list receive_49_output_list;
     MillisecondTime _currentTime;
     SampleIndex audioProcessSampleCount;
     SampleIndex sampleOffsetIntoNextAudioBuffer;
@@ -63127,28 +66407,40 @@ void assign_defaults()
     Index maxvs;
     number sr;
     number invsr;
-    number param_29_lastValue;
-    number param_30_lastValue;
-    number param_31_lastValue;
+    number param_13_lastValue;
+    number param_14_lastValue;
+    number param_15_lastValue;
+    number param_16_lastValue;
+    number param_17_lastValue;
     number counter_05_count;
     bool counter_05_phase;
-    number param_32_lastValue;
+    number param_18_lastValue;
     number counter_06_count;
     bool counter_06_phase;
+    number param_19_lastValue;
+    number param_20_lastValue;
+    number param_21_lastValue;
+    number param_22_lastValue;
     number counter_07_count;
     bool counter_07_phase;
-    number param_33_lastValue;
+    number param_23_lastValue;
     number counter_08_count;
     bool counter_08_phase;
-    number param_34_lastValue;
-    number param_35_lastValue;
-    Int numberobj_31_currentFormat;
-    number numberobj_31_lastValue;
-    number param_36_lastValue;
+    number param_24_lastValue;
+    number param_25_lastValue;
+    number param_26_lastValue;
+    number param_27_lastValue;
+    Int numberobj_47_currentFormat;
+    number numberobj_47_lastValue;
+    number param_28_lastValue;
+    number param_29_lastValue;
+    number param_30_lastValue;
     list listqueue_01_queued;
+    number param_31_lastValue;
+    number param_32_lastValue;
     number counter_09_count;
     bool counter_09_phase;
-    number param_37_lastValue;
+    number param_33_lastValue;
     SampleValue limi_01_lookaheadBuffers[1][512] = { };
     SampleValue limi_01_gainBuffer[512] = { };
     number limi_01_last;
@@ -63158,6 +66450,10 @@ void assign_defaults()
     number limi_01_dc1_xm1;
     number limi_01_dc1_ym1;
     bool limi_01_setupDone;
+    number param_34_lastValue;
+    number param_35_lastValue;
+    number param_36_lastValue;
+    number param_37_lastValue;
     number param_38_lastValue;
     number param_39_lastValue;
     Float32BufferRef groove_01_buffer;
@@ -63209,15 +66505,15 @@ void assign_defaults()
     Index isMuted;
     indexlist paramInitIndices;
     indexlist paramInitOrder;
-    RNBOSubpatcher_561* patcher_01;
-    RNBOSubpatcher_562* p_27;
-    RNBOSubpatcher_563* p_28;
-    RNBOSubpatcher_564* p_29;
-    RNBOSubpatcher_565* p_30[4];
-    RNBOSubpatcher_566* p_31;
-    RNBOSubpatcher_567* p_32;
-    RNBOSubpatcher_568* p_33;
-    RNBOSubpatcher_569* p_34;
+    RNBOSubpatcher_1051* patcher_01;
+    RNBOSubpatcher_1052* p_27;
+    RNBOSubpatcher_1053* p_28;
+    RNBOSubpatcher_1054* p_29;
+    RNBOSubpatcher_1055* p_30[4];
+    RNBOSubpatcher_1056* p_31;
+    RNBOSubpatcher_1057* p_32;
+    RNBOSubpatcher_1058* p_33;
+    RNBOSubpatcher_1059* p_34;
 
 };
 

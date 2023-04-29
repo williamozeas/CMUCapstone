@@ -23,54 +23,6 @@
             "p_obj-86": {},
             "p_obj-91": {},
             "p_obj-96": {}
-          },
-          "drums_1": {
-            "value": 1
-          },
-          "drums_10": {
-            "value": 0
-          },
-          "drums_11": {
-            "value": 0
-          },
-          "drums_12": {
-            "value": 0
-          },
-          "drums_13": {
-            "value": 0
-          },
-          "drums_14": {
-            "value": 0
-          },
-          "drums_15": {
-            "value": 0
-          },
-          "drums_16": {
-            "value": 0
-          },
-          "drums_2": {
-            "value": 0
-          },
-          "drums_3": {
-            "value": 0
-          },
-          "drums_4": {
-            "value": 0
-          },
-          "drums_5": {
-            "value": 0
-          },
-          "drums_6": {
-            "value": 0
-          },
-          "drums_7": {
-            "value": 0
-          },
-          "drums_8": {
-            "value": 0
-          },
-          "drums_9": {
-            "value": 0
           }
         },
         "p_obj-200": {},
@@ -153,7 +105,55 @@
         "value": 3
       },
       "current_beat": {
-        "value": 3
+        "value": 1
+      },
+      "drum1": {
+        "value": 0
+      },
+      "drum10": {
+        "value": 0
+      },
+      "drum11": {
+        "value": 0
+      },
+      "drum12": {
+        "value": 0
+      },
+      "drum13": {
+        "value": 0
+      },
+      "drum14": {
+        "value": 0
+      },
+      "drum15": {
+        "value": 0
+      },
+      "drum16": {
+        "value": 0
+      },
+      "drum2": {
+        "value": 0
+      },
+      "drum3": {
+        "value": 0
+      },
+      "drum4": {
+        "value": 0
+      },
+      "drum5": {
+        "value": 0
+      },
+      "drum6": {
+        "value": 0
+      },
+      "drum7": {
+        "value": 0
+      },
+      "drum8": {
+        "value": 0
+      },
+      "drum9": {
+        "value": 0
       },
       "key_offset": {
         "value": 0

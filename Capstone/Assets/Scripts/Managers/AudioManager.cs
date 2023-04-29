@@ -19,6 +19,9 @@ public class AudioManager : Singleton<AudioManager>
     private float currentSynthTotalVolume;
     private float noteOn = 0;
     private Coroutine lerpVolumeCoroutine;
+
+    public static Action<int> Beat;
+    [HideInInspector] public float currentBeat = 0;
     
     // Start is called before the first frame update
     void Start()
@@ -28,6 +31,16 @@ public class AudioManager : Singleton<AudioManager>
 
     void Update()
     {
+        float beat;
+        Mixer.GetFloat("Acc_current_beat", out beat);
+        Debug.Log("beat " + beat);;
+        beat *= 16;
+        if (beat != currentBeat)
+        {
+            currentBeat = beat;
+            Beat?.Invoke(Mathf.RoundToInt(beat));
+        }
+        
         if (GameManager.Instance.GameState == GameState.Staff)
         {
             Mixer.SetFloat("Synth_noteon", currentSynthTotalVolume * noteOn);

@@ -113,64 +113,6 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
---- !u!244 &-436880291684163194
-AudioMixerEffectController:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_EffectID: 19324fe7470e4461e925f5402779c24b
-  m_EffectName: audioplugin_Accompaniment
-  m_MixLevel: 122de3a10b24e4d8db0800eb5d7e8ea2
-  m_Parameters:
-  - m_ParameterName: bitcrushing
-    m_GUID: c1b4b55ff31f54c98ab1ddca37bebda0
-  - m_ParameterName: playing
-    m_GUID: 0966ba79a6dbe41acbc9d5f57752b246
-  - m_ParameterName: key_offset
-    m_GUID: 87ce76f5aac1d4f7dbd7d3b6fa95b0eb
-  - m_ParameterName: tempo
-    m_GUID: 456056b71dded45689b6cd561cbc9225
-  - m_ParameterName: octave
-    m_GUID: 3c185be6c17fb4bb39380d52fb5a09b8
-  - m_ParameterName: reverb_mix
-    m_GUID: c55ef192a49204fdf87640023a2d43eb
-  - m_ParameterName: chord_1
-    m_GUID: 7d660ff7307764cd59acf4a900b17bab
-  - m_ParameterName: chord_2
-    m_GUID: 2e754e5dd3d4943e8b3babb01091022a
-  - m_ParameterName: chord_3
-    m_GUID: f0509216d06204c159a357e2c86307b0
-  - m_ParameterName: chord_4
-    m_GUID: 98c056038813643b9baa2501ae0768ae
-  - m_ParameterName: patcher_obj-15/
-    m_GUID: ee99bbc4a3ba34714a3e1243c0193f44
-  - m_ParameterName: patcher_obj-15/
-    m_GUID: 49661a973f2134744ae12960804ceaec
-  - m_ParameterName: patcher_obj-15/
-    m_GUID: e8ef35b2525234011a57d93322ab553d
-  - m_ParameterName: patcher_obj-15/
-    m_GUID: 86439d1539ad94e8e87f5a001c0fc0e5
-  - m_ParameterName: patcher_obj-15/
-    m_GUID: e9f63ab44d8aa4638a4ce1efd3ea8b23
-  - m_ParameterName: patcher_obj-15/
-    m_GUID: 1fdfbed32b1a641e3bb22a3c0a9f3554
-  - m_ParameterName: p_obj-45/releas
-    m_GUID: 3ffaa48f0c02f4565822f23d275c0e73
-  - m_ParameterName: p_obj-45/attack
-    m_GUID: 8191b8e1ae8ef4052ad1a4ac79ec7f30
-  - m_ParameterName: p_obj-45/ratio
-    m_GUID: 0ed54b1dfc1744203b09832ce55042f5
-  - m_ParameterName: p_obj-45/thresh
-    m_GUID: e8432b02cdb5c4bbdb961fa50568ef5c
-  - m_ParameterName: p_obj-45/input_
-    m_GUID: 4e40fa516b6b44f7c87461d79270f19a
-  - m_ParameterName: p_obj-45/parall
-    m_GUID: ad4a794e7820a479c8f73f7757a19322
-  m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -189,18 +131,52 @@ AudioMixerController:
   m_ExposedParameters:
   - guid: 5ebcfb0faaf3145f596a897d1148d46a
     name: Acc_volume
-  - guid: 0966ba79a6dbe41acbc9d5f57752b246
-    name: Acc_playing
-  - guid: 7d660ff7307764cd59acf4a900b17bab
-    name: Acc_chord_1
-  - guid: 2e754e5dd3d4943e8b3babb01091022a
-    name: Acc_chord_2
-  - guid: f0509216d06204c159a357e2c86307b0
-    name: Acc_chord_3
-  - guid: 98c056038813643b9baa2501ae0768ae
+  - guid: 4436571e393eb4f5ba0e211eefec955b
+    name: Acc_drum_3
+  - guid: ed2e0dce4d07345ac82f7f7798d641bc
+    name: Acc_drum_13
+  - guid: 6ee7a4e5d374743fd902ec073a7ed3d1
+    name: Acc_drum_7
+  - guid: c11e2f3ad759241348a2dccebfce087a
+    name: Acc_drum_5
+  - guid: ac96cf55cc0ca41f09a149ae3bd48ff8
     name: Acc_chord_4
-  - guid: c1b4b55ff31f54c98ab1ddca37bebda0
+  - guid: c21a2d3644c75440984b282848592b41
+    name: Acc_drum_2
+  - guid: 797fe5ba3c135469e98294587b124d74
+    name: Acc_drum_1
+  - guid: 23f0b6bfd8b1c4e73be9dbedb1860e22
+    name: Acc_drum_11
+  - guid: 4bf91caa975fd453f91190f45aa2161f
+    name: Acc_drum_15
+  - guid: 85c02d3d15ba24ac7b9b57abdb2b8112
+    name: Acc_chord_3
+  - guid: 8d55832ad48c04c2180a2ca599f89725
+    name: Acc_drum_9
+  - guid: 95e875d19ec7d48c58f253510d55b9b2
+    name: Acc_chord_1
+  - guid: 0ee61befa3cc641d1a1a6d348922b366
+    name: Acc_drum_16
+  - guid: 86206efb84d9047028a6338f6e8f3250
+    name: Acc_drum_10
+  - guid: d8a5b7c4269cb4d368454151cfecd59a
+    name: Acc_chord_2
+  - guid: 54f8830ae35094afa8dd7e5096b24096
+    name: Acc_drum_8
+  - guid: 47684822af5114937b8d67971a419ac2
+    name: Acc_drum_4
+  - guid: 8df14251aa96245d8bacea6bcba0f830
     name: Acc_bitcrush
+  - guid: 0e6abfb83c822450485ea02f051baaec
+    name: Acc_playing
+  - guid: 2c0a2380c79fa44aeaebb4ee96137571
+    name: Acc_drum_12
+  - guid: d62428099c1674f2cb2d1568f7222371
+    name: Acc_drum_14
+  - guid: 81381ee2d87cc48d7b9500646cf40d8b
+    name: Acc_drum_6
+  - guid: d7965f62ba38e4849bbda19ccd751230
+    name: Acc_current_beat
   - guid: b78a2779bebc44a84b0eefba02d93e8e
     name: Synth_volume
   - guid: 50da0a3720bb34728a7ff98890ec3e8e
@@ -270,6 +246,7 @@ AudioMixerSnapshotController:
     44b65b219992642708e8eee91d0483e2: 0
     d9fba341d988e444babfda3a52ce0046: 0.6
     6d34be619f9b44ed2b302484949fde5b: -15
+    d7965f62ba38e4849bbda19ccd751230: 0
     fc8b0353b4499465ab5af211aae1b93f: 0
     e83675e37824e4afc87194174a01aaa8: 0
     a811df45039004df3b969e3f4c3268b7: 0
@@ -303,7 +280,7 @@ AudioMixerGroupController:
   m_Pitch: b2e5d2e9eeac04c4286e23907e25cfe6
   m_Send: 00000000000000000000000000000000
   m_Effects:
-  - {fileID: -436880291684163194}
+  - {fileID: 7805058646072757687}
   - {fileID: -9117418287542726478}
   m_UserColorIndex: 0
   m_Mute: 0
@@ -341,6 +318,98 @@ AudioMixerEffectController:
   m_EffectName: Attenuation
   m_MixLevel: 08cbcd0bfc0cc4d2f8531fe7412a314f
   m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &7805058646072757687
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: ec7c56189cda14e469ed33609cff4ec7
+  m_EffectName: audioplugin_Accompaniment
+  m_MixLevel: 7d03a24f133ca40348404e44920fdc2d
+  m_Parameters:
+  - m_ParameterName: playing
+    m_GUID: 0e6abfb83c822450485ea02f051baaec
+  - m_ParameterName: bitcrushing
+    m_GUID: 8df14251aa96245d8bacea6bcba0f830
+  - m_ParameterName: drum9
+    m_GUID: 8d55832ad48c04c2180a2ca599f89725
+  - m_ParameterName: drum1
+    m_GUID: 797fe5ba3c135469e98294587b124d74
+  - m_ParameterName: key_offset
+    m_GUID: 53056c0765e6949bd868f4e6697b58da
+  - m_ParameterName: current_beat
+    m_GUID: d7965f62ba38e4849bbda19ccd751230
+  - m_ParameterName: drum10
+    m_GUID: 86206efb84d9047028a6338f6e8f3250
+  - m_ParameterName: drum2
+    m_GUID: c21a2d3644c75440984b282848592b41
+  - m_ParameterName: drum11
+    m_GUID: 23f0b6bfd8b1c4e73be9dbedb1860e22
+  - m_ParameterName: drum3
+    m_GUID: 4436571e393eb4f5ba0e211eefec955b
+  - m_ParameterName: tempo
+    m_GUID: b2ff11388515642c992e5fad4587245b
+  - m_ParameterName: drum12
+    m_GUID: 2c0a2380c79fa44aeaebb4ee96137571
+  - m_ParameterName: drum4
+    m_GUID: 47684822af5114937b8d67971a419ac2
+  - m_ParameterName: octave
+    m_GUID: 5a2990b7185974a4291aa8a5bd93543f
+  - m_ParameterName: reverb_mix
+    m_GUID: c0c68ba1888c04951b58b5bbaf47557b
+  - m_ParameterName: drum13
+    m_GUID: ed2e0dce4d07345ac82f7f7798d641bc
+  - m_ParameterName: drum5
+    m_GUID: c11e2f3ad759241348a2dccebfce087a
+  - m_ParameterName: chord_1
+    m_GUID: 95e875d19ec7d48c58f253510d55b9b2
+  - m_ParameterName: drum14
+    m_GUID: d62428099c1674f2cb2d1568f7222371
+  - m_ParameterName: drum6
+    m_GUID: 81381ee2d87cc48d7b9500646cf40d8b
+  - m_ParameterName: chord_2
+    m_GUID: d8a5b7c4269cb4d368454151cfecd59a
+  - m_ParameterName: drum15
+    m_GUID: 4bf91caa975fd453f91190f45aa2161f
+  - m_ParameterName: drum7
+    m_GUID: 6ee7a4e5d374743fd902ec073a7ed3d1
+  - m_ParameterName: drum16
+    m_GUID: 0ee61befa3cc641d1a1a6d348922b366
+  - m_ParameterName: drum8
+    m_GUID: 54f8830ae35094afa8dd7e5096b24096
+  - m_ParameterName: chord_3
+    m_GUID: 85c02d3d15ba24ac7b9b57abdb2b8112
+  - m_ParameterName: chord_4
+    m_GUID: ac96cf55cc0ca41f09a149ae3bd48ff8
+  - m_ParameterName: patcher_obj-15/
+    m_GUID: 4f69343a0bbd842a6bfbf4dfa9c04ac5
+  - m_ParameterName: patcher_obj-15/
+    m_GUID: 427fd3d2a6acf4b27898e5484eca4da3
+  - m_ParameterName: patcher_obj-15/
+    m_GUID: ad21ed7e1cff14e9db4d31a463553c97
+  - m_ParameterName: patcher_obj-15/
+    m_GUID: a3ed2f055eba34d01b57d12c9f4c3086
+  - m_ParameterName: patcher_obj-15/
+    m_GUID: c4bccf07cde724ed88e4a85cf3dbde18
+  - m_ParameterName: patcher_obj-15/
+    m_GUID: 68ef4edce9c12426fa5ff097767dc06e
+  - m_ParameterName: p_obj-45/releas
+    m_GUID: 63cc6eb1a4e234f74804157a25edf7c5
+  - m_ParameterName: p_obj-45/attack
+    m_GUID: 01073df5036e04e8c8e3828d07af2f1a
+  - m_ParameterName: p_obj-45/ratio
+    m_GUID: 80877f6b53dfa40c0a3d7fe0c30d3633
+  - m_ParameterName: p_obj-45/thresh
+    m_GUID: 22f1b4cd21c09430984635ad6644767c
+  - m_ParameterName: p_obj-45/input_
+    m_GUID: 55cbf7df4c2db4e0384c22a991fe5036
+  - m_ParameterName: p_obj-45/parall
+    m_GUID: 167bb5aa694f245e99d9618277380724
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0

@@ -63,6 +63,10 @@ public class ChoiceSet : MonoBehaviour
     private IEnumerator StartPlaying()
     {
         yield return new WaitForSeconds(1f);
+        AudioManager.Instance.counting = true;
+        yield return new WaitForSeconds(0.21f);
+        
         AudioManager.Instance.SetAccPlaying(1);
+        GameManager.Instance.NextButton.Activate();
     }
 }

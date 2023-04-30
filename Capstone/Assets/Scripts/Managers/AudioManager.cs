@@ -22,6 +22,10 @@ public class AudioManager : Singleton<AudioManager>
 
     public static Action<int> Beat;
     [HideInInspector] public float currentBeat = 0;
+    public float timeForBeat = 0.3f;
+    private float _beatTimer = 0;
+
+    public bool counting;
     
     // Start is called before the first frame update
     void Start()
@@ -31,16 +35,23 @@ public class AudioManager : Singleton<AudioManager>
 
     void Update()
     {
-        float beat;
-        Mixer.GetFloat("Acc_current_beat", out beat);
-        Debug.Log("beat " + beat);;
-        beat *= 16;
-        if (beat != currentBeat)
+        if (counting)
         {
-            currentBeat = beat;
-            Beat?.Invoke(Mathf.RoundToInt(beat));
+            _beatTimer += Time.deltaTime;
+            if (_beatTimer >= 16 * timeForBeat)
+            {
+                _beatTimer -= 16 * timeForBeat;
+            }
+
+            float beat = Mathf.Floor(_beatTimer / timeForBeat);
+            // Mixer.GetFloat("Acc_current_beat", out beat);
+            if (Mathf.Abs(beat - currentBeat) > 0.1f)
+            {
+                currentBeat = beat;
+                Beat?.Invoke(Mathf.RoundToInt(beat));
+            }
         }
-        
+
         if (GameManager.Instance.GameState == GameState.Staff)
         {
             Mixer.SetFloat("Synth_noteon", currentSynthTotalVolume * noteOn);

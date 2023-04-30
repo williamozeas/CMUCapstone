@@ -32,7 +32,7 @@ public class Cube : MonoBehaviour
     {
         if (bitcrushAmt > 0.01f)
         {
-            bitcrushAmt -= Time.deltaTime * bitcrushDecay;
+            bitcrushAmt -= Time.deltaTime * (1 / bitcrushDecay);
             AudioManager.Instance.SetAccBitcrush(bitcrushAmt);
         }
     }
@@ -86,7 +86,7 @@ public class Cube : MonoBehaviour
             timeSinceBounce = 0;
             
             //start bitcrush
-            bitcrushAmt = 1.3f;
+            bitcrushAmt = 0.8f;
         }
     }
 }

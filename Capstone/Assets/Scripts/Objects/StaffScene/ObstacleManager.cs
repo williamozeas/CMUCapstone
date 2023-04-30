@@ -9,10 +9,14 @@ public class ObstacleManager : Singleton<ObstacleManager>
     public float Speed => _speed;
 
     private List<Obstacle> obstacles;
+
+    public float loopPoint = -150f;
+    private Vector3 startPoint;
     
     // Start is called before the first frame update
     void Start()
     {
+        startPoint = transform.position;
         obstacles = GetComponentsInChildren<Obstacle>().ToList();
     }
 
@@ -20,5 +24,9 @@ public class ObstacleManager : Singleton<ObstacleManager>
     void Update()
     {
         transform.Translate(_speed * Time.deltaTime * Vector3.left);
+        if (transform.position.x < loopPoint)
+        {
+            transform.position = startPoint;
+        }
     }
 }

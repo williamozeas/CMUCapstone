@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum GameState
 {
@@ -27,6 +28,7 @@ public class GameManager : Singleton<GameManager>
     public Staff Staff => _staff;
     private Cursor _cursor;
     public Cursor Cursor => _cursor;
+    public ActivateButton NextButton; //bad style but rushing for deadline :(
 
     [ColorUsage(true, true)] public List<Color> colorList;
 

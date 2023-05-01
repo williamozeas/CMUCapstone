@@ -57,7 +57,6 @@ public class Cube : MonoBehaviour
             timeSinceBounce += Time.deltaTime;
             float bounceVel = Mathf.Clamp(EasingFunction.EaseInCubic(currentBounceVelocity, 0, timeSinceBounce / totalBounceTime), 0, bounceVelocity);
             newVel += new Vector3(0, bounceVel * bounceDir, 0);
-            Debug.Log(bounceVel * bounceDir);
         }
         {
             rb.AddForce(newVel, ForceMode.VelocityChange);

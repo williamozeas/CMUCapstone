@@ -29,7 +29,7 @@ public class Obstacle : MonoBehaviour
     private void StartRipple(Vector3 center)
     {
         float currentTime = Time.time - 0.2f;
-        if(lastTimeRippled - RippleCooldown > currentTime)
+        if(lastTimeRippled + RippleCooldown < currentTime)
         {
             lastTimeRippled = currentTime;
             rippleCount = (rippleCount + 1) % 5;

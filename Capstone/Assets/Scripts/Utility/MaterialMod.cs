@@ -33,11 +33,22 @@ public static class MaterialMod
         SetColorProperty(newColor, renderer, propertyBlock, PropEmissive, matIndex);
     }
     
+    //Hacky, should just remove matIndex?
     public static void SetColorProperty(Color newColor, MeshRenderer renderer, MaterialPropertyBlock propertyBlock, int prop, int matIndex = 0)
     {
-        renderer.GetPropertyBlock(propertyBlock, matIndex);
-        propertyBlock.SetColor(prop, newColor);
-        renderer.SetPropertyBlock(propertyBlock, matIndex);
+        if (matIndex == 0)
+        {
+            renderer.GetPropertyBlock(propertyBlock);
+            propertyBlock.SetColor(prop, newColor);
+            renderer.SetPropertyBlock(propertyBlock);
+        }
+        else
+        {
+            
+            renderer.GetPropertyBlock(propertyBlock, matIndex);
+            propertyBlock.SetColor(prop, newColor);
+            renderer.SetPropertyBlock(propertyBlock, matIndex);
+        }
     }
 
     public static Color GetColor(MeshRenderer renderer, MaterialPropertyBlock propertyBlock, int matIndex = 0)

@@ -21,8 +21,9 @@ public class Line : MonoBehaviour
         _index = index;
         SetHeight(height);
         _propertyBlock = new MaterialPropertyBlock();
-        MaterialMod.SetOpacity(0, bgRenderer, _propertyBlock);
         MaterialMod.SetEmissiveColor(emissiveColor, bgRenderer, _propertyBlock);
+        _propertyBlock = new MaterialPropertyBlock();
+        MaterialMod.SetOpacity(0, bgRenderer, _propertyBlock);
     }
 
     public void SetHeight(float height)
@@ -35,6 +36,7 @@ public class Line : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log(name + " " + _index + " is setting to " + Mathf.Pow(_cubeOverlapPercent, 2));
             _cubeOverlapPercent = CalculateOverlap(other);
             MaterialMod.SetOpacity(Mathf.Pow(_cubeOverlapPercent, 2), bgRenderer, _propertyBlock);
         }
@@ -49,6 +51,7 @@ public class Line : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log(name + " " + _index + " is setting to " + 0);
             MaterialMod.SetOpacity(0, bgRenderer, _propertyBlock);
             _cubeOverlapPercent = 0;
         }

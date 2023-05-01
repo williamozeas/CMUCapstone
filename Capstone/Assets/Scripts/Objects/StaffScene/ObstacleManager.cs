@@ -18,6 +18,11 @@ public class ObstacleManager : Singleton<ObstacleManager>
     {
         startPoint = transform.position;
         obstacles = GetComponentsInChildren<Obstacle>().ToList();
+        Material mat = obstacles[0].GetComponentInChildren<MeshRenderer>().sharedMaterial;
+        for(int i = 0; i < 5; i++)
+        {
+            mat.SetFloat("_RippleStartTime" + i, -1000f);
+        }
     }
 
     // Update is called once per frame

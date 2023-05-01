@@ -28,6 +28,12 @@ public class DrumParticle : MonoBehaviour
         
     }
 
+    private void OnMouseOver()
+    {
+        
+        // MaterialMod
+    }
+
     private void OnMouseDrag()
     {
         Ray ray = _cam.ScreenPointToRay(Input.mousePosition);
